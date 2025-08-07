@@ -45,6 +45,7 @@ CREATE TABLE lotes (
 CREATE TABLE placas (
     id_placa INT AUTO_INCREMENT PRIMARY KEY,
     numero_serie VARCHAR(100) NOT NULL UNIQUE,
+    data_teste date,
     id_modelo INT,
     id_lote INT,
     FOREIGN KEY (id_modelo) REFERENCES modelos(id_modelo),
@@ -118,12 +119,12 @@ VALUES
 ('Lote B1', '2025-08-02', 2, 2, 200);
 
 -- Placas
-INSERT INTO placas (numero_serie, id_modelo, id_lote)
+INSERT INTO placas (numero_serie, id_modelo, data_teste, id_lote)
 VALUES 
-('SN1001', 1, 1),
-('SN1002', 1, 1),
-('SN2001', 2, 2),
-('SN2002', 2, 2);
+('SN1001', 1, '2025-07-03', 1),
+('SN1002', 1, '2022-08-05', 1),
+('SN2001', 2, '2024-01-27', 2),
+('SN2002', 2, '2025-08-01', 2);
 
 -- Montagem
 INSERT INTO montagem (id_placa, data_montagem, montador, observacoes)
