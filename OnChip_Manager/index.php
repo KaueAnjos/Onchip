@@ -1,49 +1,5 @@
 <?php
-// Database connection
-$conn = new mysqli("localhost", "root", "", "placas_eletronicas");
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-
-// Search logic
-$search = "";
-$result = [];
-
-if (isset($_GET['search'])) {
-    $search = $conn->real_escape_string($_GET['search']);
-
-    $sql = "SELECT 
-                p.id_placa,
-                p.numero_serie,
-                m.nome_modelo,
-                l.nome_lote,
-                t.status_teste,
-                t.data_teste
-            FROM placas p
-            JOIN modelos m ON p.id_modelo = m.id_modelo
-            JOIN lotes l ON p.id_lote = l.id_lote
-            LEFT JOIN testes t ON p.id_placa = t.id_placa
-            WHERE 
-                p.numero_serie LIKE '%$search%' OR
-                m.nome_modelo LIKE '%$search%' OR
-                l.nome_lote LIKE '%$search%'
-            ORDER BY t.data_teste DESC";
-} else {
-    $sql = "SELECT 
-                p.id_placa,
-                p.numero_serie,
-                m.nome_modelo,
-                l.nome_lote,
-                t.status_teste,
-                t.data_teste
-            FROM placas p
-            JOIN modelos m ON p.id_modelo = m.id_modelo
-            JOIN lotes l ON p.id_lote = l.id_lote
-            LEFT JOIN testes t ON p.id_placa = t.id_placa
-            ORDER BY t.data_teste DESC";
-}
-
-$result = $conn->query($sql);
+require_once __DIR__ . '/config/config.php';
 ?>
 
 <!DOCTYPE html>
@@ -51,23 +7,18 @@ $result = $conn->query($sql);
 <head>
     <meta charset="UTF-8">
     <title>OnChip Manager</title>
-    <style>
-        body { font-family: Arial; padding: 20px; background-color: #f2f2f2; }
-        h1 { color: #333; }
-        table { border-collapse: collapse; width: 100%; background: #fff; }
-        th, td { padding: 10px; border: 1px solid #ccc; text-align: left; }
-        input[type="text"] { padding: 8px; width: 300px; }
-        input[type="submit"] { padding: 8px 16px; }
-        form { margin-bottom: 20px; }
-    </style>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-<h1>OnChip Manager - PCB Management</h1>
+<?php include 'include/navbar.php'; ?>
+
+<h1>Dashboard</h1>
 
 <form method="GET">
-    <input type="text" name="search" placeholder="Pesquise por Nº Serie, Lote e Modelo" value="<?= htmlspecialchars($search) ?>">
+    <input type="text" name="search" placeholder="Search by Serial Number, Lot or Model" value="<?= htmlspecialchars($search) ?>">
     <input type="submit" value="Search">
+    <a href="add_order.php" style="display: inline-block; margin-bottom: 20px; text-decoration: underline;">Adicionar novo pedido</a>
 </form>
 
 <table>
@@ -98,6 +49,10 @@ $result = $conn->query($sql);
         <?php endif; ?>
     </tbody>
 </table>
+
+<a href="add_order.php" style="display: inline-block; margin-bottom: 20px; text-decoration: underline;">Adicionar novo pedido</a>
+
+<?php include 'include/footer.php'; ?>
 
 </body>
 </html>

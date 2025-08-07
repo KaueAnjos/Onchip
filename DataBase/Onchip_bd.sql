@@ -1,7 +1,7 @@
 -- Reset do banco
-DROP DATABASE IF EXISTS placas_eletronicas;
-CREATE DATABASE placas_eletronicas;
-USE placas_eletronicas;
+DROP DATABASE IF EXISTS onchip_bd;
+CREATE DATABASE onchip_bd CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE onchip_bd;
 
 -- Tabela de clientes
 CREATE TABLE clientes (
@@ -33,55 +33,55 @@ CREATE TABLE modelos (
 CREATE TABLE lotes (
     id_lote INT AUTO_INCREMENT PRIMARY KEY,
     nome_lote VARCHAR(100) NOT NULL,
-    data_recebimento DATE,
-    id_cliente INT,
-    id_modelo INT,
+    data_recebimento DATE DEFAULT NULL,
+    id_cliente INT DEFAULT NULL,
+    id_modelo INT DEFAULT NULL,
     quantidade INT,
-    FOREIGN KEY (id_cliente) REFERENCES clientes(id_cliente),
-    FOREIGN KEY (id_modelo) REFERENCES modelos(id_modelo)
+    FOREIGN KEY (id_cliente) REFERENCES clientes(id_cliente) ON DELETE SET NULL,
+    FOREIGN KEY (id_modelo) REFERENCES modelos(id_modelo) ON DELETE SET NULL
 );
 
 -- Tabela de placas
 CREATE TABLE placas (
     id_placa INT AUTO_INCREMENT PRIMARY KEY,
     numero_serie VARCHAR(100) NOT NULL UNIQUE,
-    data_teste date,
-    id_modelo INT,
-    id_lote INT,
-    FOREIGN KEY (id_modelo) REFERENCES modelos(id_modelo),
-    FOREIGN KEY (id_lote) REFERENCES lotes(id_lote)
+    data_teste DATE DEFAULT NULL,
+    id_modelo INT DEFAULT NULL,
+    id_lote INT DEFAULT NULL,
+    FOREIGN KEY (id_modelo) REFERENCES modelos(id_modelo) ON DELETE SET NULL,
+    FOREIGN KEY (id_lote) REFERENCES lotes(id_lote) ON DELETE SET NULL
 );
 
 -- Tabela de montagem
 CREATE TABLE montagem (
     id_montagem INT AUTO_INCREMENT PRIMARY KEY,
     id_placa INT,
-    data_montagem DATE,
+    data_montagem DATE DEFAULT NULL,
     montador VARCHAR(100),
     observacoes TEXT,
-    FOREIGN KEY (id_placa) REFERENCES placas(id_placa)
+    FOREIGN KEY (id_placa) REFERENCES placas(id_placa) ON DELETE CASCADE
 );
 
 -- Tabela de testes
 CREATE TABLE testes (
     id_teste INT AUTO_INCREMENT PRIMARY KEY,
     id_placa INT,
-    data_teste DATE,
+    data_teste DATE DEFAULT NULL,
     status_teste ENUM('Aprovada', 'Reprovada', 'Curto', 'Não testada') DEFAULT 'Não testada',
     observacoes TEXT,
     responsavel_teste VARCHAR(100),
-    FOREIGN KEY (id_placa) REFERENCES placas(id_placa)
+    FOREIGN KEY (id_placa) REFERENCES placas(id_placa) ON DELETE CASCADE
 );
 
 -- Tabela de pedidos/vendas
 CREATE TABLE pedidos (
     id_pedido INT AUTO_INCREMENT PRIMARY KEY,
-    id_cliente INT,
-    data_pedido DATE,
+    id_cliente INT DEFAULT NULL,
+    data_pedido DATE DEFAULT NULL,
     numero_nf VARCHAR(50),
-    data_entrega DATE,
+    data_entrega DATE DEFAULT NULL,
     observacoes TEXT,
-    FOREIGN KEY (id_cliente) REFERENCES clientes(id_cliente)
+    FOREIGN KEY (id_cliente) REFERENCES clientes(id_cliente) ON DELETE SET NULL
 );
 
 -- Tabela intermediária: itens do pedido (relaciona placas vendidas)
@@ -90,8 +90,8 @@ CREATE TABLE itens_pedido (
     id_pedido INT,
     id_placa INT,
     preco_unitario DECIMAL(10,2),
-    FOREIGN KEY (id_pedido) REFERENCES pedidos(id_pedido),
-    FOREIGN KEY (id_placa) REFERENCES placas(id_placa)
+    FOREIGN KEY (id_pedido) REFERENCES pedidos(id_pedido) ON DELETE CASCADE,
+    FOREIGN KEY (id_placa) REFERENCES placas(id_placa) ON DELETE SET NULL
 );
 
 -- Clientes
@@ -150,9 +150,10 @@ VALUES
 (1, 1, 150.00),
 (2, 3, 200.00);
 
--- Parâmetro de pesquisa (você pode substituir a string entre %%)
+-- Parâmetro de pesquisa
 SET @busca := '%SN1002%';
 
+-- Consulta detalhada de placas
 SELECT 
     p.numero_serie,
     m.nome_modelo,
