@@ -1,0 +1,2048 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 202210 will be lost/reset.
+# Last config file used to build this data file was /home/web167/awstats/conf/awstats.onchip.com.br.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 29
+POS_GENERAL 2038                
+POS_TIME 2710                
+POS_VISITOR 28266               
+POS_DAY 68798               
+POS_DOMAIN 3580                
+POS_LOGIN 3814                
+POS_ROBOT 3969                
+POS_WORMS 4498                
+POS_EMAILSENDER 4629                
+POS_EMAILRECEIVER 4772                
+POS_SESSION 69675               
+POS_SIDER 69878               
+POS_FILETYPES 4907                
+POS_OS 5093                
+POS_BROWSER 5275                
+POS_SCREENSIZE 8010                
+POS_UNKNOWNREFERER 8084                
+POS_UNKNOWNREFERERBROWSER 8820                
+POS_ORIGIN 9301                
+POS_SEREFERRALS 9446                
+POS_PAGEREFS 9625                
+POS_SEARCHWORDS 10016               
+POS_KEYWORDS 10168               
+POS_MISC 2374                
+POS_ERRORS 10227               
+POS_CLUSTER 3670                
+POS_SIDER_404 10352               
+POS_EXTRA_1 26717               
+POS_EXTRA_2 26889               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20221101020411 1 0 12585366514359
+FirstTime 20221001000649
+LastTime 20221031194029
+LastUpdate 20221102011652 1 0 0 0 0
+TotalVisits 1213                
+TotalUnique 989                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 1040                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 116 227 10119891 152 160 285930
+1 113 153 4721309 37 51 264539
+2 90 109 2598434 32 33 214753
+3 105 274 15948480 118 128 975094
+4 78 88 815616 37 44 215594
+5 89 94 1819394 19 30 158887
+6 115 126 2168625 312 326 568353
+7 107 191 7843178 89 89 130562
+8 62 121 5481981 32 40 113352
+9 126 213 7155825 70 81 172147
+10 103 174 6514091 32 37 233018
+11 126 289 14855445 31 34 80424
+12 91 149 6397372 42 57 626584
+13 74 119 3020012 37 56 270840
+14 109 286 14314293 46 49 130330
+15 89 156 6551270 43 50 293097
+16 92 98 1472771 50 52 91905
+17 64 108 4234324 25 30 153592
+18 60 66 896731 39 43 285957
+19 56 81 2503225 33 40 846881
+20 79 89 1192524 30 38 275963
+21 67 108 3467101 61 70 203779
+22 73 76 1117884 73 81 203483
+23 85 90 1141763 109 111 135547
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 2169 3485 126351539
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+googlebot 138 3336353 20221031153825 0
+infobot 128 552332 20221031213356 0
+custo 47 850418 20221030070516 0
+bot[\s_+:,\.\;\/\\-] 24 745940 20221027082318 0
+yandex 17 307598 20221028103226 0
+python 15 180940 20221028212242 0
+no_user_agent 13 294895 20221030194910 0
+favicon 5 14737 20221029200457 0
+java\/[0-9] 2 0 20221018034138 0
+netcraft 2 36188 20221008034028 0
+crawl 1 18094 20221029022654 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+php 2095 23916565 0 0
+css 70 1629008 0 0
+png 775 84004955 0 0
+js 227 7238178 0 0
+jpg 244 9542602 0 0
+Unknown 21 8683 0 0
+svg 53 11548 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 13
+linuxandroid 137
+winlong 1
+winxp 5
+winnt 1577
+win2000 2
+java 5
+winvista 448
+linux 203
+win16 42
+macosx 166
+winunknown 1
+Unknown 73
+win2008 825
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 140
+firefox28.0 3
+chrome24.0.1312.60.2.742.6 1
+chrome99.0.4859.172 4
+firefox102.0 6
+chrome92.0.4515.131 1
+safari5.0 1
+firefox54.0 1
+chrome85.0.4183.121 13
+firefox49.0 2
+chrome23.0.1271.95 2
+chrome100.0.4896.127 1
+chrome90.0.4430.72 456
+chrome68.0.3427.1 17
+chrome69.0.2178.102 1
+chrome103.0.5060.53 1
+msie7.0 1
+chrome76.0.3809.71 21
+chrome80.0.3987.0 1
+chrome91.0.4472.114 3
+opera10.0.1025.166 47
+chrome76.0.3809.132 2
+chrome93.0.4577.63 6
+chrome51.0.2704.103 5
+firefox68.0 1
+safari5.0.4 1
+chrome104.0.0.0 23
+netscape5.0 1
+chrome37.0.0.0 1
+chrome83.0.4103.34 20
+chrome78.0.3904.96 1
+chrome50.0.2227.0 1
+chrome84.0.4147.105 2
+safari15.5 1
+chrome41.0.2228.0 2
+chrome83.0.4103.0 2
+chrome90.0.4430.86 52
+firefox36.0 40
+chrome67.0.3396.87 2
+chrome83.0.4103.24 18
+chrome83.0.4089.0 8
+android 21
+chrome106.0.5249.61 42
+chrome43.0.2357.124 1
+chrome68.0.3440.75 2
+chrome67.0.3396.79 2
+opera12.0 1
+chrome71.0.3578.98 11
+firefox106.0 1
+chrome107.0.0.0 70
+chrome61.0.3163.128 38
+opera9.80 8
+safari15.2 3
+iphone 23
+chrome83.0.4103.44 12
+chrome87.0.4280.141 3
+chrome26.0.1410.65 3
+chrome90.0.4400.8 41
+chrome71.0.3578.99 7
+chrome105.0.5195.136 2
+msie9.0 37
+chrome96.0.4664.110 7
+chrome83.0.4098.0 8
+chrome76.0.3809.100 10
+chrome41.0.2226.0 1
+chrome52.0.3204.98 2
+chrome51.0.2704.79 8
+chrome102.0.0.0 1
+chrome24.0.1292.0 1
+chrome45.0.2454.94 1
+firefox88.0 1
+chrome81.0.4044.138 26
+safari16.0 41
+chrome105.0.0.0 322
+chrome96.0.4664.45 24
+chrome39.4.2171.95 1
+chrome66.0.3359.170 2
+chrome75.0.3770.100 1
+safari10.1.2 1
+chrome39.0.2171.95 1
+chrome81.0.4044.129 1
+curl 4
+opera9.02 1
+chrome83.0.4103.97 48
+chrome83.0.4096.0 6
+firefox1.0.4 1
+chrome57.0.2987.110 2
+chrome53.0.2785.146 1
+firefox59.0 1
+chrome50.0.2661.102 13
+chrome70.0.3538.102 1
+chrome101.0.0.0 23
+chrome66.0.3359.181 7
+chrome77.0.3835.0 5
+chrome49.0.2623.112 2
+chrome90.0.4430.85 490
+chrome90.0.4430.93 316
+firefox48.0 4
+chrome81.0.4044.92 21
+chrome66.0.3359.117 3
+firefox55.0 1
+chrome63.0.3239.132 7
+chrome83.0.4099.2 12
+chrome83.0.4087.0 4
+chrome78.0.3904.87 2
+firefox47.0 4
+chrome90.0.4427.0 57
+chrome46.0.2490.80 1
+mozilla 60
+chrome47.0.2526.106 10
+chrome68.0.3440.84 2
+chrome83.0.4086.0 14
+firefox80.0 1
+safari15.6 26
+firefox60.0 17
+chrome99.0.4844.84 18
+chrome40.0.2214.93 1
+chrome83.0.4103.14 8
+firefox105.0 24
+chrome98.0.4758.80 1
+chrome57.0.2987.108 2
+chrome103.0.0.0 3
+chrome83.0.4103.61 90
+chrome74.0.3729.169 2
+chrome106.0.0.0 499
+chrome101.0.4951.41 1
+Unknown 37
+safari15.1 1
+chrome83.0.4100.3 8
+chrome73.0.3683.86 21
+chrome78.0.3904.108 7
+chrome95.0.4638.54 3
+firefox58.0 1
+chrome80.0.3987.149 1
+chrome83.0.4093.3 14
+firefox83.0 1
+chrome67.0.2823.89 1
+msie11.0 2
+chrome67.0.3396.99 2
+chrome89.0.4389.82 6
+chrome83.0.4103.106 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 12
+Mozilla/5.0_(Android_8.0.0;_Mobile;_rv:61.0)_Gecko/61.0_Firefox/68.0 20221025125911
+ALittle_Client 20221020092209
+Ruby 20221030155641
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20221001092737
+curl/7.74.0 20221020213714
+Firefox 20221026040614
+Embarcadero_URI_Client/1.0 20221021182051
+HubSpot_Connect_2.0_(http://dev.hubspot.com/)_(namespace:_domainValidationHttpClient)_-_BizOpsCompanies-Tq2-BizCoDomainValidationAudit 20221028110137
+Mozilla/5.0_zgrab/0.x 20221017052352
+Go-http-client/1.1 20221025001245
+Mozilla/5.0_(compatible;_Dataprovider.com) 20221024123008
+got_(https://github.com/sindresorhus/got) 20221029144142
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 8
+Embarcadero_URI_Client/1.0 20221021182051
+HubSpot_Connect_2.0_(http://dev.hubspot.com/)_(namespace:_domainValidationHttpClient)_-_BizOpsCompanies-Tq2-BizCoDomainValidationAudit 20221028110137
+ALittle_Client 20221020092209
+Ruby 20221030155641
+Microsoft_Office_Excel_2013 20221013140527
+Go-http-client/1.1 20221025001245
+Firefox 20221026040614
+got_(https://github.com/sindresorhus/got) 20221029144142
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 368 441
+From1 0 0
+From2 55 101
+From3 13 36
+From4 1733 2907
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 48 89
+yandex 7 11
+yahoo 0 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+https://king.host 7 7
+http://facebook.com//twitter.com//vk.com 2 2
+http://baidu.com 2 2
+http://www.mossiemckenzie.shop 1 1
+http://www.waimaosou.com 1 22
+http://www.mossiemckenzie.shop/blog/21408115/get-more-traffic-to-your-wordpress-blog/ 0 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+403 21 4978
+206 4 569846
+405 2 440
+404 1256 17852
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 508
+/.well-known/pki-validation/67E2FBBFE4791AE8926AD4777148BF13.txt 1 -
+/wp-content/radio.php 1 -
+/swm.php 2 https://www.google.com
+/wordpress/ 3 -
+/priv8.php 3 https://www.google.com
+/6index.php 1 -
+/.well-known/pki-validation/4027AACB222C26D1351703A903C30C9E.txt 1 -
+/xx.php 3 https://www.google.com
+/v2/_catalog 2 -
+/.well-known/pki-validation/A496473774F2616B981B7B5F74DC99EE.txt 1 -
+/.well-known/pki-validation/F74038B65F0436764337A7537D65B985.txt 1 -
+/tttt.php 1 https://www.google.com
+/js/tinymce4/plugins/filemanager/dialog.php 2 -
+/admin.php 6 anonymousfox.co
+/cindex.php 1 anonymousfox.co
+/.well-known/pki-validation/743948EF8312C085601AFB81F4CAEF1A.txt 1 -
+/asset/kcfinder/upload.php 2 -
+/wp-admin/install.php 1 -
+/0.php 5 -
+/static/hui/lib/webuploader/0.1.5/server/preview.php 1 -
+/xz.php 1 -
+/s/733313e2830323e263e2139313/_/ 2 -
+/wp-content/themes/seotheme/mar.php 2 -
+/o.php 2 -
+/olux.php 1 -
+/radio.php 8 -
+/alfashell.php 5 https://www.google.com
+/sites/default/files/ 2 binance.com
+/static/admin/hui/lib/webuploader/0.1.5/server/preview.php 1 -
+/.well-known/pki-validation/B93B11A33DCE2A154A1E06FA2F362A9A.txt 1 -
+/bc 2 -
+/wp-admin/wp.php 1 -
+/wp-includes/wpconfig.bak.php 1 anonymousfox.co
+/tinymce/plugins/filemanager/dialog.php 2 -
+/.well-known/pki-validation/AD38B8AA0B810EA851A6E3617BB6F679.txt 1 -
+/wp-content/plugins/ubh/up.php 1 anonymousfox.co
+/wp/wp-admin/install.php 1 -
+/doc.php 3 https://www.google.com
+/p.php 2 -
+/alwso.php 4 -
+/indicador-de-temperatura-e-umidade-oitu-r-p43 1 -
+/assets/plugins/filemanager/dialog.php 2 -
+/wp-includes/radio.php 1 -
+/.well-known/pki-validation/A74C589BA26A2A3B0B2E9F50533E11FA.txt 1 -
+/.well-known/pki-validation/B9A18FFD91DBC132F724F7FB38DB55B3.txt 1 -
+/.well-known/pki-validation/E212F8E337BD69EF7D8DB01A08566F30.txt 1 -
+/XxX.php 2 https://www.google.com
+/backup.rar 2 -
+/.well-known/pki-validation/6380A0DCBF3049AF723B77BF7220B05F.txt 1 -
+/old 2 -
+/assets/filemanager/dialog.php 2 -
+/.well-known/pki-validation/7708BE3E7B0677E26621795D8828F9F7.txt 1 -
+/style.php 6 anonymousfox.co
+/wp-booking.php 1 anonymousfox.co
+/.well-known/pki-validation/90044D5B3D95A84A7563F23B7E85A342.txt 1 -
+/www.php 1 -
+/gif.php 1 -
+/xindex.php 1 -
+/main 2 -
+/lf.php 2 https://www.google.com
+/.well-known/pki-validation/2701F79D42A7BC38C8ABB3EB9F561AAA.txt 1 -
+/wp-content/plugins/ioptimization/IOptimize.php 3 anonymousfox.co
+/y.php 2 -
+/haxor.php 3 https://www.google.com
+/faleconosco.php 6 -
+/.well-known/pki-validation/39B1D14E7FF45EEBFEEC18DFEA5704D4.txt 1 -
+/assets/js/kcfinder/upload.php 2 -
+/it.php 1 -
+/skippershell.php 1 https://www.google.com
+/.well-known/pki-validation/0DAB618412FA5D72F9ED2EC72D998C25.txt 1 -
+/.well-known/ 2 binance.com
+/wp-mna.php 1 -
+/login.action 2 -
+/.well-known/pki-validation/A64F17436CB1F86F845C0B3C1BAB33F0.txt 1 -
+/utchiha.php 1 -
+/iis-85.png 3 -
+/Navir.php 1 https://www.google.com
+/.well-known/pki-validation/31D5B0E05918E6B1B64E84BC1BDEAE0A.txt 1 -
+/1xleet.php 1 -
+/ALFA_DATA/alfacgiapi/perl.alfa 2 -
+/assets/elfinder/elfinder.html 2 -
+/thumb.php 2 -
+/assets/tinymce/plugins/filemanager/dialog.php 2 -
+/wp-content/plugins/backup_index.php 1 anonymousfox.co
+/wp-admin/includes/fw.php 1 -
+/.well-known/pki-validation/F7A1A4E3073379A9531731485A21F469.txt 1 -
+/wp-includes/css/wp-config.php 1 anonymousfox.co
+/.well-known/pki-validation/76F31089E2A8055B89DA279022CAED69.txt 1 -
+/leaf_php.php 1 -
+/777.php 1 -
+/.well-known/pki-validation/FC7BC407F26B4F72065B079BA5D5BC66.txt 1 -
+/w.php 2 -
+/old/wp-admin/install.php 1 -
+/wp-admin/x.php 1 -
+/backup.sql 2 -
+/license.php 1 -
+/.well-known/pki-validation/D25AFA2E1084E0673C1ED16BBF0040A2.txt 1 -
+/new 4 -
+/wp-admin/config.bak.php 1 anonymousfox.co
+/10.php 4 -
+/admin/filemanager/dialog.php 2 -
+/.well-known/pki-validation/AFC5C3891C2B3ABA56CFD855EE24CFAF.txt 1 -
+/ads.txt 6 -
+/old-index.php 3 anonymousfox.co
+/wp-admin/wso.php 1 -
+/defau1t.php 1 -
+/FoxWSO.php 4 -
+/bk 2 -
+/up.php 4 anonymousfox.co
+/wp-admin/includes/class-wp-media-list-data.php 6 -
+/lib/webuploader/0.1.5/server/preview.php 1 -
+/41.php 1 -
+/wp-includes/js/jquery/jquery-migrate.min.js 1 -
+/blog/wp-admin/install.php 1 -
+/5index.php 1 -
+/9.php 4 -
+/site/wp-admin/install.php 1 -
+/larva.php 1 anonymousfox.co
+/.well-known/pki-validation/72A896F8E5F9301EB4E7EEBBF58615BD.txt 1 -
+/if.php 2 https://www.google.com
+/blog/.env 2 -
+/wp-info.php 2 -
+/fox.php 2 -
+/about 2 -
+/.well-known/pki-validation/780BF8E1B8E5B1CAAD0F5819A86BC64C.txt 1 -
+/.well-known/pki-validation/A3E8792EBBC6ACA6A0D37BEE92A350BC.txt 1 -
+/test/.env 2 -
+/u.php 2 -
+/s.php 2 -
+/8.php 1 -
+/wp-admin/css/colors/coffee/fw.php 1 -
+/WSO.php 4 -
+/V3.php 1 -
+/am.php 1 -
+/assets/plugins/elfinder/elfinder.html 2 -
+/backup 2 -
+/wp-admin/css/fw.php 2 -
+/sindex.php 1 -
+/h.php 2 -
+/media-admin.php 1 -
+/100.php 4 -
+/robots.txt 262 -
+/1337.php 5 https://www.google.com
+/wp-admin.php 3 https://www.google.com
+/alfacgiapi/perl.alfa 2 -
+/.env.example 4 -
+/wp-content/plugins/seoplugins/mar.php 2 -
+/kk.php 1 -
+/public/static/admin/lib/webuploader/server/preview.php 1 -
+/gaza.php 1 https://www.google.com
+/new/ 1 -
+/env/.env 2 -
+/backup/wp-admin/install.php 1 -
+/shell.php 3 https://www.google.com
+/marijuana.php 3 https://www.google.com
+/xox.php 1 -
+/8index.php 1 -
+/.git/config 22 -
+/wordpress 4 -
+/wp-content/themes/seotheme/db.php 2 www.google.com
+/wpx.php 1 -
+/wp-content/db_cache.php 1 anonymousfox.co
+/g.php 2 -
+/403.php 4 -
+/defaul1.php 1 -
+/wpindex.php 1 anonymousfox.co
+/Makhdamxshell.php 5 -
+/takeout.php 2 -
+/11index.php 4 -
+/@s-about 2 -
+/symlink.php 1 -
+/xlet.php 2 -
+/wp-content/themes/config.bak.php 1 anonymousfox.co
+/backup.zip 2 -
+/legion.php 1 anonymousfox.co
+/about.php 4 -
+/sh3llx.php 2 -
+/wp-wso.php 1 -
+/sendmail.php 1 -
+/plugins/kcfinder/upload.php 2 -
+/my_alfa.php 1 https://www.google.com
+/backup.tar.gz 2 -
+/wp-content/themes/satoshi/styles/functions.css 1 -
+/stindex.php 1 -
+/mailer.php 2 https://www.google.com
+/wp-content/mu-plugins-old/index.php 3 -
+/templates/beez5/index.php 1 -
+/wp2.php 2 -
+/blog.php 3 -
+/19837437_notfound.html 2 http://onchip.com.br
+/wp-22.php 1 -
+/wikindex.php 9 https://www.google.com
+/xleet-shell.php 4 -
+/baindex.php 1 -
+/e.php 2 -
+/xleet.php 4 -
+/data.php 1 -
+/webuploader/server/preview.php 1 -
+/hacked.php 1 https://www.google.com
+/x.php 3 https://www.google.com
+/xmlrp.php 1 anonymousfox.co
+/wp-uploads.php 2 -
+/ms.php 1 -
+/404.php 5 https://www.google.com
+/olu.php 1 -
+/wp-1ogin_bak.php 1 anonymousfox.co
+/wp-admin/css/ 2 binance.com
+/.well-known/pki-validation/B85DF339925787374CC2D58725177CC5.txt 1 -
+/assets/kcfinder/upload.php 2 -
+/uploads/up.php 2 -
+/m.php 3 https://www.google.com
+/admin/.env 2 -
+/wp-content/plugins/wpconfig.bak.php 1 anonymousfox.co
+/blog/ 1 -
+/wp_wrong_datlib.php 3 -
+/z.php 2 -
+/test/wp-admin/install.php 1 -
+/wp/ 1 -
+/wp-includes/wp-class.php 6 -
+/administrator/help/en-GB/toc.json 1 -
+/w3llstore.php 2 -
+/Lux.php 1 https://www.google.com
+/wp-content/shell.php 1 -
+/images/ 2 binance.com
+/tuco.php 1 -
+/wp-content/wp-1ogin_bak.php 1 anonymousfox.co
+/wp-content/langar.php 1 anonymousfox.co
+/wp-admin/alfa.php 1 -
+/alexus.php 1 -
+/alex.php 2 https://www.google.com
+/mini.php 2 -
+/leaf_mailer.php 1 -
+/scripts/filemanager/dialog.php 2 -
+/wp-content/themes/purevision/scripts/admin/uploadify/uploadify.css 2 -
+/yuuki.php 1 -
+/wp-commentin.php 6 -
+/assets/admin/tinymce/plugins/filemanager/dialog.php 2 -
+/backup/ 1 -
+/hello.php 2 -
+/3index.php 5 https://www.google.com
+/mailer1.php 1 -
+/hui/lib/webuploader/0.1.5/server/preview.php 1 -
+/static/admin/lib/webuploader/0.1.5/server/preview.php 2 -
+/admin 3 -
+/ru.php 1 https://www.google.com
+/.well-known/pki-validation/12C651C6318ACC4DEF7897899E447196.txt 1 -
+/wp 4 -
+/Alfa.php 3 -
+/Leaf.php 2 https://www.google.com
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 2 -
+/.well-known/pki-validation/E0F82E589166C53CA3ED95CE63EE4F3D.txt 1 -
+/01.php 5 -
+/goods.php 2 -
+/b.php 3 -
+/assets/plugins/kcfinder/upload.php 2 -
+/.well-known/pki-validation/41E9B3BF5A02F7A75F87C082344FD990.txt 1 -
+/cmd13.php 1 https://www.google.com
+/.well-known/pki-validation/F9BB5937020AE023CDD136846C7825EA.txt 1 -
+/6.php 1 -
+/lab.php 1 -
+/server-status 2 -
+/bypass.php 2 -
+/assets/admin/lib/webuploader/0.1.5/server/preview.php 1 -
+/wp-content/about.php 2 -
+//wp-22.php 1 -
+/Public/admin/webuploader/server/preview.php 1 -
+/.well-known/traffic-advice 1 -
+/shell4.php 1 https://www.google.com
+/wp-admin/includes/ 1 -
+/phpformbuilder/plugins/filemanager/dialog.php 2 -
+/wso1.php 3 https://www.google.com
+/kcfinder/upload.php 2 -
+/.git/HEAD 1 -
+/contacts.php 1 -
+/d.php 1 -
+/@s-contact 2 -
+/modules/quickpay/logo.png 1 -
+/laravel/.env 4 -
+/13.php 4 -
+/ok.php 2 -
+/wp-content/wso.php 1 -
+/xmrlpc.php 1 -
+/7index.php 1 -
+/mar.php 2 -
+/n.php 2 -
+/kindex.php 1 -
+/wp-admin/fw.php 2 -
+/0byte 3 -
+/.well-known/pki-validation/959B3212FFD56A5B8483AD31622945EB.txt 1 -
+/haders.php 1 anonymousfox.co
+/blog 2 -
+/87.php 1 -
+/wp-includes/fw.php 1 -
+/.well-known/pki-validation/54DA28D4126C10814F9E17DD9508629F.txt 1 -
+/gel4y.php 1 -
+/j.php 1 -
+/wp-file.php 2 -
+/wp-includes/lfx.php 1 anonymousfox.co
+/send.php 1 -
+/api/search 2 -
+/wp-includes/fonts/css.php 1 anonymousfox.co
+/.well-known/pki-validation/2714D2E4BE8B3EF076CD00C7CE30C942.txt 1 -
+/date.php 1 -
+/wp-content/mu-plugins/db-safe-mode.php 1 anonymousfox.co
+/_profiler/phpinfo 1 -
+/boom.php 1 anonymousfox.co
+/bb.php 2 https://www.google.com
+/cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh 2 -
+/alf.php 4 -
+/static/h-ui/lib/webuploader/0.1.5/server/preview.php 1 -
+/wp-includes/shell20211028.php 1 -
+/wp-content/wp-old-index.php 1 anonymousfox.co
+/wp-content/themes/theagency/includes/uploadify/uploadify.css 1 -
+/web/wp-admin/install.php 1 -
+/.well-known/pki-validation/955A801BCCB6DF3EB11C124C68C67882.txt 1 -
+/.well-known/pki-validation/C6BD3295E375213EC8E160D72523481F.txt 1 -
+/.well-known/pki-validation/7DBB474E7042AA2EEAF9256C35E2D303.txt 1 -
+/wp-content/themes/holding_pattern/admin/options-tab-sample.txt 1 -
+/wordpress/wp-admin/install.php 1 -
+/backup.tar 2 -
+/upload.php 2 anonymousfox.co
+/Uploader.php 1 -
+/.well-known/pki-validation/B1981CAFD9BE8BE9ABF62063936EBD93.txt 1 -
+/images/sym.php 1 -
+/l.php 2 -
+/q.php 2 -
+/wp-admin/radio.php 2 -
+/new/wp-admin/install.php 1 -
+/autodiscover/autodiscover.xml 8 https://191.6.208.137/autodiscover/autodiscover.xml
+/wp-includes/small.php 1 anonymousfox.co
+/cms/.env 2 -
+/new.php 3 https://www.google.com
+/wp-admin/maint/fw.php 1 -
+/5.php 4 -
+/.well-known/pki-validation/085EFC4ECDEF79519405A7DE935A09FD.txt 1 -
+/s-contact 15 -
+/wp-content/x.php 2 -
+/saudi.php 1 https://www.google.com
+/.well-known/pki-validation/78D8DF2E72F2F96D643B0B4399EBD667.txt 1 -
+/moduless.php 1 anonymousfox.co
+/cms.php 1 -
+/sh.php 2 -
+/.well-known/pki-validation/355A49850CE2FEBA288D92357642BFD7.txt 1 -
+/assets/admin/js/tinymce/plugins/filemanager/dialog.php 2 -
+/autoload_classmap.php 4 -
+/7.php 1 -
+/filemanager/dialog.php 2 -
+/sym.php 1 -
+/static/lib/webuploader/0.1.5/server/preview.php 1 -
+/telescope/requests 2 -
+/small.php 2 -
+/mari.php 2 -
+/server.php 1 -
+/wp-admin/maint/about.php 2 -
+/wp-includes/about.php 2 -
+/Public/assets/lib/webuploader/0.1.5/server/preview.php 1 -
+/.well-known/pki-validation/4ABC3F386B082E91156B6FFE17667DFE.txt 1 -
+/1.php 4 -
+/local.env 2 -
+/ups.php 7 https://www.google.com
+/test.php 1 anonymousfox.co
+/.well-known/pki-validation/732A4CC45A313E23BE4EFDD7C1C2ED31.txt 1 -
+/a.php 4 -
+/minimo.php 1 -
+/MARIJUANA.php 1 -
+/root.php 2 -
+/wp-content/themes/u-design/scripts/admin/uploadify/uploadify.css 3 -
+/skipper.php 1 https://www.google.com
+/wp-includes/991176.php 1 -
+/0byte.php 4 -
+/wp-content/up.php 1 -
+/wi.php 1 -
+/filemanager/filemanager/dialog.php 2 -
+/shx.php 3 https://www.google.com
+/tshop.php 1 https://www.google.com
+/k.php 2 -
+/xhell.php 1 -
+/wp.php 3 https://www.google.com
+/wp-admin/shell.php 1 -
+/wp-content/plugins/wpdiscuz/themes/default/style-rtl.css 1 anonymousfox.co
+/c99.php 3 https://www.google.com
+/sitemap.xml 2 -
+/timthumb.php 2 -
+/leafmailer.php 2 https://www.google.com
+/wso.php 3 https://www.google.com
+/inje3ctor.php 1 https://www.google.com
+/wp-content/plugins/t_file_wp/t_file_wp.php 1 anonymousfox.co
+/public/403.php 1 -
+/jindex.php 4 -
+/srx.php 2 https://www.google.com
+/admin/controller/extension/extension/ 2 binance.com
+/contato/ 6 -
+/4index.php 1 -
+/admin/lib/webuploader/server/preview.php 1 -
+/uploads/ 2 binance.com
+/3.php 4 -
+/wp-content/fw.php 2 -
+/1index.php 8 https://www.google.com
+/FoxWSOv1.php 1 -
+/Public/webuploader/0.1.5/server/preview.php 1 -
+/.DS_Store 2 -
+/r.php 2 -
+/Public/admin/lib/webuploader/0.1.5/server/preview.php 1 -
+/makhdamxehadshell.php 1 -
+/Public/Admin/hui/lib/webuploader/0.1.5/server/preview.php 1 -
+/.well-known/pki-validation/4CE4D779113494FFD7FE3A1918E1156F.txt 1 -
+/alfindex.php 1 anonymousfox.co
+/wp-content/plugins/zedd/1.php 1 -
+/.well-known/pki-validation/B53AEAED86B6E2156F341E4E4380C4E2.txt 1 -
+/old/ 1 -
+/wp-content/ 1 -
+/.well-known/pki-validation/2DFFE34C4FAC3D6D99BDB0B87F5FEB3B.txt 1 -
+/fw.php 9 https://www.google.com
+/xltavrat.php 2 -
+/wp-content/config.bak.php 1 anonymousfox.co
+/lol.php 1 -
+/wp-confiig.php 1 -
+/.well-known/pki-validation/C6D399C668D2E959AA1223D7E252CF48.txt 1 -
+/.well-known/pki-validation/EB8496490224E3FBC598C5B4C5AB540E.txt 1 -
+/.well-known/pki-validation/9DD14A3E53F703E94FB10814DE2B3F0D.txt 1 -
+/administrator/language/en-GB/en-GB.xml 1 -
+/new-index.php 1 -
+/wp-content/plugins/fancy-product-designer/inc/custom-image-handler.php 1 anonymousfox.co
+/back/ 1 -
+/Deadcode1975xxxxxxxxxxxxxxxxxxxxxxxxxxxx.php 2 -
+/.well-known/security.txt 1 -
+/wp-content/fx.php 1 -
+/content.php 2 -
+/.well-known/autoconfig/mail/config-v1.1.xml 1 -
+//wp-content/plugins/tatsu/README.txt 1 -
+/.well-known/pki-validation/D31E88381A39C226C263F985BBD6F838.txt 1 -
+/.well-known/pki-validation/87C8E08345EB932A8662ED230CB49CF7.txt 1 -
+/sym403.php 1 -
+/qindex.php 1 -
+/i.php 2 -
+/inc20k1.php 1 https://www.google.com
+/wp-class.php 2 -
+/wp-content/wp.php 2 -
+/t.php 1 -
+/edit-form.php 3 https://www.google.com
+/assets/scripts/filemanager/dialog.php 2 -
+/home 2 -
+/cms/wp-admin/install.php 1 -
+/blog/fw.php 2 -
+/4.php 4 -
+/.well-known/pki-validation/6764D1DA226A49244FDF6E4C88FA257A.txt 1 -
+/wp-includes/ID3/license.txt 1 -
+/wp-includes/css/css.php 1 anonymousfox.co
+/th3_err0r.php 1 anonymousfox.co
+/vuln.php 3 https://www.google.com
+/owl.php 1 -
+/xl.php 2 -
+/V5.php 1 -
+/rss.php 2 -
+/humans.txt 4 -
+/unix.php 1 -
+/v.php 2 -
+/leaf.php 2 https://www.google.com
+/oldsite/wp-admin/install.php 1 -
+/.well-known/pki-validation/EFFE7B5D2EF1BEA1410EF92D42377CCC.txt 1 -
+/.well-known/pki-validation/E81B4AD085969F2626DD90D5D673AEB8.txt 1 -
+/.well-known/pki-validation/FFE744417E7F06F5272AE758732DD46D.txt 1 -
+/wso2.php 2 -
+/.env 21 -
+/oldsite/ 1 -
+/config.php 1 anonymousfox.co
+/3301.php 1 -
+/wp-blog.php 2 -
+/class-wp-widget-archives.php 3 -
+/info.php 2 -
+/js/kcfinder/upload.php 2 -
+/.well-known/pki-validation/EC321FFA73C57DEC3F20B3457D9EBF60.txt 1 -
+/lufix.php 1 -
+/fx.php 8 -
+/.well-known/pki-validation/2971B4040AE1560CDA02A1761DB55F06.txt 1 -
+/images/about.php 2 -
+/public/static/admin/lib/webuploader/0.1.5/server/preview.php 1 -
+/tinymce/filemanager/dialog.php 2 -
+/9index.php 1 -
+/xxx.php 2 -
+/2.php 4 -
+/c.php 2 -
+/wp-configer.php 1 -
+/_ignition/execute-solution 3 -
+/config.json 3 -
+/indicador-de-temperatura-e-umidade-oitu-p42 2 -
+/.well-known/pki-validation/981F7976E8D8F42E5B2B42ABBAD8D603.txt 1 -
+/demo 2 -
+/f.php 2 -
+/LEAF.php 1 https://www.google.com
+/demo328/fw.php 1 -
+/.well-known/pki-validation/E30FEF1F1361A970114C00A96CA7E63E.txt 1 -
+/.well-known/pki-validation/44B72AA26BE0F9975E482337071621FF.txt 1 -
+/plugins/system/debug/debug.xml 1 -
+/.well-known/pki-validation/0DE17B3125C3F3724A81DE1A4A54EB7C.txt 1 -
+/wp-admin/setup-config.php 2 -
+/alfa.php 6 anonymousfox.co
+/uploader.php 3 https://www.google.com
+/config.bak.php 1 anonymousfox.co
+/index.php 1 anonymousfox.co
+/ws.php 3 https://www.google.com
+/.well-known/pki-validation/5B2420C78B2833C891C82222AFDD885D.txt 1 -
+/2index.php 6 -
+/wp-content/plugins/config.bak.php 1 anonymousfox.co
+/leafmailer2.8.php 2 https://www.google.com
+/files/ 2 binance.com
+/wp-includes/config.bak.php 1 anonymousfox.co
+/debug/default/view 3 -
+END_SIDER_404
+
+# Extra key - Pages - Hits - Bandwidth - Last access
+# The 100 first number of hits are first
+BEGIN_EXTRA_1 2
+/ 2 2 36188 
+/img/about-pcb-cyan.png 0 2 533658 
+END_EXTRA_1
+
+# Extra key - Pages - Hits - Bandwidth - Last access
+# The 100 first number of hits are first
+BEGIN_EXTRA_2 27
+/ 1519 1519 26960060 
+/scripts/feedback.php 763 763 32485 
+/img/favicon/site.webmanifest 121 121 54383 
+/img/intro-bg-grid.svg 57 57 10716 
+/img/favicon/safari-pinned-tab.svg 3 3 2148 
+/img/favicon/favicon-32x32.png 0 54 100548 
+/img/logo-onchip-c02.png 0 61 435580 
+/img/products/ott420mi-03.jpg 0 61 2407965 
+/img/pcb-layer-cyan.png 0 50 3318300 
+/scripts/main.min.js 0 86 49053 
+/css/style.css 0 79 1844612 
+/img/contact.jpg 0 67 5173652 
+/img/about-pcb-cyan.png 0 67 40895694 
+/img/favicon/apple-touch-icon.png 0 22 109494 
+/img/logo-onchip-a02.png 0 69 908096 
+/img/favicon/favicon-16x16.png 0 18 19062 
+/img/products/ott42md2-01.png 0 62 5524674 
+/scripts/jquery.min.js 0 87 8058204 
+/img/products/ott420mi-02.jpg 0 62 757016 
+/img/round-circle.png 0 62 832184 
+/img/products/ott420-01.png 0 65 5387040 
+/img/products/ott420mi-01.png 0 64 7985768 
+/img/products/ott42md2-02.jpg 0 60 1366689 
+/img/products/ott10md3-01.png 0 62 3117619 
+/img/intro-bg-circuit-cyan.png 0 123 6393006 
+/scripts/grid-expander.min.js 0 81 106470 
+/img/products-header.png 0 52 10838516 
+END_EXTRA_2
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1040
+37.139.53.82 224 224 2031232 20221031194029
+186.202.173.147 31 31 560914 20221031162657
+61.147.15.67 16 16 289504 20221021030310
+186.220.198.44 13 46 2491279 20221027101443
+18.170.116.169 12 47 2360450 20221001095740
+13.42.16.225 10 41 2202419 20221022001253
+2001:41d0:a:6be4::1 9 9 90638 20221012065913
+4.240.92.30 8 8 108564 20221020213715
+65.20.157.231 8 8 36604 20221027095441
+13.56.139.87 8 8 36188 20221021062128
+185.81.106.52 2 2 18136 20221007225316
+23.90.160.138 1 1 18094 20221020034039
+54.191.137.183 1 1 18094 20221002131302
+63.134.144.244 2 2 18136 20221025230641
+216.14.152.152 2 2 18136 20221029014255
+61.239.103.17 2 2 18136 20221021151304
+61.2.213.219 2 2 18136 20221023203106
+140.82.8.21 2 2 18136 20221029174152
+181.37.207.173 0 1 56079 
+180.163.29.217 1 1 188 20221021034130
+103.117.235.242 2 2 18136 20221013050937
+98.124.117.115 2 2 18136 20221030114601
+185.180.143.145 1 1 18094 20221013143411
+91.142.85.32 1 1 18094 20221016183442
+34.151.234.84 1 1 18094 20221026040614
+216.243.40.67 2 2 18136 20221019020931
+218.0.51.57 2 2 18136 20221004111619
+35.88.85.126 1 1 18094 20221026223522
+59.54.31.86 2 2 18136 20221002000337
+144.91.106.14 2 6 229232 20221014074513
+94.41.95.211 2 2 18136 20221012061611
+175.178.74.165 2 2 18136 20221010112616
+141.95.250.44 2 2 18136 20221012040221
+209.150.247.141 2 2 18136 20221029012903
+54.91.254.84 1 1 18094 20221013133535
+206.222.194.86 2 2 18136 20221022114455
+35.93.27.95 1 1 18094 20221029132349
+179.98.120.133 3 3 54282 20221002095652
+171.5.12.159 2 2 18136 20221022150811
+105.213.113.191 2 2 18136 20221017123821
+81.173.112.207 1 1 18094 20221017005720
+27.159.191.39 2 2 18136 20221022053613
+207.144.144.51 2 2 18136 20221029031530
+181.214.218.47 2 2 18136 20221014101622
+14.207.151.216 2 2 18136 20221014094309
+207.199.239.59 2 2 18136 20221025204313
+216.182.101.243 2 2 18136 20221027071206
+47.101.187.254 6 10 911416 20221012050720
+137.118.164.170 2 2 18136 20221030111610
+105.213.174.104 2 2 18136 20221005093716
+3.101.34.194 1 5 139937 20221021062124
+191.5.228.98 6 6 108564 20221021182051
+2a04:3543:1000:2310:7c07:66ff:fecb:2536 3 3 36230 20221014085409
+199.244.88.222 1 1 18094 20221010184553
+129.205.163.219 2 2 18136 20221029012240
+206.72.6.135 2 2 18136 20221026083223
+180.250.91.50 1 1 18094 20221017053545
+137.118.173.71 2 2 18136 20221030010615
+193.19.205.155 1 1 18094 20221010204054
+117.205.42.251 2 2 18136 20221005004824
+121.179.176.88 2 2 18136 20221030150926
+125.124.115.67 2 2 18136 20221006231910
+209.124.208.12 2 2 18136 20221023070126
+35.167.171.253 2 2 36188 20221013132150
+49.234.131.155 2 2 18136 20221006224936
+64.237.89.175 2 2 18136 20221028063922
+134.35.1.151 2 2 18136 20221017110650
+188.240.113.242 2 2 18136 20221003011640
+36.95.166.218 2 2 18136 20221001020206
+59.120.88.210 2 2 18136 20221030111450
+2a03:4000:8:1fe::1 2 2 18136 20221002011446
+20.239.185.205 2 2 18136 20221014021719
+64.184.111.181 2 2 18136 20221030022936
+196.1.31.93 2 2 18136 20221022013417
+18.237.194.219 1 1 18094 20221031133340
+196.251.34.2 2 2 18136 20221002015015
+157.119.226.159 1 1 18094 20221022225229
+41.190.55.154 2 2 18136 20221002031909
+216.235.102.111 2 2 18136 20221019033945
+23.80.97.240 2 2 36188 20221005021652
+59.60.210.72 2 2 18136 20221020125310
+117.45.139.223 2 2 18136 20221008133006
+45.10.142.135 2 2 18136 20221030210218
+54.174.54.76 1 1 0 20221021110143
+35.245.188.175 2 2 36188 20221024100749
+68.232.62.200 1 1 18094 20221029022617
+42.194.193.243 1 1 18094 20221007054122
+188.240.96.119 2 2 18136 20221008135222
+71.12.177.11 2 2 18136 20221016164526
+111.77.46.214 2 2 18136 20221006143611
+68.69.184.202 4 4 72376 20221029144142
+8.48.115.183 2 2 18136 20221024073828
+216.235.106.25 2 2 18136 20221019060412
+156.146.63.148 2 2 18136 20221006110225
+149.20.206.147 2 22 1694000 20221011113809
+2602:feda:3f:82e4:21b1:eba4:acf0:c1d2 1 1 18094 20221006214041
+187.108.133.39 1 18 1417151 20221003084627
+93.159.230.89 4 4 72376 20221027100023
+216.255.33.218 2 2 18136 20221017114744
+91.121.177.31 2 2 18136 20221010112336
+179.148.245.237 2 23 1698977 20221017072527
+181.214.218.38 2 2 18136 20221006091131
+128.199.189.236 2 2 18136 20221006003555
+157.55.39.134 0 3 193227 
+54.244.192.3 1 1 18094 20221026223657
+45.117.3.246 2 2 18136 20221025100800
+14.226.46.68 2 2 18136 20221014013734
+52.10.47.143 1 1 18094 20221006133022
+35.91.177.71 1 1 18094 20221019182741
+34.68.225.19 4 42 3384276 20221029012247
+220.196.74.43 2 2 18136 20221010160622
+190.112.138.136 1 1 18094 20221017180537
+216.249.229.157 2 2 18136 20221024111609
+136.169.237.9 2 2 18136 20221019052326
+1.0.136.229 2 2 18136 20221001120730
+38.22.145.87 2 2 18136 20221031005302
+109.231.84.124 1 1 18094 20221022062155
+124.220.161.119 1 1 18094 20221007171357
+5.189.184.9 1 1 0 20221025164116
+191.220.242.15 0 2 112158 
+181.214.218.57 2 2 18136 20221002184948
+34.138.192.146 2 2 18168 20221014140854
+191.5.228.115 2 2 36188 20221021122355
+141.11.184.128 2 2 18136 20221015213047
+35.93.55.127 1 1 18094 20221005174706
+54.185.139.160 1 1 18094 20221002131502
+207.46.13.59 0 1 591 
+36.231.74.94 1 1 18094 20221001051535
+213.197.136.218 1 1 18094 20221014053236
+192.111.137.34 1 1 18094 20221020235349
+10.19.1.213 1 1 18094 20221003070438
+182.136.251.130 2 2 18136 20221008214922
+203.159.92.199 1 1 18094 20221012073252
+69.171.251.2 1 1 18094 20221006003904
+193.253.253.110 2 2 18136 20221030204337
+216.26.122.166 2 2 18136 20221029020603
+137.118.147.49 2 2 18136 20221030073936
+64.20.22.190 2 2 18136 20221029023505
+10.19.3.67 1 1 18094 20221009065426
+193.235.141.170 1 2 19956 20221001200801
+27.159.187.89 2 2 18136 20221004015535
+94.41.2.187 2 2 18136 20221022055921
+216.151.20.198 1 1 18094 20221017052352
+107.178.8.10 2 2 18136 20221027104133
+94.41.34.116 2 2 18136 20221018011058
+216.8.202.231 2 2 18136 20221026231437
+36.74.41.27 2 2 18136 20221017024446
+189.46.54.246 5 44 1969901 20221027141552
+78.188.20.103 2 2 18136 20221030083403
+185.27.99.135 1 1 18094 20221006000940
+173.225.218.107 2 2 18136 20221024195721
+59.54.24.119 3 3 36230 20221005222140
+115.152.30.179 2 2 18136 20221005104217
+216.115.140.145 2 2 18136 20221025223401
+223.27.123.9 2 2 18136 20221017072620
+64.20.29.63 2 2 18136 20221027093325
+35.90.156.135 1 1 18094 20221027161751
+64.224.95.51 2 2 18136 20221024203430
+137.118.195.96 2 2 18136 20221029013759
+36.74.40.195 1 1 18094 20221030062841
+69.171.251.20 0 2 70427 
+8.64.34.141 2 2 18136 20221028120657
+177.170.226.216 1 1 74 20221010160149
+216.221.202.78 2 2 18136 20221025024115
+159.192.228.132 2 2 18136 20221012034632
+139.180.207.206 2 2 18136 20221006144457
+78.31.88.56 1 1 18094 20221019013034
+38.6.229.19 2 2 18136 20221002045447
+57.128.16.193 4 4 72376 20221024092821
+195.78.54.125 2 2 18158 20221025074705
+98.143.181.76 2 2 18136 20221029021454
+52.35.94.255 1 1 18094 20221025131758
+188.68.168.143 2 2 18136 20221031014217
+8.7.93.46 2 2 18136 20221025043315
+208.92.111.88 2 2 18136 20221028041815
+191.185.124.21 4 24 1694514 20221021100241
+103.214.112.79 2 2 18136 20221002002433
+210.117.109.37 3 3 18208 20221024053256
+177.223.57.248 4 4 36272 20221010114656
+116.7.53.83 3 23 1694457 20221011034330
+129.205.170.235 2 2 18136 20221006140706
+106.5.209.87 1 1 18094 20221008122339
+206.222.214.146 2 2 18136 20221021234453
+157.245.59.71 1 1 18094 20221016003337
+67.198.58.145 2 2 18136 20221031004328
+110.77.232.174 1 1 18094 20221002110827
+137.118.173.51 2 2 18136 20221027134905
+209.124.195.228 2 2 18136 20221022124202
+14.139.107.66 1 1 18094 20221024113956
+1.20.209.104 2 2 18136 20221004051957
+216.144.152.152 2 2 18136 20221026091616
+10.19.1.165 1 1 18094 20221003122931
+89.39.114.31 2 2 18136 20221019015309
+104.203.200.44 1 1 18094 20221021044536
+206.248.21.151 2 2 18136 20221026132130
+50.159.193.238 2 2 18136 20221025232027
+27.147.143.250 2 2 18136 20221012073942
+187.44.57.55 1 1 18094 20221021151340
+105.213.137.63 2 2 18136 20221030092828
+38.132.178.165 2 2 18136 20221031013038
+94.198.43.10 2 2 36188 20221030162854
+95.216.174.53 2 2 18136 20221004182747
+74.207.226.253 2 2 18136 20221003114107
+102.66.237.78 2 2 18136 20221022144755
+2600:3c02::f03c:93ff:fe97:1ce 2 2 18136 20221022190801
+5.253.204.105 1 1 18094 20221020080407
+68.232.50.22 2 2 18136 20221029023151
+216.8.52.202 2 2 18136 20221029051022
+133.242.174.119 1 1 18094 20221025021254
+114.233.213.219 1 1 18094 20221009174319
+202.164.210.65 2 2 18136 20221004064710
+134.236.63.84 2 2 18136 20221022054540
+63.250.50.193 2 2 18136 20221018094304
+206.127.58.65 2 2 18136 20221029024607
+167.99.201.165 3 3 36230 20221010094119
+122.176.81.194 2 2 18136 20221029015114
+45.190.250.73 0 1 56079 
+208.123.39.144 2 2 18136 20221023151852
+176.236.182.30 2 2 18136 20221017100827
+118.212.49.158 2 2 36188 20221009195034
+88.247.4.123 4 4 36272 20221021230906
+60.173.25.158 2 2 18136 20221002221003
+114.96.115.215 1 1 18094 20221007051953
+34.138.192.16 1 5 139937 20221027121459
+196.216.43.39 2 2 18136 20221027022559
+208.66.241.198 2 2 18136 20221024055629
+193.235.141.168 1 2 19956 20221017065919
+206.72.5.235 2 2 18136 20221025234540
+207.178.100.247 2 2 18136 20221027104159
+35.85.37.199 0 1 95931 
+216.211.159.198 2 2 18136 20221025094521
+149.57.19.3 2 22 1694000 20221009000611
+202.138.239.8 2 2 18136 20221002001138
+196.216.38.49 1 1 18094 20221022045031
+105.213.133.246 1 1 18094 20221015074516
+49.234.88.26 1 1 18094 20221017114105
+69.173.164.229 2 2 18136 20221026160546
+64.33.250.141 1 1 18094 20221017044736
+14.207.56.127 4 4 36272 20221030152338
+104.219.153.13 2 2 18136 20221025034210
+34.209.62.202 1 1 18094 20221013131438
+63.134.163.96 2 2 18136 20221026003646
+14.139.251.114 2 2 18136 20221029133944
+149.56.205.153 2 2 18136 20221027095412
+213.246.3.52 2 2 18136 20221008135541
+63.250.48.154 2 2 18136 20221019044826
+54.174.54.194 1 1 0 20221007110219
+42.236.10.125 1 19 1418210 20221005071125
+2a01:7e01::f03c:91ff:feee:2533 2 2 18136 20221009132106
+115.164.146.10 2 2 18136 20221010070857
+69.171.251.14 0 6 283946 
+175.178.230.184 1 1 18094 20221002022634
+190.185.159.116 2 2 18136 20221021072916
+15.164.213.232 2 2 18136 20221014054213
+207.178.114.206 2 2 18136 20221027111500
+187.50.230.146 3 23 1694457 20221026114020
+205.185.116.25 1 1 18094 20221005152423
+177.38.245.108 2 2 18136 20221016002535
+109.238.208.130 1 1 18094 20221011064002
+24.51.37.55 2 2 18136 20221017121657
+67.22.167.144 2 2 18136 20221027093739
+113.195.28.73 2 2 18136 20221010120146
+110.188.22.46 2 2 18136 20221004041029
+18.236.152.4 1 1 18094 20221011132949
+111.77.46.81 2 2 18136 20221003144202
+78.186.217.232 2 2 18136 20221007054301
+137.118.171.248 2 2 18136 20221029044606
+70.37.254.102 2 2 18136 20221031002353
+101.226.140.158 1 1 18094 20221011034644
+191.6.40.159 2 2 18136 20221021033411
+98.124.76.26 2 2 18136 20221026201152
+125.26.77.139 2 2 18136 20221002033039
+197.234.71.83 1 1 18094 20221022184002
+1.116.84.14 3 22 1692138 20221002003817
+150.158.19.134 1 1 18094 20221022064507
+134.35.147.111 2 2 18136 20221004145548
+52.186.179.222 1 1 18094 20221029015455
+98.143.229.206 2 2 18136 20221027101859
+106.122.198.215 1 1 18094 20221005005413
+81.68.216.118 2 2 18136 20221012054352
+103.207.8.82 2 2 18136 20221014160626
+110.40.227.238 1 1 18094 20221005222406
+191.96.168.200 2 2 18151 20221010185635
+42.192.143.92 1 1 18094 20221022225152
+160.242.106.109 2 2 18136 20221026203617
+182.43.1.98 2 2 18136 20221013014321
+114.96.103.48 2 2 18136 20221008012356
+45.161.236.253 2 2 18136 20221021151916
+180.183.33.172 2 2 18136 20221014230915
+216.211.150.73 2 2 18136 20221024060556
+190.109.2.89 1 1 18094 20221012070534
+94.70.245.45 2 2 18136 20221029021408
+200.17.32.210 0 1 56079 
+195.133.40.157 2 2 36188 20221001000650
+103.214.112.215 4 4 36272 20221002232722
+179.125.243.129 0 2 112158 
+63.250.49.255 2 2 18136 20221018081317
+103.91.52.244 1 1 18094 20221022102428
+117.45.139.205 2 2 18136 20221004204336
+181.214.218.71 2 2 18136 20221008170140
+89.201.192.66 1 1 18094 20221017114125
+162.244.183.35 2 2 18136 20221030141346
+76.188.250.170 1 1 18094 20221030131941
+20.214.176.197 1 1 18094 20221015185027
+118.179.153.86 2 2 18136 20221008051543
+105.213.92.181 1 1 18094 20221006113756
+220.135.36.184 2 2 18136 20221026194345
+192.36.71.133 1 1 18094 20221021221448
+117.208.53.130 2 2 18136 20221031001413
+223.25.67.76 2 2 18136 20221022092706
+101.132.75.34 2 2 18136 20221007123542
+200.71.249.18 2 2 18136 20221002025749
+213.97.89.161 2 2 18136 20221021014221
+189.108.3.42 2 2 18136 20221004101644
+135.125.178.126 2 2 18136 20221014074531
+64.33.240.151 2 2 18136 20221030025546
+64.20.23.240 2 2 18136 20221024075012
+117.43.12.167 1 1 18094 20221005005347
+60.190.195.146 2 2 18136 20221007061130
+109.88.21.152 3 3 54282 20221019172939
+208.78.254.42 2 2 18136 20221016204039
+34.222.25.109 1 1 18094 20221031133310
+61.147.15.65 6 6 108564 20221021030222
+34.222.143.7 1 1 18094 20221006133023
+131.196.12.134 5 5 54366 20221008134122
+24.223.122.242 2 2 18136 20221029163214
+117.43.5.77 1 1 18094 20221002165520
+201.182.150.38 2 2 18136 20221001200334
+159.75.43.254 2 2 18136 20221001070100
+189.38.182.40 6 46 3388914 20221025170523
+72.13.18.78 2 2 18136 20221026025357
+147.182.220.166 4 7 170263 20221029234353
+121.35.40.234 2 43 3658745 20221021034028
+196.216.32.249 2 2 18136 20221022055603
+201.17.125.229 3 23 1694457 20221029035327
+59.152.62.185 2 2 18136 20221010045635
+117.242.42.13 1 1 18094 20221001085931
+216.106.230.66 2 2 18136 20221026084054
+79.125.160.190 2 2 18136 20221002001955
+216.106.211.10 1 1 18094 20221026084952
+61.7.138.220 2 2 18136 20221011222846
+63.250.48.106 2 2 18136 20221018093255
+69.171.251.8 0 3 859433 
+160.242.106.153 1 1 18094 20221029010411
+101.132.134.3 1 1 18094 20221010112524
+202.164.208.44 2 2 18136 20221007065749
+187.101.141.167 1 18 1417151 20221013101512
+119.18.21.58 2 2 18136 20221017044718
+181.214.218.43 2 2 18136 20221001143216
+117.43.12.118 1 1 18094 20221008115156
+191.101.209.15 2 2 18136 20221024185553
+54.188.9.39 0 1 1365 
+34.212.165.242 1 1 18094 20221029132303
+171.242.64.69 2 2 18136 20221009084429
+194.38.20.161 3 3 54282 20221020092209
+113.161.59.150 2 2 18136 20221017120240
+43.240.100.177 2 2 18136 20221010112741
+191.245.92.95 3 23 1694457 20221022115941
+38.127.172.118 1 1 18094 20221021150122
+118.212.49.144 2 2 18136 20221009171809
+143.202.210.26 2 2 18136 20221018150057
+188.126.94.198 2 2 18136 20221012151428
+2001:bc8:1860:1213::1 1 1 18094 20221026021628
+61.157.82.54 2 2 18136 20221004043501
+111.77.47.233 2 2 18136 20221002231132
+45.6.219.172 0 1 56079 
+110.77.197.52 1 1 18094 20221014000547
+117.45.139.43 2 2 18136 20221002043931
+71.6.158.166 1 2 19956 20221013092305
+123.49.53.170 1 1 18094 20221020172242
+172.105.91.134 2 2 36188 20221025001236
+84.17.47.94 2 2 18136 20221005074308
+14.226.46.11 2 2 18136 20221029040454
+27.115.124.45 0 2 2921 
+183.89.184.106 2 2 18136 20221002042307
+207.178.120.156 2 2 18136 20221025222122
+189.78.139.123 0 2 112158 
+200.173.56.54 0 17 725935 
+114.233.215.133 1 1 18094 20221009070458
+67.43.97.84 2 2 18136 20221027091830
+191.101.209.121 2 2 18136 20221028041624
+183.89.121.37 2 2 18136 20221014025558
+59.54.26.222 1 1 18094 20221007161608
+103.103.128.148 2 2 18136 20221026045430
+118.212.57.107 2 2 18136 20221026022415
+178.49.22.23 4 4 36272 20221002004301
+191.187.17.46 0 1 56079 
+42.193.184.53 2 2 18136 20221014001729
+54.174.54.196 1 1 0 20221028110137
+66.186.227.2 2 2 18136 20221027091454
+124.161.205.234 2 2 18136 20221001233603
+170.246.146.120 2 2 18136 20221019225620
+207.182.92.189 2 2 18136 20221026114121
+122.96.31.114 2 2 18136 20221008222853
+41.60.237.164 2 2 18136 20221010144911
+197.234.68.177 2 2 18136 20221022050948
+34.210.250.254 1 1 18094 20221026181955
+189.29.148.61 2 22 1694000 20221004110555
+41.218.93.32 2 2 18136 20221031041826
+94.26.216.197 2 2 18136 20221005230257
+202.70.210.58 2 2 18136 20221023082537
+47.102.137.41 6 10 911416 20221005125300
+181.215.176.68 2 2 18136 20221017140557
+106.14.145.253 6 10 911416 20221015123535
+175.110.9.104 2 2 18136 20221005013424
+117.43.12.111 1 1 18094 20221005183324
+175.178.93.220 2 2 18136 20221009160715
+203.153.42.34 2 2 18136 20221024151724
+88.247.94.138 1 1 18094 20221019145726
+189.222.207.56 0 1 56079 
+206.222.198.195 2 2 18136 20221026034807
+105.213.177.195 2 2 18136 20221006145644
+61.7.178.25 1 1 18094 20221016052204
+42.193.99.199 1 1 18094 20221009194949
+114.96.115.175 1 1 18094 20221010113159
+35.88.57.167 1 1 18094 20221031133246
+2803:6940:200:0:45:161:236:252 2 2 18136 20221015035800
+179.190.110.237 6 63 4805608 20221025145425
+103.159.92.138 4 4 36272 20221031011252
+76.81.6.107 2 2 18136 20221014003645
+208.123.30.244 2 2 18136 20221030042648
+111.73.82.17 2 2 18136 20221005224637
+119.3.65.142 4 4 36272 20221010094435
+103.110.59.181 2 2 18136 20221006151310
+49.205.173.11 2 2 18136 20221017115547
+36.90.166.29 1 1 18094 20221005215034
+35.87.120.150 1 1 18094 20221018064134
+103.86.124.82 2 2 18136 20221014064600
+93.119.26.39 1 1 18094 20221028201948
+139.59.85.24 2 2 36188 20221025001245
+125.26.68.202 1 1 18094 20221011220809
+1.2.217.102 2 2 18136 20221012213716
+119.17.149.45 1 1 18094 20221020205345
+15.204.166.232 2 2 18136 20221022072814
+117.203.204.173 1 1 18094 20221012051416
+20.24.65.230 1 1 18094 20221001063923
+34.72.167.54 1 1 18094 20221016161041
+14.18.75.66 2 2 18136 20221022063649
+65.154.226.168 2 21 1692138 20221025003843
+69.77.158.57 2 2 18136 20221027003931
+41.215.100.119 1 1 18094 20221006141637
+64.201.85.124 2 2 18136 20221027095413
+45.33.210.227 2 2 18136 20221017120141
+122.176.66.44 2 2 18136 20221031021805
+222.103.224.178 2 2 18136 20221012030301
+81.69.196.187 2 2 18136 20221024223516
+85.198.244.100 1 1 18094 20221014081000
+124.222.225.244 2 2 18136 20221010080711
+61.178.99.43 2 2 18136 20221017025509
+10.19.3.108 1 1 18094 20221001070359
+13.228.201.137 3 3 54282 20221005090809
+24.51.37.123 2 2 18136 20221020000147
+216.236.163.4 1 1 18094 20221018154822
+35.89.55.35 1 1 18094 20221015134146
+118.212.59.3 2 2 18136 20221007225154
+69.163.12.139 2 2 18136 20221016173340
+65.169.38.73 2 2 18136 20221014072005
+208.123.61.158 2 2 18136 20221023081941
+153.36.232.236 2 2 36188 20221004135357
+18.237.43.172 1 1 18094 20221026223719
+113.195.17.193 1 1 18094 20221009161321
+35.89.125.31 1 1 18094 20221026223540
+175.6.32.231 1 1 18094 20221009051625
+112.235.40.124 1 1 18094 20221010090220
+20.205.13.123 2 2 18136 20221001105635
+34.213.0.216 1 1 18094 20221006133052
+189.71.128.137 0 1 56079 
+35.92.210.142 1 1 18094 20221015134312
+205.185.116.89 1 1 18094 20221005213914
+82.115.20.234 4 4 36272 20221012045151
+149.34.32.56 2 2 18136 20221031034428
+209.124.233.205 2 2 18136 20221022065343
+195.138.79.162 2 2 18136 20221004061314
+201.68.238.12 1 1 18094 20221020140617
+104.203.170.115 2 2 18136 20221021144716
+35.89.58.255 1 1 18094 20221006133038
+206.146.83.187 4 4 36272 20221023231806
+35.89.181.227 1 1 18094 20221011132946
+2602:ffc5:20::2:d3cf 2 2 18136 20221008121855
+103.152.254.211 3 3 36230 20221019194401
+170.84.51.36 0 1 56079 
+111.77.47.125 4 4 36272 20221003003637
+207.190.75.230 2 2 18136 20221030090152
+8.36.241.148 2 2 18136 20221023151415
+85.116.120.106 1 1 18094 20221005223902
+65.21.129.153 1 1 18094 20221009024406
+51.81.167.146 1 1 18094 20221025003002
+47.242.176.14 2 2 18136 20221009161353
+78.31.71.105 2 2 18136 20221022141417
+183.89.189.247 2 2 18136 20221007192824
+182.52.19.78 1 1 18094 20221022153029
+103.131.18.196 2 2 18136 20221010162115
+96.45.3.172 2 2 18136 20221021225352
+34.219.100.147 1 1 18094 20221027161714
+209.124.226.242 2 2 18136 20221022064334
+122.155.104.66 1 1 18094 20221001074805
+41.220.131.10 2 2 18136 20221023075002
+35.90.241.202 1 1 18094 20221015134111
+24.234.206.70 2 2 18136 20221019114158
+51.254.211.171 2 2 18136 20221005214427
+186.223.213.24 0 1 56079 
+202.43.230.143 2 2 18136 20221022063539
+110.40.151.162 2 2 18136 20221019202437
+216.211.154.203 2 2 18136 20221025161446
+34.214.37.242 1 1 18094 20221023172236
+36.26.66.82 1 1 18094 20221005203115
+93.119.227.19 1 1 18094 20221025214706
+47.99.92.242 2 2 18136 20221012142907
+173.224.29.177 2 2 18136 20221024062212
+114.96.84.128 1 1 18094 20221015070118
+20.243.202.96 1 1 18094 20221003085519
+185.181.60.12 1 1 18094 20221005175434
+111.231.195.43 1 1 18094 20221002043509
+187.45.56.189 3 24 1695516 20221014084109
+202.164.208.42 2 2 18136 20221012052408
+20.243.249.120 1 1 18094 20221018111625
+137.118.166.164 2 2 18136 20221031014738
+27.115.124.101 0 2 2921 
+59.152.61.12 3 3 36230 20221015171654
+167.99.12.224 2 2 18136 20221021005707
+218.78.53.227 2 2 18136 20221007191850
+102.23.247.118 2 2 18136 20221005153559
+114.233.214.125 2 2 18136 20221009165627
+209.124.247.84 2 2 18136 20221024072036
+93.159.230.83 3 3 54282 20221027053725
+14.177.208.204 2 2 18136 20221005183357
+185.56.1.191 2 2 18136 20221023141830
+179.153.20.56 2 23 1698174 20221007173128
+85.206.98.219 5 26 1715758 20221017054139
+94.154.19.226 2 2 18136 20221016151258
+210.61.216.66 1 1 18094 20221007192512
+113.109.55.187 1 1 18094 20221001201316
+193.235.141.177 2 4 39912 20221027125645
+65.21.206.44 1 1 18094 20221024040036
+105.213.102.167 2 2 18136 20221001044710
+117.43.5.231 1 1 18094 20221004010650
+34.211.112.233 1 1 18094 20221011133017
+189.127.31.179 0 1 56079 
+52.88.220.90 1 1 18094 20221027161709
+24.246.193.37 2 2 18136 20221024004941
+41.222.138.210 2 2 18136 20221024120955
+213.171.44.82 2 2 18136 20221028035611
+138.94.92.26 2 2 18136 20221006142510
+149.56.160.231 3 3 54282 20221024122948
+47.103.14.177 6 10 911416 20221022060843
+120.42.148.61 2 2 18136 20221013175024
+208.53.204.36 2 2 18136 20221025224830
+54.151.8.253 0 3 14931 
+49.0.114.254 2 2 18136 20221027112547
+88.247.86.253 2 2 18136 20221018203549
+113.194.40.156 1 1 18094 20221010165728
+103.113.226.1 3 3 54282 20221007162410
+162.250.212.127 2 2 18136 20221030203229
+183.134.73.148 1 1 18094 20221004215532
+35.87.97.76 1 1 18094 20221022204956
+35.74.5.17 2 2 18136 20221001191902
+101.35.116.226 1 1 18094 20221022144719
+8.35.114.141 2 2 18136 20221022091214
+117.74.125.65 2 2 18136 20221012183828
+179.107.52.71 1 1 18094 20221017102408
+85.105.174.32 2 2 18136 20221022143628
+34.220.252.167 1 1 18094 20221031133316
+8.218.134.238 1 1 18094 20221005111034
+137.74.67.162 2 2 18136 20221002033627
+64.71.166.34 1 4 115981 20221024202051
+65.20.187.60 2 2 18136 20221004012640
+47.240.132.144 1 1 18094 20221010065051
+67.205.2.160 2 2 18136 20221012114301
+209.150.244.107 2 2 18136 20221029100050
+45.229.123.21 0 1 56079 
+186.202.163.106 5 5 90470 20221025211435
+111.77.47.144 1 1 18094 20221002165542
+114.96.116.190 3 3 36230 20221010161107
+116.198.202.119 1 1 18094 20221004205941
+175.13.1.49 2 2 18136 20221012192312
+119.23.174.232 1 1 18094 20221011100857
+78.188.90.187 2 2 18136 20221018160625
+68.69.241.63 2 2 18136 20221016170807
+117.239.187.162 1 1 42 20221024113958
+137.118.216.180 2 2 18136 20221031030942
+20.239.65.129 2 2 18136 20221005025322
+109.68.189.22 1 1 18094 20221016210306
+104.200.205.248 2 2 18136 20221019043931
+103.112.253.235 2 2 18136 20221017122734
+61.7.138.77 2 2 18136 20221021231736
+81.68.194.48 2 2 18136 20221010065004
+58.55.134.167 1 1 18094 20221002011423
+138.201.92.34 2 2 18136 20221004193758
+88.250.181.135 2 2 18136 20221018204259
+193.118.55.146 1 1 18094 20221018010356
+203.142.68.210 2 2 18136 20221004061131
+187.87.250.225 1 18 1417151 20221005141033
+197.245.137.51 2 2 18136 20221022110923
+180.180.196.153 2 2 18136 20221010081312
+103.214.112.68 6 6 54408 20221003002540
+181.214.218.74 2 2 18136 20221011042030
+64.20.29.67 2 2 18136 20221023174056
+105.213.116.149 2 2 18136 20221026204751
+136.243.236.52 2 2 18136 20221004053737
+207.190.121.88 2 2 18136 20221029140347
+13.56.224.118 1 2 23071 20221021062122
+49.72.111.228 2 2 18136 20221007002735
+74.206.46.201 2 2 18136 20221020110133
+70.33.16.120 2 2 18136 20221027234229
+103.113.32.118 2 2 18136 20221017111706
+41.218.68.139 2 2 18136 20221027092927
+117.45.139.31 1 1 18094 20221002220938
+18.177.119.59 1 1 18094 20221012112158
+117.43.4.240 1 1 18094 20221005113256
+188.255.238.220 2 2 18136 20221001064001
+240e:3a1:646a:fa90::1 2 2 18136 20221010092519
+138.199.7.231 1 1 18094 20221016010522
+168.205.38.207 0 1 56079 
+189.69.128.254 0 17 0 
+8.36.242.168 2 2 18136 20221022040315
+88.247.236.51 2 2 18136 20221019133144
+175.110.8.242 2 2 18136 20221003200709
+65.154.226.109 1 7 423777 20221025022107
+182.160.127.53 1 1 18094 20221012053811
+79.151.195.136 2 2 18136 20221005160802
+181.143.144.162 2 2 18136 20221018212503
+135.84.28.203 2 2 18136 20221026134234
+110.238.62.111 1 1 18094 20221002015957
+91.235.187.61 2 2 18136 20221012184701
+194.28.56.49 1 1 18094 20221001024227
+117.80.239.189 2 21 1692138 20221012210059
+68.68.230.186 2 2 18136 20221019230035
+199.247.232.234 2 2 18136 20221023050014
+104.203.196.208 2 2 18136 20221022074644
+196.216.43.18 2 2 18136 20221022012825
+149.56.150.248 2 21 1692138 20221024123008
+194.26.192.71 1 1 18094 20221011021059
+159.89.228.253 2 2 18136 20221005203139
+105.27.173.142 2 2 18136 20221030232940
+223.247.198.54 1 1 18094 20221012062555
+3.209.248.24 0 1 7510 
+34.244.219.187 1 1 18094 20221025015226
+216.115.153.78 2 2 18136 20221026041054
+209.141.49.169 1 1 18094 20221007164252
+68.71.254.6 2 2 18136 20221019184750
+209.124.242.82 2 2 18136 20221021231112
+181.214.218.46 2 2 18136 20221003105724
+23.252.186.18 2 2 18136 20221026190822
+129.205.185.136 2 2 18136 20221010163451
+95.174.119.8 2 2 18136 20221005003308
+105.213.67.143 2 2 18136 20221006204939
+188.209.234.167 2 2 18136 20221010051706
+70.37.198.208 2 2 18136 20221025213819
+156.146.63.158 1 1 18094 20221003155951
+34.70.100.57 1 1 18094 20221001201448
+180.92.212.178 2 2 18136 20221004010731
+185.181.60.189 1 1 18094 20221015130339
+34.222.25.22 1 1 18094 20221029132407
+87.249.132.45 2 2 18136 20221006205655
+78.85.110.166 2 2 18136 20221012060308
+24.244.73.228 2 2 18136 20221031060156
+187.60.38.1 2 2 18136 20221010080827
+38.125.94.61 2 2 18136 20221001204022
+77.74.177.119 2 2 36188 20221027063937
+34.219.159.129 0 1 591 
+154.91.170.143 3 3 36230 20221012064655
+212.107.28.82 1 1 18094 20221014091218
+103.82.47.116 1 1 18094 20221030104501
+110.81.250.8 2 2 18136 20221012103916
+64.58.201.111 1 1 18094 20221026211620
+196.15.237.243 2 2 18136 20221014005945
+191.17.219.158 3 23 1694457 20221019142115
+14.18.113.170 2 2 18136 20221004065834
+58.210.95.122 5 44 3386595 20221011035023
+59.91.74.206 2 2 18136 20221003162524
+206.72.44.162 2 2 18136 20221026000957
+186.195.149.80 3 23 1694457 20221027142928
+131.186.60.193 2 2 18136 20221006225133
+182.74.113.59 2 2 18136 20221022035558
+124.223.193.173 1 1 18094 20221021193253
+20.239.48.254 4 4 36272 20221015143247
+216.8.54.196 2 2 18136 20221027180607
+77.79.145.152 2 2 18136 20221002022656
+67.55.202.245 1 1 18094 20221031045321
+202.153.215.36 2 2 18136 20221018222217
+123.200.9.30 2 2 18136 20221012074350
+49.36.120.118 2 2 18136 20221026190256
+74.206.79.111 2 2 18136 20221020121912
+117.247.208.157 2 2 18136 20221016063353
+47.93.97.61 2 2 36188 20221012051347
+182.208.185.42 2 2 18136 20221019234430
+198.46.138.93 1 1 18094 20221023042249
+158.69.0.205 2 2 18136 20221005022448
+134.122.14.215 2 2 18136 20221020112434
+111.73.82.100 2 2 18136 20221003111539
+190.110.56.25 2 2 18136 20221031113209
+98.124.104.75 2 2 18136 20221027095655
+179.55.118.16 4 43 3386138 20221004150221
+183.89.161.44 4 4 36272 20221010101334
+187.44.1.248 2 2 18136 20221018104222
+46.99.210.63 2 2 18136 20221010052515
+207.190.86.223 2 2 18136 20221029191152
+35.217.19.207 1 1 18094 20221026162028
+197.245.35.121 2 2 18136 20221014075309
+72.195.114.184 1 1 18094 20221029175344
+64.246.165.170 1 1 18094 20221017075839
+190.103.157.243 0 2 112158 
+103.113.190.123 1 1 18094 20221022113142
+34.139.96.40 2 4 138055 20221010211616
+207.172.231.31 2 2 18136 20221029221255
+162.246.87.47 2 2 18136 20221027101018
+195.133.18.206 1 1 18094 20221005210551
+207.177.29.245 2 2 18136 20221029014708
+98.143.229.112 2 2 18136 20221029030427
+69.160.160.55 2 21 1692138 20221029022657
+110.238.47.102 1 1 18094 20221004034029
+110.78.157.91 2 2 18136 20221005174150
+51.89.228.207 1 1 18094 20221018000800
+103.192.76.36 2 2 18136 20221014181251
+187.38.250.173 4 24 1694114 20221010145633
+171.5.40.252 2 2 18136 20221015143921
+1.117.95.211 2 2 18136 20221010110711
+207.178.114.81 2 2 18136 20221025141619
+138.19.30.20 2 2 18136 20221013163755
+52.36.186.228 0 1 56079 
+103.135.102.140 2 2 18136 20221022122430
+39.110.218.101 1 1 18094 20221025001352
+137.118.172.138 2 2 18136 20221030032359
+177.180.226.82 0 1 56079 
+101.132.26.206 1 1 18094 20221012030219
+202.51.191.205 5 5 54366 20221031013011
+38.125.89.57 1 1 18094 20221003174715
+10.19.0.15 1 1 18094 20221017070652
+168.0.69.49 0 1 56079 
+207.178.115.104 2 2 18136 20221026004919
+8.219.168.48 6 45 3387052 20221011034609
+69.171.251.118 0 2 103441 
+179.110.111.122 2 22 1694000 20221004110303
+117.176.150.231 1 1 18094 20221021004046
+135.181.134.141 1 1 18094 20221003093354
+39.104.76.33 1 1 18094 20221011103047
+105.213.159.224 2 2 18136 20221011144331
+54.202.93.199 1 1 18094 20221029132439
+114.96.109.223 3 3 36230 20221012061224
+124.223.197.100 1 1 18094 20221006224253
+2a01:390:a:0:250:56ff:feab:643c 4 4 36272 20221005084442
+177.23.127.47 4 4 72376 20221008105126
+36.90.89.123 4 4 36272 20221006124408
+67.43.101.164 2 2 18136 20221025210453
+167.71.171.26 1 1 18094 20221014085806
+109.231.93.93 2 2 18136 20221021152948
+51.222.30.106 2 2 18136 20221007163243
+185.197.75.208 2 2 18136 20221001084940
+104.128.8.254 2 2 18136 20221027023239
+103.199.175.216 2 2 18136 20221021230216
+103.251.219.248 2 2 18136 20221019190441
+130.255.166.79 1 1 18094 20221013224815
+49.70.103.252 2 2 18136 20221005094417
+113.125.62.101 2 2 18136 20221007072924
+103.151.47.22 1 1 18094 20221026230027
+180.180.230.244 4 4 36272 20221013233006
+137.118.162.107 2 2 18136 20221030081207
+113.194.40.98 2 2 18136 20221022081647
+134.236.10.220 2 2 18136 20221023144244
+117.197.43.15 2 2 18136 20221009211857
+183.136.225.44 2 4 43027 20221017123332
+52.226.210.206 1 4 448012 20221011172355
+200.29.109.112 2 2 18136 20221014184221
+207.5.15.99 2 2 18136 20221026140206
+14.226.9.217 6 6 54408 20221009203135
+61.224.77.237 2 2 18136 20221022061008
+212.60.20.15 2 2 18136 20221002020919
+69.163.10.104 2 2 18136 20221017061342
+209.141.33.65 1 1 18094 20221008042112
+59.54.26.147 2 2 18136 20221001200559
+121.181.187.148 2 2 18136 20221023154721
+183.88.191.121 1 1 18094 20221016145118
+10.19.1.228 1 1 18094 20221019070057
+37.19.223.112 2 2 18136 20221017124101
+101.109.26.93 2 2 18136 20221013093006
+180.211.100.210 2 2 18136 20221023153132
+113.161.206.149 2 2 18136 20221018090423
+89.133.95.177 2 2 18136 20221017110751
+117.247.186.93 2 2 18136 20221028055040
+67.199.197.216 2 2 18136 20221030013438
+91.105.104.115 2 2 18136 20221005113318
+189.252.171.20 2 2 18136 20221004213046
+175.178.194.227 2 2 18136 20221022073755
+103.145.255.142 2 2 36188 20221010165404
+71.167.107.155 2 2 18136 20221006214101
+72.46.50.112 2 2 18136 20221024070812
+98.143.230.135 1 1 18094 20221031051417
+201.75.166.238 0 1 56079 
+24.246.209.182 1 1 18094 20221024063223
+35.85.45.44 1 1 18094 20221027161727
+117.43.12.67 2 2 36188 20221003200637
+170.39.68.30 2 2 18136 20221025093120
+81.215.232.77 1 1 18094 20221017023622
+52.25.97.62 1 1 18094 20221018170303
+64.140.130.99 2 18 1594251 20221022073005
+113.195.25.26 2 2 18136 20221012123714
+93.159.230.88 1 1 18094 20221027110105
+95.183.48.98 4 4 36272 20221006014147
+118.136.82.227 2 2 18136 20221007163515
+117.205.131.221 2 2 18136 20221010075203
+187.160.252.226 2 2 18136 20221023003313
+54.174.53.72 1 1 0 20221014110119
+10.19.1.123 1 1 18094 20221015072031
+180.232.151.13 1 1 42 20221030104508
+103.199.210.231 2 2 18136 20221030021537
+201.69.241.95 6 26 1712208 20221013141023
+35.163.225.139 1 1 18094 20221019174304
+35.91.68.69 1 1 18094 20221013133222
+85.110.194.141 1 1 18094 20221017103244
+180.183.36.13 2 2 18136 20221013161407
+2605:6400:20:2261::c3ff 2 2 18136 20221007193816
+177.26.238.216 0 2 112158 
+171.5.0.5 2 2 18136 20221014023917
+201.150.103.83 0 2 112158 
+183.88.132.149 2 2 18136 20221001151712
+187.74.250.173 2 22 1694000 20221010112557
+203.210.85.124 2 2 18136 20221004183206
+49.205.176.25 2 2 18136 20221017122228
+209.150.249.98 2 2 18136 20221028062315
+104.200.204.117 2 2 18136 20221019110842
+223.206.144.29 1 1 18094 20221002214809
+195.3.222.14 1 1 18094 20221011225649
+34.209.213.220 1 1 18094 20221002131259
+101.35.158.175 2 2 18136 20221014002832
+133.242.140.127 1 1 18094 20221025021248
+191.101.209.24 2 2 18136 20221024101443
+208.126.28.228 2 2 18136 20221030052730
+181.189.84.2 0 1 56079 
+176.241.52.179 2 2 18136 20221010150153
+51.68.138.207 2 2 18136 20221012072324
+8.35.114.216 2 2 18136 20221022071904
+185.148.13.191 2 2 18136 20221014065748
+77.38.123.252 2 2 18136 20221019194409
+125.124.32.158 1 1 18094 20221007192801
+114.88.242.43 2 2 18136 20221017105557
+67.213.231.182 2 2 18136 20221030224919
+78.186.207.102 2 2 18136 20221019123128
+217.129.81.193 0 1 56079 
+135.181.142.25 2 2 18136 20221015153853
+202.142.178.114 1 1 18094 20221029114322
+93.180.217.106 2 2 18136 20221017064004
+69.171.251.13 1 4 242963 20221006003905
+103.125.154.102 2 2 18136 20221018161320
+24.246.212.205 2 2 18136 20221024035946
+197.245.137.43 2 2 18136 20221002171554
+187.38.62.156 2 23 1698977 20221010090017
+109.231.80.239 2 2 18136 20221022194029
+207.177.37.154 2 2 18136 20221026031515
+186.220.199.101 3 23 1694457 20221020154803
+59.54.24.233 1 1 18094 20221003162440
+37.187.140.148 2 2 18136 20221005012313
+216.249.236.200 2 2 18136 20221017104333
+185.51.36.185 2 2 18136 20221019233808
+179.27.86.36 2 2 18136 20221004025749
+69.173.163.87 2 2 18136 20221026174110
+5.58.187.240 2 2 18136 20221012012830
+183.89.182.81 2 2 18136 20221005005433
+179.232.208.200 0 2 112158 
+46.21.240.185 2 2 18136 20221001224940
+193.168.220.34 1 1 18094 20221004042555
+74.222.68.21 2 2 18136 20221026010423
+41.242.53.39 2 2 18136 20221018151220
+35.91.96.240 2 2 18136 20221001094537
+125.26.83.61 2 2 18136 20221007151401
+181.214.218.35 2 2 18136 20221017103622
+128.199.191.150 6 6 54408 20221021012147
+41.218.75.217 2 2 18136 20221026123647
+103.146.202.37 1 1 18094 20221003112526
+118.174.3.98 2 2 18136 20221017030538
+45.139.105.64 1 1 18094 20221018222358
+109.191.199.249 1 1 18094 20221014195045
+91.187.121.211 2 2 18136 20221005222205
+199.244.88.229 1 1 18094 20221025104930
+159.192.115.57 2 2 18136 20221029004415
+107.175.1.155 2 2 36188 20221031153018
+8.48.91.177 2 2 18136 20221023162515
+125.26.5.41 2 2 18136 20221012235213
+125.124.238.117 2 2 18136 20221004192256
+161.97.204.80 2 2 18136 20221017124630
+45.227.187.12 0 1 56079 
+114.88.224.168 1 1 18094 20221002042246
+186.210.124.225 0 1 56079 
+51.178.19.189 2 2 18136 20221009175035
+36.90.88.214 2 2 18136 20221022064529
+102.221.209.106 2 2 18136 20221012090040
+174.64.199.82 2 2 18136 20221012073638
+180.94.64.58 2 2 18136 20221005230540
+78.186.152.70 1 1 42 20221017023623
+35.90.77.207 1 1 18094 20221022204944
+167.248.133.120 2 8 51984 20221001092735
+34.141.7.242 1 1 18094 20221021075953
+207.199.239.31 2 2 18136 20221026012744
+134.35.211.232 2 2 18136 20221001182636
+193.235.141.173 1 2 19956 20221012054151
+177.140.104.66 0 1 56079 
+125.27.6.172 2 2 18136 20221021023506
+103.142.141.91 2 2 18136 20221006012706
+69.4.89.106 1 1 18094 20221025031149
+124.223.202.191 1 1 18094 20221012090015
+15.235.114.125 1 1 18094 20221030155641
+105.213.90.244 2 2 18136 20221022174559
+201.217.150.226 2 2 18136 20221019014642
+46.35.107.236 2 2 18136 20221030052057
+5.189.173.235 1 1 0 20221011032300
+35.89.132.251 1 1 18094 20221018170311
+107.182.210.74 2 2 18136 20221029042007
+139.155.113.156 2 2 18136 20221013235052
+47.88.94.91 2 2 18136 20221027104934
+8.134.50.79 1 1 18094 20221023080427
+201.55.31.160 3 23 1694457 20221021141617
+117.45.139.70 2 2 18136 20221004215555
+24.130.129.245 2 22 1694000 20221005122844
+31.135.109.59 2 2 18151 20221005150048
+114.233.165.173 2 2 18136 20221014012444
+35.88.245.170 1 1 18094 20221009110401
+157.245.147.72 2 2 18136 20221017022709
+5.133.194.4 1 1 18094 20221019202945
+209.150.249.200 2 2 18136 20221028065324
+201.105.50.9 2 2 18136 20221009193146
+116.202.20.41 1 1 18094 20221025125911
+54.218.241.176 1 1 18094 20221019182733
+54.149.105.136 1 1 18094 20221018170230
+178.212.199.95 2 2 18136 20221004064534
+105.213.80.174 1 1 18094 20221008131210
+216.211.156.2 2 2 18136 20221025003108
+195.78.54.135 2 2 18136 20221015051236
+202.164.208.36 2 2 18136 20221009173751
+206.84.227.25 2 2 18136 20221018102031
+137.118.196.87 2 2 18136 20221027103634
+89.191.226.191 1 1 18094 20221001234812
+106.5.209.205 2 2 18136 20221014072806
+110.166.80.204 2 2 18136 20221005074835
+207.182.78.46 2 2 18136 20221023083539
+190.11.116.49 1 1 18094 20221014091818
+167.248.101.139 2 2 18136 20221026043104
+186.201.60.162 0 1 56079 
+112.194.91.192 2 2 18136 20221010064759
+54.218.136.37 1 1 18094 20221002131332
+189.32.209.99 1 5 139937 20221011162433
+117.24.176.147 2 2 18136 20221005234335
+34.220.15.196 1 1 18094 20221022204938
+202.44.228.170 2 2 18136 20221010065743
+159.192.73.203 2 2 18136 20221005231819
+113.31.105.130 6 6 108564 20221021034032
+179.110.146.126 2 21 1692138 20221011080731
+74.213.223.122 2 2 18136 20221023190802
+207.46.13.72 0 2 1182 
+138.68.14.63 2 2 18136 20221011072219
+110.238.60.125 1 1 42 20221002020005
+117.45.139.177 2 2 18136 20221004064555
+176.58.110.67 2 2 18136 20221006220806
+8.46.90.44 2 2 18136 20221030232624
+118.212.51.96 1 1 18094 20221012070310
+182.75.24.234 2 2 18136 20221019141634
+130.255.166.97 1 1 18094 20221029233516
+47.102.207.157 1 1 18094 20221017124607
+212.107.31.98 2 2 18136 20221030134809
+216.169.75.195 1 1 18094 20221022085446
+84.17.47.21 2 2 18136 20221018171921
+116.192.165.229 2 2 18136 20221001220409
+70.37.207.97 2 2 18136 20221026040013
+208.126.173.188 2 2 18136 20221025175041
+113.53.61.11 1 1 18094 20221012071249
+27.159.191.81 2 2 18136 20221008140644
+38.125.97.54 2 2 18136 20221010091707
+124.223.181.47 2 2 18136 20221017112517
+200.204.222.16 0 3 112158 
+188.234.29.32 2 2 18136 20221014024701
+129.126.247.6 2 2 18136 20221017112842
+189.109.37.54 2 2 18136 20221002032524
+167.99.201.224 2 2 18136 20221010023400
+67.43.108.87 2 2 18136 20221030025630
+46.21.24.218 2 2 18136 20221019232532
+140.224.30.4 1 1 18094 20221009194926
+114.219.134.162 1 1 18094 20221021025512
+101.109.251.42 1 1 18094 20221005100756
+199.247.232.121 2 2 18136 20221021143231
+197.234.76.234 2 2 18136 20221022080556
+27.115.124.109 2 37 2836164 20221011034451
+185.38.142.67 6 6 108564 20221002000248
+63.250.50.77 2 2 18136 20221018075155
+137.118.171.240 2 2 18136 20221029012817
+95.214.55.101 3 3 54282 20221013013859
+205.185.122.184 1 1 18094 20221003210349
+35.92.142.252 1 1 18094 20221011133009
+35.161.244.45 1 1 18094 20221018170233
+193.235.141.171 1 2 19956 20221006222613
+78.186.193.136 1 1 18094 20221018112951
+170.80.81.66 0 1 56079 
+187.18.180.109 0 1 56079 
+101.109.80.128 1 1 18094 20221015131434
+104.128.8.185 2 2 18136 20221027102928
+104.128.9.124 2 2 18136 20221028061327
+35.211.184.6 1 1 18094 20221026162016
+114.79.147.205 1 1 18094 20221020013923
+76.79.165.196 2 2 18136 20221017104958
+202.164.210.1 2 2 18136 20221005112305
+76.86.38.150 2 2 18136 20221017095112
+188.191.164.55 2 2 18136 20221010062827
+69.161.204.242 2 2 18136 20221018114303
+216.235.99.213 2 2 18136 20221019011736
+35.89.23.192 1 1 18094 20221012172014
+24.185.7.221 1 1 18094 20221017125926
+69.171.251.18 0 4 115696 
+116.1.7.245 1 1 18094 20221005203054
+118.172.46.176 2 2 18136 20221020002321
+104.219.152.176 2 2 18136 20221025045117
+185.36.81.23 2 2 36188 20221017145951
+110.238.54.35 2 2 18136 20221022063558
+171.5.86.69 2 2 18136 20221020141929
+27.159.190.99 1 1 18094 20221007054143
+216.241.196.69 2 2 18136 20221021123455
+44.211.57.202 1 1 18094 20221028174536
+27.115.124.70 0 1 1059 
+168.228.95.13 2 23 1750079 20221006195522
+184.178.172.11 2 2 18136 20221019004122
+129.205.176.14 2 2 18136 20221030213213
+183.253.80.96 1 3 20050 20221006185427
+118.212.51.204 2 2 18136 20221012065503
+136.228.162.179 2 2 18136 20221012053318
+54.176.205.175 0 1 4977 
+117.43.12.188 1 1 18094 20221010064920
+101.68.211.2 2 4 46142 20221019200138
+59.152.60.28 2 2 18136 20221019183755
+111.172.243.139 2 2 18136 20221024210800
+185.81.157.168 1 1 18094 20221031173233
+8.210.59.109 4 4 36272 20221015111354
+209.141.34.187 2 2 36188 20221003205456
+51.68.50.41 6 6 54408 20221005032902
+206.72.38.250 2 2 18136 20221026014739
+173.224.38.31 2 2 18136 20221024104225
+111.73.83.86 1 1 18094 20221012112125
+113.194.41.79 2 2 18136 20221011100936
+216.8.58.111 2 2 18136 20221026002319
+84.17.52.2 2 2 18158 20221004145441
+2607:5300:203:29a3:: 1 1 18094 20221013024906
+118.184.179.72 2 2 36188 20221003054941
+94.41.40.198 2 2 18136 20221022103821
+157.245.77.149 2 2 18136 20221026135157
+52.226.227.211 4 6 347175 20221030145519
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20221001 85 133 3439663 46
+20221002 89 111 2820743 52
+20221003 47 67 2335390 31
+20221004 79 162 7733825 43
+20221005 112 194 8393818 64
+20221006 67 113 4197575 41
+20221007 50 73 2335814 31
+20221008 39 41 531408 21
+20221009 44 65 2239247 28
+20221010 106 172 6372270 58
+20221011 61 246 15533792 34
+20221012 95 122 3719065 53
+20221013 45 88 3968297 25
+20221014 80 147 6132736 44
+20221015 42 49 1514413 25
+20221016 30 32 456406 19
+20221017 95 119 2758558 56
+20221018 59 59 652350 36
+20221019 79 101 2519943 43
+20221020 39 59 2147227 22
+20221021 93 181 8158292 45
+20221022 116 209 8319642 60
+20221023 51 51 507598 28
+20221024 66 88 2478719 35
+20221025 77 159 7814463 45
+20221026 88 108 2582575 50
+20221027 99 213 7077070 46
+20221028 27 28 327951 16
+20221029 86 167 7776515 47
+20221030 75 76 756334 41
+20221031 48 52 749840 28
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 5
+0s-30s 1181
+2mn-5mn 8
+15mn-30mn 2
+30s-2mn 16
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 5
+/ 1332 23884080 1205 416
+/scripts/feedback.php 763 32485 5 753
+/img/intro-bg-grid.svg 50 9400 3 27
+/img/favicon/site.webmanifest 21 8683 0 15
+/img/favicon/safari-pinned-tab.svg 3 2148 0 2
+END_SIDER

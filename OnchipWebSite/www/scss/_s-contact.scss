@@ -1,0 +1,126 @@
+#s-contact {
+
+	@media (min-width: $mq-lg) {
+		flex-flow: row nowrap;
+	}
+
+	#contact-info {
+		width: 100%;
+		display: flex;
+		flex-flow: column;
+
+		@media (min-width: $mq-lg) {
+			width: 30%;
+			align-items: center;
+		}
+
+		.title {
+			text-align: center;
+		}
+
+
+		&>img:first-of-type {
+
+			@media (min-width: $mq-md) {
+				width: 70%;
+				margin: 0 auto;
+			}
+
+			@media (min-width: $mq-lg) {
+				order: 2;
+				width: 100%;
+			}
+
+		}
+
+		address {
+			text-align: left;
+
+			@media (min-width: $mq-lg) {
+				order: 1;
+			}
+
+			p {
+				display: flex;
+				flex-flow: row nowrap;
+
+				i {
+					margin-right: 1rem;
+					color: $color-2;
+				}
+
+				.fa-whatsapp {
+					font-size: 18px;
+					color: $color-4;
+				}
+
+			}
+
+		}
+
+	}
+
+
+	%input-form {
+		width: 100%;
+		border-radius: 5px;
+		border: 1px solid $color-5;
+		padding: 1rem;
+		margin: 5px 0 16px 0;
+		color: $color-3;
+	}
+
+	#contact {
+		margin-top: 50px;
+		text-align: left;
+
+		@media (min-width: $mq-lg) {
+			width: 70%;
+		}
+
+		h3 {
+			color: $color-2;
+		}
+
+		label span {
+			color: $color-6;
+		}
+
+		input {
+			@extend %input-form;
+			line-height: 1rem;
+		}
+
+		textarea {
+			@extend %input-form;
+			height: 200px;
+		}
+
+		button {
+			border-radius: 5px;
+			border: 1px solid $color-1;
+			background: none;
+			padding: 0.5rem;
+			color: $color-1;
+			float: right;
+			box-shadow: 0 2px 3px rgba(0, 0, 0, .3);
+			cursor: pointer;
+			outline: none;
+		}
+
+		button:hover,
+		button:active,
+		button:focus {
+			background: $color-3;
+			color: $color-5;
+			outline: none;
+		}
+
+		button:active {
+			box-shadow: none;
+			transform: translateY(2px)
+		}
+
+	}
+
+}

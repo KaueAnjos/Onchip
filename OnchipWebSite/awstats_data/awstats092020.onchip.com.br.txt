@@ -1,0 +1,1016 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 202009 will be lost/reset.
+# Last config file used to build this data file was /home/web167/awstats/conf/awstats.onchip.com.br.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 29
+POS_GENERAL 2038                
+POS_TIME 2717                
+POS_VISITOR 20365               
+POS_DAY 31455               
+POS_DOMAIN 3559                
+POS_LOGIN 3792                
+POS_ROBOT 3947                
+POS_WORMS 4312                
+POS_EMAILSENDER 4443                
+POS_EMAILRECEIVER 4586                
+POS_SESSION 32259               
+POS_SIDER 32450               
+POS_FILETYPES 4721                
+POS_OS 4902                
+POS_BROWSER 5077                
+POS_SCREENSIZE 6925                
+POS_UNKNOWNREFERER 6999                
+POS_UNKNOWNREFERERBROWSER 7406                
+POS_ORIGIN 7659                
+POS_SEREFERRALS 7803                
+POS_PAGEREFS 7961                
+POS_SEARCHWORDS 8469                
+POS_KEYWORDS 8635                
+POS_MISC 2381                
+POS_ERRORS 8708                
+POS_CLUSTER 3648                
+POS_SIDER_404 8821                
+POS_EXTRA_1 18630               
+POS_EXTRA_2 18872               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20201001003051 50 10636 10780106709849
+FirstTime 20200901004156
+LastTime 20200930210157
+LastUpdate 20201001012902 50 0 49 0 0
+TotalVisits 273                 
+TotalUnique 210                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 315                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 11 34 2064935 21 39 199820
+1 13 19 378966 28 32 411535
+2 15 77 5344675 28 32 296922
+3 19 92 5552216 13 35 844105
+4 20 81 5343009 15 22 311051
+5 15 53 3583164 88 93 406420
+6 11 36 2034678 13 16 240307
+7 3 5 166440 23 25 180976
+8 16 78 5127785 36 36 217534
+9 26 147 9465017 41 49 109239
+10 11 77 4419193 26 43 1544769
+11 13 75 2943180 24 31 380500
+12 18 65 3038570 33 37 170690
+13 23 102 6075502 33 36 133463
+14 18 75 4287289 22 39 163478
+15 10 46 1226464 30 31 259127
+16 51 168 10007704 19 40 270311
+17 18 86 4008835 59 70 232540
+18 10 43 2260422 19 24 247453
+19 16 80 5273080 16 38 323971
+20 22 121 6934003 48 49 236111
+21 11 68 4327351 45 68 600170
+22 12 56 3794964 61 101 3581905
+23 15 56 3606812 24 75 1442433
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 397 1740 101264254
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+googlebot 245 6623882 20200930174318 0
+bot[\s_+:,\.\;\/\\-] 55 2158531 20200930221052 0
+phantom 42 3384276 20200922224852 0
+no_user_agent 13 235222 20200930195632 0
+python 12 217128 20200926214613 0
+netcraft 3 54282 20200907164349 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 84 1916480 0 0
+php 347 5411742 0 0
+png 787 77897555 0 0
+jpg 223 8296675 0 0
+js 249 7733073 0 0
+Unknown 3 457 0 0
+svg 47 8272 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 12
+blackberry 1
+linuxandroid 197
+macintosh 1
+winxp 9
+winlong 1
+win2000 1
+winnt 797
+winvista 70
+linux 198
+macosx 95
+Unknown 92
+win2008 278
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 93
+msie6.0 2
+firefox57.0 22
+firefox28.0 2
+chrome84.0.4147.89 1
+safari10.1.2 1
+chrome84.0.4147.125 1
+msie4.01 1
+chrome39.0.2171.95 1
+chrome81.0.4044.129 14
+chrome85.0.4183.121 125
+curl 1
+chrome83.0.4103.97 1
+chrome58.0.3029.110 8
+chrome63.0.3239.84 2
+chrome85.0.4183.81 26
+msie8.0 1
+chrome64.0.3282.167 1
+chrome84.0.4147.135 3
+chrome85.0.4183.127 1
+firefox59.0 1
+msie7.0 25
+chrome50.0.2661.102 9
+chrome76.0.3809.71 42
+chrome80.0.3987.0 84
+chrome70.0.3538.102 2
+chrome66.0.3359.181 3
+chrome77.0.3835.0 5
+safari13.0.1 21
+chrome49.0.2623.112 1
+chrome85.0.4183.101 29
+chrome78.26.10.1974 1
+chrome65.0.3325.181 37
+firefox50.0 1
+chrome41.0.2224.3 1
+firefox53.0 1
+chrome76.0.3809.132 2
+chrome66.0.3359.117 4
+chrome68.0.3440.106 6
+firefox77.0 1
+chrome63.0.3239.132 4
+chrome49.0.2623.75 3
+chrome69.0.3947.100 21
+chrome51.0.2704.103 1
+chrome36.0.1985.143 42
+mozilla 129
+chrome79.0.3945.136 26
+firefox14.0.1 1
+firefox80.0 4
+chrome35.0.1916.47 2
+chrome73.0.3683.90 1
+chrome40.0.2214.93 1
+safari 42
+chrome67.0.3396.87 8
+safari13.1.2 2
+safari11.0 17
+chrome41.0.2225.0 1
+chrome55.0.2883.91 1
+chrome71.0.3578.98 1
+safari14.0 25
+opera9.80 5
+chrome57.0.2987.108 63
+chrome26.0.1410.65 1
+chrome51.0.2704.84 1
+chrome34.0.1847.116 1
+chrome40.0.2214.85 4
+chrome74.0.3729.169 117
+chrome71.0.3578.99 4
+chrome85.0.4183.83 92
+msie9.0 34
+chrome75.0.3770.142 8
+Unknown 20
+firefox11.0 2
+chrome72.0.3626.109 6
+chrome77.0.3865.90 4
+chrome83.0.4103.96 18
+chrome34.0.1847.114 24
+chrome76.0.3809.100 2
+chrome78.0.3904.108 12
+firefox58.0 2
+chrome85.0.4183.102 403
+chrome36.0.1985.67 2
+chrome80.0.3987.149 9
+chrome79.0.3945.88 1
+chrome45.0.2454.94 3
+chrome61.0.3163.79 1
+chrome67.0.3396.99 5
+firefox81.0 1
+chrome81.0.4044.138 1
+chrome83.0.4103.106 1
+chrome80.0.3987.132 63
+chrome65.0.3325.146 3
+chrome67.0.3396.62 2
+chrome64.0.3282.140 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+WhatsApp/2.20.201.3_A 20200923200207
+\ 20200921200004
+Ruby 20200912181052
+Mozilla/4.0_(compatible;_ms-office;_MSOffice_16) 20200917234034
+Embarcadero_URI_Client/1.0 20200920095803
+Other 20200909180708
+curl/7.70.0 20200916220422
+Go-http-client/1.1 20200930175128
+Mozilla/5.0_(compatible;_Dataprovider.com) 20200927030900
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+WhatsApp/2.20.201.3_A 20200923200207
+Embarcadero_URI_Client/1.0 20200920095803
+\ 20200921200004
+Other 20200909180708
+Ruby 20200912181052
+Go-http-client/1.1 20200930175128
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 217 252
+From1 0 0
+From2 63 160
+From3 16 16
+From4 101 1312
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 63 160
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 8
+https://king.host 4 4
+http://baidu.com 4 4
+http://%20www.onchip.com.br 3 3
+http://ganto.meansung.com/view/21408115/profile/ 1 1
+http://wkz.skfusion.com/view/21408115/profile/ 1 1
+http://www.imdpm.net/blog/21408115/how-to-increase-blog-traffic-fast/ 1 1
+http://www.tristablog.online/blog/21408115/view/ 1 1
+http://fji.lightenupnh.org/view/21408115/profile/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+semalt.com 33
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+semalt.com 33
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+403 37 7336
+206 7 122793
+404 638 1380
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 252
+/phpMyAdmin/index.php 2 -
+/blog/wp-includes/wlwmanifest.xml 8 -
+/wordpress/ 6 -
+/api/.env 1 -
+/sftp-config.json 1 -
+/ftpsync.settings 1 -
+/.well-known/pki-validation/174FF65270E968919B419C56E02DDF1B.txt 1 -
+/.well-known/pki-validation/F173C99831016F808BCDE2B0E357F71B.txt 1 -
+/web/wp-login.php 1 -
+/wp-admin/install.php 1 -
+/site/wp-includes/wlwmanifest.xml 9 -
+/htadmin/login.php 1 -
+/laravel/.env 1 -
+/sftp-config-alt.json.save 1 -
+/ftpsync.settings~ 1 -
+/bak/ 1 -
+/new-site/ 1 -
+/.well-known/pki-validation/80F485E03B2B3F2A522796724A39A024.txt 1 -
+/web/ 1 -
+/.well-known/pki-validation/FEB3206F05BCEB38316AD9AF60EC18E5.txt 1 -
+/joomla/robots.txt 4 -
+/install/ 1 -
+/2019/wp-includes/wlwmanifest.xml 8 -
+/blogs/wp-login.php 1 -
+/admindede/login.php 1 -
+/test/wp-includes/wlwmanifest.xml 8 -
+/.well-known/pki-validation/017A5026F958B9AA78D5F7CE7404601F.txt 1 -
+/sitio/wp-login.php 1 -
+/.well-known/pki-validation/66B883468565AC62A8548C004B82A595.txt 1 -
+/.well-known/pki-validation/93C29FABE41CECFE9FD96F333547D261.txt 1 -
+/.well-known/pki-validation/AC7B9D1EDB75A500EF558F65420F69AF.txt 1 -
+/.well-known/pki-validation/197A4B427CB9A85261B504312278D5AD.txt 1 -
+/info/wp-login.php 1 -
+/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-content/plugins/wp-file-manager/lib/files/wFYppo.php 1 -
+/.well-known/pki-validation/5FB81AAC532F7FE95E0C86BD7B6406C7.txt 1 -
+/.well-known/pki-validation/F5E7173860AC619AFA4A389937A72B30.txt 1 -
+/indicador-de-temperatura-e-umidade-oitu-r-p43 4 -
+/press/wp-login.php 1 -
+/test/ 2 -
+/.well-known/pki-validation/642C6EFE838CFD591CF35217A1E71693.txt 1 -
+/2019/ 1 -
+/shop/wp-includes/wlwmanifest.xml 8 -
+/.vscode/sftp.json.save 1 -
+/wp-content/plugins/ioptimization/rppqdavtst.php 2 www.google.com
+/lib/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/sftp-config.json.save 1 -
+/filezilla.xml 1 -
+/sites/wp-login.php 1 -
+/home/wp-login.php 1 -
+/system/.env 1 -
+/joomla/administrator/index.php 4 -
+/wp-login.php 1 -
+/.well-known/pki-validation/5A8AC0ACDF524BF446D571A6D2F5C8B5.txt 1 -
+/wp-content/plugins/ioptimization/IOptimize.php 18 www.google.com
+/faleconosco.php 30 -
+/.well-known/pki-validation/88BC668EAA6A9D08F99ED2AB65A17019.txt 1 -
+/wp-content/plugins/ioptimization/qlvnwfcavh.php 2 www.google.com
+/.well-known/pki-validation/F29070B592B74BB705DBF4C008AFA719.txt 1 -
+/js/common.js 2 http://www.onchip.com.br/js/common.js
+/.well-known/pki-validation/2E6DDB9EFA48E0443A72D39BC2BA1375.txt 1 -
+/wp-content/plugins/wp-file-manager/lib/files/x.php 2 -
+/autodiscover/autodiscover.xml 2 -
+/transmissor-de-temperatura-ott-420-p44 2 -
+/.well-known/pki-validation/1DFC0E55050231A511D9E3F36667589A.txt 1 -
+/sitemanager.xml.save 1 -
+/.well-known/pki-validation/A0D5370CFDA3D446692CFA896FFC7E6F.txt 1 -
+/deployment-config.json~ 1 -
+/.well-known/pki-validation/875D37D2E707CD41D2935855C2070E39.txt 1 -
+/pagina.php 2 -
+/blog/xmlrpc.php 2 -
+/wp-includes/wlwmanifest.xml 9 -
+/.well-known/pki-validation/59C605E81A57DEDF88FFD56A16F82052.txt 1 -
+/wp-admin/admin-ajax.php 1 -
+/public/js/wind.js 1 http://www.onchip.com.br/public/js/wind.js
+/.well-known/pki-validation/476A5B78FD12124C7C11A18ECC73D581.txt 1 -
+/.well-known/pki-validation/4DA64B42CB69C2FCE16858993C1D648A.txt 1 -
+/.well-known/pki-validation/782D2609E07FB9748A01A7AA94472472.txt 1 -
+/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/lib/phpunit/Util/PHP/eval-stdin.php 1 -
+/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 11 -
+/wp-content/plugins/wp-file-manager/js/file_manager_free_shortcode_admin.js 1 -
+/tmp/ 1 -
+/.well-known/pki-validation/8E2F10F65AAAAAEA2DB8A0D361777617.txt 1 -
+/.well-known/pki-validation/D323328D0AAC6F986C85681AE5A725A0.txt 1 -
+/ftpsync.settings.save 1 -
+/shop/.env 1 -
+/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/.ftpconfig.save 1 -
+/ads.txt 8 -
+/blog/administrator/index.php 3 -
+/.well-known/pki-validation/F457091A8759A325FAFF056520334C0F.txt 1 -
+/.ftpconfig~ 1 -
+/.well-known/pki-validation/1661548982F78C59572BB18452E79983.txt 1 -
+/.well-known/pki-validation/AF0197BDF95B0003DCCD438CB0245CB3.txt 1 -
+/v2/ 1 -
+/.well-known/pki-validation/CEA5308872ACB869AF667DC54C7339A1.txt 1 -
+/administrator/index.php 2 -
+/manage/login.php 1 -
+/lib/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/deployment-config.json 1 -
+/js/comm.js 1 http://www.onchip.com.br/js/comm.js
+/wordpress/wp-includes/wlwmanifest.xml 9 -
+/sito/wp-includes/wlwmanifest.xml 8 -
+/.well-known/pki-validation/0D85D1AF81437C40CF66D8E5CDBCF068.txt 1 -
+/old-wp/ 1 -
+/wp-content/plugins/wp-file-manager/lib/files/xxx.php 2 -
+/blog/.env 1 -
+/temp/ 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/test/.env 1 -
+/dev/ 1 -
+/manager/login.php 1 -
+/home/ 1 -
+/.env.save 1 -
+/.vscode/ftp-sync.json 1 -
+/deployment-config.json.save 1 -
+/sitemap.xml 4 -
+/robots.txt 109 -
+/.well-known/pki-validation/E890C74BAF8F22EDF3B9DACC6230D9AE.txt 1 -
+/wp-admin/admin-post.php 1 -
+/vendor/.env 1 -
+/dede/login.php 1 -
+/lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/admin/login.php 1 -
+/new/ 2 -
+/.ftpconfig 1 -
+/wp1/wp-includes/wlwmanifest.xml 8 -
+/wordpress/wp-login.php 1 -
+/include/calendar/calendar-cn.js 1 http://www.onchip.com.br/include/calendar/calendar-cn.js
+/shell.php 1 -
+/sitemanager.xml~ 1 -
+/.well-known/pki-validation/AB362A74550346848D89518D1AEF2016.txt 1 -
+/new/wp-login.php 1 -
+/xxxss 1 -
+/.vscode/ftp-sync.json~ 1 -
+/.well-known/pki-validation/F3B5FB48ECE0DAF0AE1721DE907E7F7D.txt 1 -
+/.well-known/pki-validation/035D3087771FA847B1F30B948A49537D.txt 1 -
+/.well-known/pki-validation/6A8DCFA7FAF6588C1D274131D4D04994.txt 1 -
+/en/wp-login.php 1 -
+/.well-known/pki-validation/D27AC9A3A6F8BC757F8B1B7E63321DF3.txt 1 -
+/.well-known/pki-validation/950BF7B819C2E543C829BA7DDD267DFE.txt 1 -
+/old/ 2 -
+/.well-known/pki-validation/9ABD04B7595F6D0A1EA37E6B9281738B.txt 1 -
+/phpunit/Util/PHP/eval-stdin.php 1 -
+/e/data/js/ajax.js 1 -
+/.well-known/pki-validation/BC0DF1D61B3FBCEE011432965D96CF0B.txt 1 -
+/.well-known/pki-validation/BEE23E6146D407941649A0AEE343CE63.txt 1 -
+/wordpress/xmlrpc.php 2 -
+/main/ 1 -
+/https://onchip.com.br/ 1 -
+/web/wp-includes/wlwmanifest.xml 8 -
+/bk/ 1 -
+/.well-known/pki-validation/435D8371F00CB20B22DAB85E8D42CBE2.txt 1 -
+/.well-known/autoconfig/mail/config-v1.1.xml 1 -
+//wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 -
+/news/wp-includes/wlwmanifest.xml 8 -
+/pma/index.php 2 -
+/.remote-sync.json.save 1 -
+/wp2/ 1 -
+/.well-known/pki-validation/F4E661EBFBB678896ADCE8B3044825A8.txt 1 -
+/.well-known/pki-validation/5F973A15BB8CA3CC9AE0D0969D1BE37C.txt 1 -
+/demo/wp-login.php 1 -
+/wp-content/index.php 4 www.google.com
+/.well-known/pki-validation/85F44D051DA10D43105AC3AFCD95DEC4.txt 1 -
+/.well-known/pki-validation/9711E5D751B6B11C91359DC0A7ED6EBD.txt 1 -
+/.well-known/pki-validation/17186287E42D4B1CA9BC05017178BCB4.txt 1 -
+/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/blog/wp-login.php 1 -
+/.vscode/sftp.json 1 -
+/.well-known/pki-validation/B3ED86A476EA08F7CB1B388440996711.txt 1 -
+/stats.txt 3 -
+/public/.env 1 -
+/wpmu/wp-login.php 1 -
+/site/wp-login.php 1 -
+/admin/ 2 -
+/goto/register 1 -
+/portal/wp-login.php 1 -
+/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/.well-known/pki-validation/F8A28C5AFC0160240E3C7FC6755CD56E.txt 1 -
+/website/wp-includes/wlwmanifest.xml 8 -
+/english/wp-login.php 1 -
+/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/.well-known/pki-validation/A93C948D51E88AEAF774443A6DDEF7F9.txt 1 -
+/sftp-config.json~ 1 -
+/humans.txt 5 -
+/filezilla.xml~ 1 -
+/.filezilla/sitemanager.xml~ 1 -
+/.filezilla/sitemanager.xml 1 -
+/.well-known/assetlinks.json 1 -
+/include/dialog/select_soft_post.php 1 -
+/.remote-sync.json 1 -
+/2018/ 1 -
+/.well-known/pki-validation/D47191409EA4314C2AC7E1D403105587.txt 1 -
+/.well-known/pki-validation/DAA629E23A7AAE74C57C263CECF5C76B.txt 1 -
+/.remote-sync.json~ 1 -
+/wp1/ 1 -
+/sftp-config-alt.json 1 -
+/.well-known/pki-validation/4F5F3C273947F5345F9D84D2EA710F35.txt 1 -
+/data/admin/allowurl.txt 2 -
+/e/admin/index.php 2 http://www.onchip.com.br/e/admin/index.php
+/.well-known/pki-validation/A06425C7C51EB06E0BB465AE8291F0D4.txt 1 -
+/blog/ 6 -
+/admin/.env 1 -
+/.well-known/pki-validation/3ED830B6F8F0E4F8C186C06EE844ADBA.txt 1 -
+/site/ 1 -
+/config/AspCms_config.asp 1 -
+/.env~ 1 -
+/.filezilla/sitemanager.xml.save 1 -
+/.env 18 -
+/wp/ 6 -
+/sites/.env 1 -
+/cms/wp-includes/wlwmanifest.xml 9 -
+/v1/ 1 -
+/2018/wp-includes/wlwmanifest.xml 8 -
+//.env/ 4 -
+/wp-content/plugins/wp-file-manager/lib/files/zQnqVQ.php 1 -
+/wp/wp-login.php 1 -
+/%23s-contact 1 -
+/wp-content/plugins/wp-file-manager/lib/files/bCfOqS.php 1 -
+/.well-known/pki-validation/E09E775B73F238B800E89B37872E33E2.txt 1 -
+/wp-content/plugins/ioptimization/ckfxsuzqcp.php 2 www.google.com
+/2020/ 1 -
+/blog/robots.txt 6 -
+/demo/ 1 -
+/wp/wp-includes/wlwmanifest.xml 8 -
+/.vscode/sftp.json~ 1 -
+/old/wp-login.php 1 -
+/backup/ 1 -
+/public/router.php 1 -
+/media/wp-includes/wlwmanifest.xml 7 -
+/indicador-de-temperatura-e-umidade-oitu-p42 5 -
+/.well-known/pki-validation/AD0753845077F932B82CE8C0084E1C7D.txt 1 -
+/minhaconta.php 1 -
+/cms/ 1 -
+/.vscode/ftp-sync.json.save 1 -
+/index.php 5 -
+/.well-known/pki-validation/37532D972845C10D9FA1B4D800888DF2.txt 1 -
+/.well-known/pki-validation/4884BC1E7A1C28572C4CCA583D905B3A.txt 1 -
+/news/wp-login.php 1 -
+/wp-content/plugins/wp-file-manager/lib/files/SSwbaN.php 1 -
+/wp-content/plugins/ioptimization/bkjxromwqz.php 2 www.google.com
+/phpmyadmin/index.php 1 -
+/sftp-config-alt.json~ 1 -
+/sitemanager.xml 1 -
+/old-site/ 1 -
+/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/includes/system/ 1 -
+/.well-known/pki-validation/B41E6B9334A7FC52125EBBDAD03AC987.txt 1 -
+/.well-known/pki-validation/412B0388A712828EC0B4BC4E7B49FE5E.txt 1 -
+/filezilla.xml.save 1 -
+/wp2/wp-includes/wlwmanifest.xml 8 -
+END_SIDER_404
+
+# Extra key - Pages - Hits - Bandwidth - Last access
+# The 100 first number of hits are first
+BEGIN_EXTRA_1 4
+/ 4 4 14023 
+/img/products/ott420-01.png 0 1 70374 
+/css/style.css 0 1 1728 
+/img/intro-bg-circuit-cyan.png 0 1 36668 
+END_EXTRA_1
+
+# Extra key - Pages - Hits - Bandwidth - Last access
+# The 100 first number of hits are first
+BEGIN_EXTRA_2 32
+/ 542 542 9390786 
+/img/intro-bg-grid.svg 56 56 10340 
+/scripts/feedback.php 31 31 1572 
+// 4 4 72376 
+/img/favicon/site.webmanifest 3 3 457 
+/img/favicon/safari-pinned-tab.svg 2 2 0 
+//scripts/feedback.php 1 1 64 
+/img/favicon/favicon-32x32.png 0 30 53998 
+/img/products/ott420mi-03.jpg 0 63 2492455 
+/img/pcb-layer-cyan.png 0 52 3251934 
+/scripts/main.min.js 0 93 52599 
+/img/contact.jpg 0 61 4589530 
+/img/about-pcb-cyan.png 0 60 36351728 
+/img/favicon/favicon-16x16.png 0 2 2118 
+/img/products/ott42md2-01.png 0 65 5810433 
+/scripts/jquery.min.js 0 93 8537859 
+/img/products/ott420mi-02.jpg 0 63 770068 
+/img/products/ott420-01.png 0 68 5746176 
+/img/products/ott420mi-01.png 0 65 8256472 
+/img/products/ott42md2-02.jpg 0 60 1342712 
+/img/products/ott10md3-01.png 0 62 3011937 
+/scripts/grid-expander.min.js 0 92 120120 
+/img/about-pcb-02.png 0 5 0 
+/img/logo-onchip-c02.png 0 72 510680 
+/css/style.css 0 93 2132084 
+/img/favicon/apple-touch-icon.png 0 8 39816 
+/img/about-pcb-03.png 0 1 96641 
+/img/logo-onchip-a02.png 0 68 908096 
+/img/round-circle.png 0 68 918272 
+/img/about-pcb-04.png 0 4 0 
+/img/intro-bg-circuit-cyan.png 0 171 9253035 
+/img/products-header.png 0 52 10213217 
+END_EXTRA_2
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 315
+186.202.173.147 30 30 542820 20200930162449
+186.220.36.30 11 130 9049818 20200916141711
+10.17.50.42 8 84 6768552 20200930195633
+18.144.87.32 8 8 36188 20200914044240
+34.75.77.120 6 18 419982 20200911013032
+5.189.148.90 6 63 5076414 20200926045019
+156.146.63.185 6 6 72460 20200918135106
+131.161.105.250 6 48 3395296 20200904202036
+179.209.106.154 5 25 1694171 20200914183349
+3.81.245.94 5 5 90470 20200921200004
+40.114.109.210 1 1 18094 20200921212644
+107.6.169.250 1 1 18094 20200919233613
+45.162.54.239 0 1 56079 
+45.232.91.220 1 12 470251 20200929150127
+89.36.76.170 3 3 36230 20200920085714
+171.13.14.59 0 1 7510 
+187.15.43.29 0 1 56079 
+45.168.51.40 0 1 56079 
+185.46.8.135 1 1 0 20200903090805
+186.225.47.74 0 1 56079 
+3.237.16.66 2 2 36188 20200921132628
+179.233.139.35 0 1 56079 
+3.120.238.169 1 1 18094 20200922075607
+89.187.168.167 2 2 18136 20200928131655
+177.65.228.102 4 46 3445138 20200918163925
+13.90.32.15 1 1 18094 20200930092550
+54.218.149.172 1 1 18094 20200926161107
+187.16.181.202 1 1 18094 20200920095803
+191.163.110.136 2 22 1694000 20200911133121
+192.71.36.158 1 1 18094 20200925154300
+51.158.153.221 1 1 18094 20200903015912
+112.78.179.20 1 1 18094 20200918235239
+51.222.43.122 3 3 54282 20200906190241
+207.46.13.109 0 1 591 
+176.235.139.38 1 1 18094 20200916173112
+168.151.210.131 1 1 18094 20200920172719
+189.92.247.7 0 1 56079 
+38.124.194.134 1 1 18094 20200921200850
+178.238.227.87 1 1 18094 20200916154820
+34.75.207.146 2 6 139994 20200928205138
+34.67.181.17 2 2 36188 20200901035654
+177.228.171.131 1 7 223960 20200908122505
+168.205.101.23 2 6 139994 20200921112031
+143.202.130.58 0 1 56079 
+13.57.50.245 1 1 18094 20200915234027
+187.24.227.149 0 1 56079 
+104.197.22.134 1 1 18094 20200909015626
+191.241.247.150 0 1 56079 
+168.195.147.37 0 1 56079 
+10.17.51.238 1 1 18094 20200918134203
+132.255.213.14 0 1 56079 
+187.3.109.197 0 1 56079 
+191.37.70.164 0 3 168237 
+3.101.111.27 1 1 18094 20200915233950
+199.30.228.131 1 7 430074 20200928021801
+51.178.50.61 4 4 36302 20200927010057
+69.175.97.170 1 1 18094 20200923231312
+150.107.25.14 1 1 18094 20200916132059
+168.196.195.133 0 1 56079 
+52.188.1.49 1 1 18094 20200925080210
+167.71.158.134 1 1 18094 20200923140417
+54.144.139.219 1 1 18094 20200923094618
+36.75.191.37 1 13 512496 20200921213734
+179.85.104.8 0 1 56079 
+177.125.240.114 0 1 56079 
+77.77.216.42 1 7 223960 20200912091400
+45.163.112.6 1 20 1691950 20200914211034
+46.40.221.86 1 1 18094 20200923234700
+89.187.168.141 2 2 18136 20200901052624
+45.76.243.172 1 1 18094 20200913024327
+138.121.138.246 0 1 56079 
+179.234.137.209 0 1 56079 
+84.17.48.43 2 2 18136 20200922010639
+181.99.46.165 1 18 1417151 20200924190413
+13.65.46.246 3 3 54282 20200912190019
+179.109.39.111 0 1 56079 
+154.16.101.192 1 1 18094 20200913113304
+189.47.98.57 2 22 1694000 20200903090424
+45.228.111.238 0 1 56079 
+51.222.43.123 3 3 54282 20200909221820
+184.94.240.92 1 1 18094 20200912054347
+124.120.67.7 1 1 18094 20200910012456
+18.237.94.112 2 2 36188 20200918150958
+175.44.42.33 1 1 18094 20200917082749
+185.216.195.194 3 3 36230 20200907092755
+51.178.60.145 2 2 18158 20200907065529
+10.17.51.57 1 1 18094 20200921053530
+177.104.118.142 0 1 56079 
+74.91.23.74 1 1 18094 20200911053645
+167.249.111.248 0 1 56079 
+77.74.177.113 1 1 18094 20200914053133
+103.83.223.184 1 20 1691950 20200914062204
+65.154.226.109 2 21 1692138 20200926023236
+177.36.14.223 0 1 56079 
+46.119.172.173 3 3 54282 20200915033234
+177.75.12.189 0 1 56079 
+157.55.39.229 0 1 95931 
+95.217.207.28 1 1 18094 20200901173034
+187.121.103.121 0 1 56079 
+156.146.63.148 2 2 18136 20200911084936
+186.209.77.37 0 1 56079 
+34.75.199.144 4 12 279988 20200917025916
+27.115.124.6 2 30 1918439 20200924235120
+54.213.245.188 1 1 18094 20200930055850
+198.71.60.180 1 1 18094 20200907180118
+138.36.3.164 2 22 1694000 20200914165515
+216.98.214.20 0 2 112158 
+177.201.142.70 0 1 56079 
+78.180.50.107 1 1 18094 20200916155956
+52.37.103.140 1 1 18094 20200918162935
+107.6.183.226 2 2 36188 20200920035103
+45.127.134.93 3 3 54282 20200918214706
+3.95.247.26 0 1 7510 
+45.179.37.177 0 1 56079 
+192.71.126.175 1 1 18094 20200929055816
+46.45.185.167 1 1 18094 20200910045647
+190.237.181.147 1 1 18094 20200909134637
+31.171.152.135 2 2 18136 20200917170040
+181.46.137.227 1 12 533839 20200910111804
+131.72.98.130 0 1 56079 
+88.241.35.45 1 1 18094 20200916090150
+95.111.245.169 2 2 18136 20200915203102
+45.169.229.242 0 2 112158 
+183.253.80.110 1 1 18094 20200907102145
+187.36.11.34 0 1 56079 
+51.77.129.167 4 42 3384276 20200909231400
+201.26.186.140 0 1 56079 
+185.210.217.249 2 2 18136 20200914191317
+51.222.44.145 3 3 54282 20200925043725
+138.197.141.201 1 1 0 20200905022849
+13.78.140.29 2 2 36188 20200924175528
+186.225.48.218 0 1 56079 
+170.0.174.200 0 1 56079 
+187.60.158.242 2 41 1694000 20200925121648
+171.13.14.84 1 5 215930 20200922030812
+177.131.63.153 0 1 56079 
+45.232.214.14 0 1 56079 
+103.78.114.89 1 1 18094 20200923113912
+199.30.228.129 0 4 123136 
+42.236.10.75 0 1 14189 
+40.117.169.155 3 3 54282 20200907145222
+41.220.201.254 1 1 18094 20200903172917
+179.208.84.102 4 25 1713956 20200911090146
+200.150.96.234 0 1 56079 
+44.234.186.35 1 1 18094 20200911130633
+18.183.178.0 2 2 36188 20200926004810
+45.137.22.44 2 2 36188 20200930165531
+3.87.65.70 1 2 19956 20200918165841
+42.236.10.78 2 13 1113387 20200929121526
+187.39.115.76 0 1 56079 
+179.124.194.41 1 1 0 20200916220422
+156.146.63.174 1 1 18094 20200911125225
+49.49.240.167 1 1 18094 20200919104934
+91.241.19.182 1 1 18094 20200914044251
+177.18.17.29 0 1 56079 
+143.255.197.250 3 24 1716268 20200922170751
+10.7.13.50 1 1 18094 20200921053207
+50.3.177.120 1 1 18094 20200926032548
+2001:4ca0:108:42::15 4 4 0 20200927140251
+177.193.164.228 0 1 56079 
+170.80.70.187 1 1 18094 20200908161637
+154.179.39.7 1 1 18094 20200912113615
+187.84.249.70 2 22 1694000 20200922095837
+138.197.140.187 1 1 0 20200905022849
+171.13.14.53 0 4 222681 
+104.236.57.129 1 5 139937 20200904135331
+45.238.245.76 2 22 1694000 20200925094746
+138.197.0.219 1 5 139937 20200909185345
+201.56.123.242 2 23 13052 20200904100257
+54.245.140.136 2 2 36188 20200904174311
+181.213.0.168 0 1 56079 
+178.62.74.6 1 1 18094 20200913191020
+34.222.244.182 1 1 18094 20200918162623
+66.249.85.85 0 1 56079 
+104.236.99.28 1 4 115981 20200915221347
+54.219.30.131 1 2 23071 20200912181050
+199.244.88.132 2 2 36188 20200930210157
+189.82.179.250 0 1 56079 
+103.121.18.28 1 1 18094 20200909031712
+187.17.173.153 0 1 56079 
+177.205.64.150 0 1 56079 
+201.62.51.61 0 1 56079 
+180.254.191.32 1 1 18094 20200915120916
+181.213.103.69 2 2 36188 20200913060439
+192.71.224.240 1 1 18094 20200904005038
+177.81.236.151 1 5 139937 20200918160354
+177.43.145.67 2 23 1750079 20200915004516
+51.91.218.48 2 21 1692138 20200927030900
+34.223.82.66 2 21 1692138 20200926105552
+177.87.220.227 0 1 56079 
+173.234.153.92 2 2 18151 20200915114505
+138.197.148.246 1 1 0 20200905022849
+138.117.36.86 0 1 56079 
+189.6.20.62 0 1 56079 
+64.246.165.170 1 1 18094 20200922002500
+138.197.70.189 1 4 115981 20200928174814
+159.89.35.122 1 5 139937 20200922093045
+203.218.40.49 2 21 1692138 20200924055521
+138.0.145.125 0 1 56079 
+98.202.178.55 0 1 56079 
+159.89.176.231 1 5 139937 20200915140944
+13.56.138.128 1 1 18094 20200909180708
+189.6.246.6 0 1 0 
+54.198.241.106 1 1 18094 20200913124850
+200.186.148.42 1 18 1417151 20200911081630
+186.230.37.65 0 1 56079 
+177.69.39.48 0 1 56079 
+171.13.14.83 0 2 110279 
+3.136.154.189 3 8 177987 20200915030954
+52.240.53.155 3 3 54282 20200907232616
+110.136.33.205 1 1 18094 20200901004156
+177.170.126.27 0 1 56079 
+191.137.127.249 2 23 1750079 20200928165118
+52.231.204.130 2 2 36188 20200911095739
+177.141.42.181 2 22 1694000 20200918112848
+168.0.233.195 0 1 56079 
+177.37.190.145 2 18 887119 20200913203455
+177.195.41.67 0 1 56079 
+177.47.34.194 0 1 56079 
+180.253.16.105 1 20 1691950 20200922051439
+138.36.36.179 0 1 56079 
+45.180.216.18 0 1 56079 
+199.30.228.133 0 4 711945 
+175.44.42.181 1 1 18094 20200930174023
+176.31.244.49 1 1 18094 20200926204612
+201.65.185.244 0 1 56079 
+35.231.242.147 2 6 139994 20200919132521
+179.162.179.61 0 1 56079 
+179.105.79.67 0 1 56079 
+159.65.45.211 1 5 139937 20200929085953
+41.100.236.232 1 1 18094 20200911222148
+201.150.121.225 0 1 56079 
+148.0.40.149 1 7 223960 20200902094350
+45.230.24.182 0 1 56079 
+36.74.143.67 1 1 18094 20200929084137
+167.249.169.226 0 1 56079 
+179.154.254.105 0 1 56079 
+171.13.14.39 1 5 128355 20200922030809
+118.96.134.166 1 1 18094 20200903081721
+54.218.245.128 1 1 18094 20200907110229
+45.233.189.139 0 1 56079 
+44.234.66.27 1 1 18094 20200911130538
+189.54.220.202 0 1 56079 
+124.253.179.49 1 1 18094 20200922010802
+201.80.56.220 0 1 56079 
+189.121.191.33 2 22 1694000 20200915090947
+189.106.133.213 0 1 56079 
+156.146.36.87 1 1 18094 20200916112422
+8.208.96.152 1 1 18094 20200924055654
+37.120.217.43 2 2 18136 20200904123012
+186.250.252.22 0 1 56079 
+167.99.56.172 1 4 115981 20200903212649
+185.200.117.173 3 3 54282 20200915231606
+195.210.121.65 1 1 18094 20200928051453
+54.242.55.139 1 1 18094 20200911204151
+181.214.187.180 2 21 1692138 20200927214315
+209.184.210.51 1 1 18094 20200913135727
+34.75.245.132 4 12 279988 20200923122252
+70.42.131.189 2 21 1692138 20200926021002
+45.189.177.111 0 1 56079 
+45.168.155.46 0 2 112158 
+95.217.121.163 2 2 36188 20200914165330
+13.56.236.106 1 5 139937 20200914044237
+170.150.229.216 0 1 56079 
+201.150.151.42 0 2 112158 
+199.30.228.128 0 3 317875 
+80.82.64.229 1 1 18094 20200906204612
+134.19.181.29 1 20 1691950 20200922224853
+183.253.80.93 1 1 18094 20200905002610
+10.17.51.216 1 1 18094 20200919052604
+201.43.67.207 3 42 1968987 20200918155836
+187.34.72.29 0 2 112158 
+191.33.3.183 2 23 1750079 20200911132540
+27.115.124.70 0 6 915863 
+175.142.115.251 1 1 18094 20200903035410
+167.250.31.30 0 1 56079 
+179.106.181.226 0 1 56079 
+5.188.210.18 1 1 18094 20200911145456
+179.83.181.130 1 1 18094 20200913181431
+191.54.208.8 0 1 56079 
+42.236.10.93 1 11 417792 20200922030621
+176.217.219.73 1 1 18094 20200917172205
+54.176.205.175 0 2 9954 
+192.71.10.105 1 1 18094 20200910092337
+89.187.168.152 2 2 18136 20200902122830
+157.55.39.214 0 1 1365 
+115.79.226.232 1 1 18094 20200907144937
+175.44.42.36 1 1 18094 20200923120651
+191.189.13.22 0 1 56079 
+185.101.203.44 1 1 18094 20200906082221
+189.82.31.219 0 1 56079 
+42.236.10.84 0 2 231283 
+40.84.215.198 1 1 18094 20200910220349
+199.30.228.130 0 2 108920 
+177.10.253.92 0 1 56079 
+192.71.38.71 1 1 18094 20200918060058
+52.59.253.138 1 1 18094 20200922110104
+177.158.247.223 2 23 1750079 20200922205151
+107.150.59.82 1 1 18094 20200919160636
+80.239.140.67 1 1 18094 20200908122217
+179.220.140.59 0 2 112158 
+104.131.0.47 2 2 36188 20200927090538
+177.79.58.230 0 1 56079 
+144.217.190.197 3 3 54282 20200917004044
+93.119.227.34 1 1 18094 20200926022956
+189.40.89.170 0 1 0 
+187.1.0.20 0 1 56079 
+62.4.14.198 1 1 18094 20200927101832
+54.187.98.252 2 2 36188 20200918193059
+34.73.8.148 5 17 419925 20200905195546
+201.1.129.194 0 1 56079 
+51.159.18.103 1 1 18094 20200929020710
+142.93.157.53 1 1 0 20200905022848
+66.249.85.81 0 1 56079 
+35.238.212.64 2 2 36188 20200901223822
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20200901 12 20 527198 9
+20200902 6 16 400184 4
+20200903 12 58 3670580 10
+20200904 16 91 4021962 8
+20200905 7 15 344362 7
+20200906 9 30 1912860 6
+20200907 17 20 439753 10
+20200908 7 19 548488 6
+20200909 13 44 2341137 9
+20200910 6 22 904704 6
+20200911 23 111 7194651 16
+20200912 9 18 434745 7
+20200913 12 31 1169633 11
+20200914 29 159 9171191 13
+20200915 28 120 8130363 16
+20200916 12 54 3681033 9
+20200917 13 22 583319 7
+20200918 27 134 7595549 18
+20200919 8 15 398701 7
+20200920 7 7 108606 5
+20200921 13 40 1273710 10
+20200922 22 176 12368114 17
+20200923 11 44 2519580 9
+20200924 9 65 4785147 7
+20200925 10 77 3945196 6
+20200926 19 133 10279486 10
+20200927 12 51 3530939 7
+20200928 10 60 3920565 7
+20200929 10 55 2976424 9
+20200930 8 33 2086074 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 3
+30s-2mn 6
+0s-30s 262
+15mn-30mn 1
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/ 315 5410106 270 210
+/img/intro-bg-grid.svg 45 8272 3 37
+/scripts/feedback.php 31 1572 0 24
+/img/favicon/site.webmanifest 3 457 0 0
+/img/favicon/safari-pinned-tab.svg 2 0 0 1
+//scripts/feedback.php 1 64 0 1
+END_SIDER

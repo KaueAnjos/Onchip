@@ -1,0 +1,142 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: rgba($color-3,.95);
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+
+  @media (min-width: $mq-lg) {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  &.show {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity .3s ease;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-2;
+    }
+  }
+}
+
+#h-logo {
+  flex: 1 0 auto;
+  text-align: center;
+
+  @media (min-width: $mq-lg) {
+    flex: 0 0 auto;
+    text-align: left;
+  }
+
+  img {
+    width: 200px;
+  }
+}
+
+#main-nav-toggle {
+  width: 27px;
+  height: 27px;
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  transition: transform 0.5s ease;
+  color: #fff;
+  position: absolute;
+  right: 10px;
+  top: 35px;
+
+  &.flip {
+    transform: rotate(90deg);
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: #fff;
+  }
+
+  @media (min-width: $mq-lg) {
+    display: none;
+  }
+
+}
+
+#main-nav {
+  flex: 1 0 100%;
+  display: flex;
+  max-height: 0;
+  overflow: hidden;
+  flex-flow: column wrap;
+  align-items: center;
+  transition: max-height 0.5s ease;
+
+  @media (min-width: $mq-lg) {
+    flex: 1 0 auto;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    max-height: 400px;
+  }
+
+  &.show {
+    max-height: 400px;
+  }
+
+  ul {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0;
+    list-style: none;
+    line-height: 3.4rem;
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+
+    @media (min-width: $mq-lg) {
+      width: auto;
+      margin: 0;
+      line-height: inherit;
+      text-align: right;
+      text-transform: inherit;
+      font-size: 1.1rem;
+      font-weight: 100;
+    }
+
+    li {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+
+      &.phone {
+        color: $color-2;
+        font-weight: 500;
+      }
+
+      &:last-child {
+        border: 0;
+      }
+
+      @media (min-width: $mq-lg) {
+        border:0;
+        display: inline-block;
+        margin-right: 1rem;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+
+    }
+
+  }
+}

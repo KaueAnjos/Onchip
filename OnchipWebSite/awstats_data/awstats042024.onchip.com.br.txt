@@ -1,0 +1,1364 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202404 will be lost/reset.
+# Last config file used to build this data file was /home/web167/awstats/conf/awstats.onchip.com.br.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2075                
+POS_TIME 2753                
+POS_VISITOR 25376               
+POS_DAY 40978               
+POS_DOMAIN 3585                
+POS_LOGIN 3817                
+POS_ROBOT 3972                
+POS_WORMS 4980                
+POS_EMAILSENDER 5111                
+POS_EMAILRECEIVER 5254                
+POS_SESSION 41800               
+POS_SIDER 41969               
+POS_FILETYPES 5389                
+POS_DOWNLOADS 5587                
+POS_OS 5635                
+POS_BROWSER 6071                
+POS_SCREENSIZE 8416                
+POS_UNKNOWNREFERER 8490                
+POS_UNKNOWNREFERERBROWSER 8945                
+POS_ORIGIN 9131                
+POS_SEREFERRALS 9273                
+POS_PAGEREFS 9475                
+POS_SEARCHWORDS 9792                
+POS_KEYWORDS 9944                
+POS_MISC 2417                
+POS_ERRORS 10003               
+POS_CLUSTER 3673                
+POS_SIDER_404 10105               
+POS_EXTRA_1 23935               
+POS_EXTRA_2 24058               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20240501005329 25 4910 10405582960086
+FirstTime 20240401004243
+LastTime 20240430224650
+LastUpdate 20240501014811 25 0 24 0 0
+TotalVisits 393                 
+TotalUnique 341                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 400                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 39 63 2465276 74 108 332845
+1 11 27 656697 18 50 565699
+2 16 17 291442 134 144 177119
+3 18 61 3680234 82 136 1888212
+4 20 42 1813182 8 29 90994
+5 23 92 5408262 14 42 157162
+6 22 49 2111509 15 29 195169
+7 10 17 216711 37 54 328420
+8 25 46 2002337 7 13 109929
+9 25 69 3792907 106 125 423661
+10 31 86 2650220 19 22 199594
+11 18 82 5320089 21 46 110064
+12 23 26 494169 10 39 231381
+13 21 52 2316845 6 8 36450
+14 56 147 7863812 42 47 90538
+15 34 103 3986338 7 29 73095
+16 26 93 3911506 81 89 145340
+17 15 57 3533765 6 26 54544
+18 29 50 2056646 313 327 191360
+19 26 76 3950881 22 71 413905
+20 18 18 217380 18 30 229011
+21 13 36 1863023 19 34 353295
+22 19 45 2012935 126 137 127739
+23 21 94 5397232 7 30 90506
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 559 1448 68013398
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 23
+Googlebot/ 88 1853437 20240430221215 0
+Googlebot\-Image/ 37 716112 20240428192221 0
+Applebot/ 26 534104 20240429082239 0
+custo 24 434256 20240427151656 0
+zoominfobot 23 222155 20240427063355 0
+dataprovider\.com 23 1728326 20240406034730 0
+no_user_agent 20 361880 20240427231421 0
+python 8 144752 20240420190858 0
+bbot 8 144752 20240430034758 0
+bot[\s_+:,\.\;\/\\-] 8 102286 20240429055839 0
+Dalvik/ 1 18094 20240425080126 0
+scanner 4 39912 20240413012143 0
+Velen 1 18094 20240422222435 0
+Apache\-HttpClient/ 1 0 20240402212120 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 0 20240402021315 0
+netcraft 2 36188 20240403201733 0
+Go\-http\-client/ 1 18094 20240401153720 0
+Mail\.RU_Bot/ 4 0 20240416203004 0
+curl 1 18094 20240413001211 0
+facebookexternalhit/ 1 18094 20240410075434 0
+bingbot/ 3 54282 20240428222911 0
+crawl 5 90470 20240427001022 0
+^mozilla\/5\.0$ 3 54282 20240427141843 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 41 910328 0 0
+Unknown 18 8226 0 0
+php 541 7947586 0 0
+svg 34 6392 0 0
+jpg 148 5532480 0 0
+js 153 4887708 0 0
+png 513 48720678 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 27
+androidnougat 4 2
+win10 885 242
+macosx11 17 17
+win8.1 41 41
+win8 4 3
+macosx7 1 0
+ios_iphone 34 8
+macosx13 2 2
+ios_ipad 1 1
+winlong 1 1
+androidoreo 5 1
+linuxubuntu 6 6
+winxp 1 1
+win16 1 1
+android 8 5
+win7 79 73
+Unknown 53 18
+macosx 25 25
+android10 4 3
+macosx9 1 1
+linux 166 38
+winnt 2 2
+androidmarshmallow 7 7
+androidlollipop 1 1
+macosx10 16 4
+macosx5 1 1
+macosx15 82 55
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 110
+Unknown 4 4
+chrome118.0.5993.80 1 1
+firefox118. 1 1
+chrome112.0.0.0 2 2
+safari17.3.1 1 1
+chrome91.0.4472.124 2 1
+firefox124.0 23 1
+safari6.0 2 2
+chrome78.0.3904.108 9 9
+chrome108.0.0.0 5 5
+chrome107.0.0.0 1 1
+netscape5.0 8 2
+chrome85.0.4183.121 3 3
+firefox40.0 3 3
+chrome64.0.3282.0 1 1
+chrome41.0.2272.104 16 4
+chrome120.0.0.0 14 10
+chrome84.0.4147.105 13 13
+chrome90.0.4430.72 42 42
+chrome117.0.5938.132 1 1
+chrome85.0.4183.102 1 1
+sonyericsson 1 1
+chrome103.0.5060.114 6 6
+firefox52.0 1 1
+chrome89.0.4389.114 4 4
+firefox35.0 1 1
+chrome60.0.3112.107 4 2
+chrome114.0.5814.214 2 2
+opera89.0.4447.51 16 16
+chrome71.0.3578.99 5 5
+opera109.0.0.0 24 2
+chrome106.0.0.0 1 1
+safari14.1.2 1 1
+chrome80.0.3987.162 1 1
+chrome114.0.0.0 35 35
+msie10.0 2 1
+chrome40.0.2214.89 1 1
+chrome120.0.6099.71 4 4
+chrome83.0.4103.61 4 1
+chrome115.0.0.0 2 2
+chrome118.0.0.0 1 1
+chrome79.0.3945.130 1 1
+firefox104.0 1 1
+chrome103.0.0.0 6 6
+chrome124.0.6367.18 1 0
+chrome120.0.6099.129 1 1
+chrome47.0.2526.106 17 17
+chrome58.0.3029.110 5 5
+chrome121.0.6167.85 22 1
+safari17.4.1 3 0
+edge44 5 5
+chrome94.0.4606.61 4 1
+opera107.0.0.0 25 2
+chrome90.0.4430.85 52 52
+firefox115.0 49 5
+chrome79.0.3945.79 21 1
+iphone 1 1
+chrome90.0.4430.93 25 25
+safari15.6.1 1 1
+chrome105.0.0.0 12 7
+safari16.6 25 3
+safari14.0.3 3 1
+firefox57.0 1 1
+chrome68.0.3440.106 2 2
+safari 1 0
+chrome122.0.6261.119 1 0
+chrome122.0.0.0 164 18
+safari17.1.2 1 1
+chrome90.0.4400.8 4 4
+chrome98.0.4758.80 2 2
+chrome103.0.5060.66 4 4
+chrome114.0.5735.289 1 0
+chrome110.0.0.0 3 3
+chrome34.0.1847.116 1 1
+chrome68.0.3440.91 5 1
+chrome12.0.712.0 1 1
+chrome104.0.5112.101 42 2
+firefox33.0 1 1
+chrome94.0.4606.81 1 1
+chrome102.0.0.0 21 1
+chrome88.0.4240.193 3 3
+chrome83.0.4103.97 5 5
+chrome117.0.0.0 4 4
+chrome89.0.4389.82 6 2
+mozilla 47 12
+chrome52.0.2743.98 2 2
+msie11.0 1 1
+chrome19.0.1084.9 1 1
+chrome95.0.4638.69 4 4
+msie9.0 30 30
+safari5.0 1 1
+chrome123.0.6312.99 1 0
+chrome91.0.4472.114 4 4
+msie8.0 2 2
+chrome60.0.3112.113 1 1
+chrome90.0.4427.0 5 5
+chrome66.0.3359.117 5 5
+chrome109.0.0.0 24 3
+chrome121.0.0.0 58 50
+chrome19.0.1041.0 1 1
+firefox81.0 1 1
+chrome17.0.963.56 1 0
+chrome118.0.5993.0 1 1
+chrome124.0.0.0 101 11
+firefox114.0 11 11
+chrome76.0.3809.100 2 2
+chrome116.0.0.0 4 4
+chrome102.0.5005.63 66 3
+chrome123.0.0.0 246 14
+chrome93.0.4577.0 5 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Mozilla/5.0_Firefox/35.0 20240407144541
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20240423155640
+axios/1.6.7 20240425155319
+SonyEricssonT100/R101 20240415162820
+Ruby 20240421201901
+got_(https://github.com/sindresorhus/got) 20240423120405
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20240424161856
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+got_(https://github.com/sindresorhus/got) 20240423120405
+Ruby 20240421201901
+axios/1.6.7 20240425155319
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 298 359
+From1 1 1
+From2 18 42
+From3 7 11
+From4 235 1035
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+www_google_com_br 2 3
+duckduckgo 2 2
+www_google_com 14 37
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+https://king.host 5 5
+http://www.urbanblog.shop 1 1
+https://webmail.marinha.mil.br 1 1
+https://app.51wheatsearch.com 0 3
+https://app.51wheatsearch.com/gs/index.html 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+403 28 5764
+404 1310 2604
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 485
+/wp-includes/smaxx.php 1 -
+/img/d923032023rdw23u89u834_sec.png 1 -
+/wp-admin/ajax-actions.php 1 -
+/lv.php 1 -
+/wp-content/plugins/revslider/includes/external/page/index.php 1 -
+/wp-content/themes/sketch/404.php 1 -
+/wp-content/uploads/cong.php 1 -
+/wp-content/plugins/seoo/wsoyanz.php 1 -
+/wp-includes/rest-api/endpoints/html.php 1 -
+/db.php 1 -
+/jquery.min.js 4 -
+/.well-known//.well-known/owlmailer.php 1 -
+/wp-admin/css/colors/blue/xmrlpc.php 1 -
+/cms/wp-includes/wlwmanifest.xml 8 -
+/teste/.env 3 -
+/wp-includes/widgets/about.php 1 -
+/wp-content/themes/seotheme/db.php 1 -
+/sistema/.env 1 -
+/web/wp-includes/wlwmanifest.xml 7 -
+/modules/ps_facetedsearch/.env 1 -
+/wp-includes/IXR/wp-login.php 1 -
+/Public/home/js/check.js 3 -
+/site/.env 7 -
+/libraries/.env 6 -
+/admin/.env 9 -
+/administration/.env 3 -
+/old/.env 7 -
+/live_env 1 -
+/admin/content/sitetree/ 1 -
+/wp-includes/IXR/sx.php 1 -
+/wp-includes/customize/about.php 1 -
+/wp-includes/pomo/fgertreyersd.php.suspected 1 -
+/wp-includes/SimplePie/about.php 1 -
+/plugin.php 1 -
+/wp-admin/user/sx.php 1 -
+/blog/wp-includes/wlwmanifest.xml 7 -
+/wp-content/about.php 1 -
+/administrator/index.php 3 -
+/lab/.env 1 -
+/wp-includes/js/tinymce/skins/wordpress/images/index.php 1 -
+/users.php 1 -
+/cong.php 1 -
+/media/wp-includes/wlwmanifest.xml 3 -
+/phpinfo.php 1 -
+/faleconosco.php 4 -
+/wp-admin/css/colors/xmrlpc.php 1 -
+/z.php 1 http://onchip.com.br/z.php
+/js/mage/cookies.js 1 -
+/.env 16 -
+/wp-admin/network/index.php 1 -
+/public/.env 9 -
+/yii/.env 3 -
+/wp-content/plugins/userpro/css/userpro.min.css 2 www.google.com
+/wp-admin/network/cloud.php 1 -
+/admin/_Manager/AspCms_Manager.asp 1 http://www.onchip.com.br/admin/_Manager/AspCms_Manager.asp
+/vendor/.env 9 -
+/.env.prod 9 -
+/.env.old 9 -
+/2023/.env 1 -
+/fileweb/.env 1 -
+/wp-content/index.php 1 -
+/login.php 2 -
+/blog/.env 7 -
+/.env.development 9 -
+/sites/all/libraries/elfinder/connectors/php/connector.php 1 -
+/ynz.PhP7 1 -
+/wp-admin/user/cloud.php 1 -
+/wp-content/plugins/index.php 1 -
+/frontend_dev.php/.env 3 -
+/cgi-bin/cloud.php 1 -
+/img/about.php 1 -
+/wp-admin/css/colors/coffee/cloud.php 1 -
+/wp-admin/xmrlpc.php 1 -
+/info.php/.env 7 -
+/cgi-bin/xmrlpc.php 1 -
+/phpinfo.php/.env 7 -
+/.git/config/.env 7 -
+/wp-includes/Requests/about.php 1 -
+/wp-content/themes/twentyfive/smaxx.php 1 -
+/laravel_web/.env 6 -
+/wp-content/plugins/hellopress/wp_filemanager.php 1 -
+/sx.php 1 -
+/wp-content/plugins/royal-elementor-addons/assets/js/modal-popups.min.js 2 -
+/tools/.env 1 -
+/.env.dist 9 -
+/config/.env 1 -
+/core/app/.env 1 -
+/sellers.json 1 -
+/install.php 1 -
+/2020/.env 3 -
+/.well-known/sx.php 1 -
+/wp-includes/blocks/about.php 1 -
+/webs/.env 1 -
+/panel/.env 7 -
+/wp-admin/network/xmrlpc.php 1 -
+/wp-admin/css/colors/ectoplasm/users.php 1 -
+/2019/.env 3 -
+/cron/.env 7 -
+/wp-admin/js/widgets/about.php7 1 -
+/wp-admin/images/sx.php 1 -
+/ajax-actions.php 1 -
+/plus/ad_js.php 2 http://www.onchip.com.br/plus/ad_js.php
+/wp-admin/js/widgets/xmrlpc.php 1 -
+/pass.php 1 -
+/security.txt 1 -
+/app/.env 7 -
+/mps/.env 3 -
+/wp-22.php 1 -
+/new/.env 7 -
+/st.php 1 -
+/ws.php7 1 -
+/.git/config 5 -
+/main.min.js 4 -
+/smaxx.php 1 -
+/chosen.php 2 -
+/wp-mail.php 1 -
+/api3/.env 1 -
+/platform/.env 3 -
+/wp/.env 3 -
+/admin/ 5 http://onchip.com.br/admin/
+/website/wp-includes/wlwmanifest.xml 4 -
+/api2/.env 1 -
+/wp-content/plugins/mm-plugin/inc/vendors/.env 1 -
+/shop/wp-includes/wlwmanifest.xml 8 -
+/wp-admin/dropdown.php 1 -
+/manager/ 1 -
+//wp-content/plugins/fix/up.php 2 -
+/admin 6 -
+/wp-admin/includes/about.php 1 -
+/apps.php 1 http://onchip.com.br/apps.php
+/wp-configs.php 1 -
+/testing/.env 3 -
+/cgi-bin/about.php 1 -
+/main/.env 1 -
+/2022/.env 1 -
+/wp-includes/js/jquery/jquery.js 2 www.google.com
+/wp-includes/block-patterns/about.php 1 -
+/wp-includes/IXR/about.php 1 -
+/cache-compat.php 1 -
+/gel4y.php 1 -
+/id/.env 3 -
+/debug/default/view 8 -
+/.test/.env 7 -
+/site/PortalEscolar/.env 1 -
+/wp-content/themes/pridmag/db.php 1 -
+/wp/wp-includes/wlwmanifest.xml 8 -
+/static.php 1 http://onchip.com.br/static.php
+/alfanew.php 1 -
+/wp-admin/network/sx.php 1 -
+/wp-includes/style-engine/about.php 1 -
+/install/index.asp 1 http://www.onchip.com.br/install/index.asp
+/config.json/.env 7 -
+/style.php 1 www.google.com
+/wp-admin/maint/maint/ajax-actions.php 1 -
+/frontend_dev.php/$ 1 -
+/config.json 1 -
+/revision.php 1 -
+/humans.txt 3 -
+/wp-content/plugins/core-plugin/include.php 1 -
+/wp-includes/pomo/wp-login.php 1 -
+/wp-content/plugins/fix/up.php 1 -
+/01.php 1 -
+/.well-known/admin.php 1 -
+/cms/.env 7 -
+/wp-content/plugins/jekyll-exporter/.env 1 -
+/wp-content/plugins/seoo/wsoyanz1.php 1 -
+/en/.env 3 -
+/wp-includes/pomo/about.php 1 -
+/wp-content/.env 6 -
+/wp-content/plugins/seoplugins/mar.php 1 -
+/media/system/js/core.js 1 -
+/wp-admin/css/colors/coffee/xmrlpc.php 1 -
+/function.php 1 -
+/wp-content/uploads/wp-login.php.suspected 1 -
+/media.php 1 -
+/wp-includes/ID3/license.txt 3 -
+/apps/.env 9 -
+/wp-includes/sts.php 1 -
+/upload.php 1 -
+/wp-admin/includes/xmrlpc.php 1 -
+/core/.env 3 -
+/wp-content/updraft/about.php 1 -
+/wp-content/plugins/linkpreview/db.php 1 -
+/google.php 1 -
+/wp-admin/css/about.php 1 -
+/wp-includes/ID3/sx.php 1 -
+/wp-includes/css/buttons.css 1 -
+/system/.env 3 -
+/.well-known/acme-challenge/sx.php 1 -
+/website/.env 1 -
+/cronlab/.env 1 -
+/modules/autoupgrade/.env 1 -
+/options.php 1 -
+/2021/wp-includes/wlwmanifest.xml 4 -
+/wp-admin/css/colors/blue/CasperExV1.php 1 -
+/wp-content/plugins/user-registration/assets/js/frontend/ur-login.js 1 -
+/wp-content/plugins/elementor/sx.php 1 -
+/downloader/ 1 http://onchip.com.br/downloader/
+/wp-includes/wlwmanifest.xml 4 -
+/libraries/legacy/updates.php 1 -
+/wp-content/plugins/pwnd-1/pwnd.php 1 -
+/.well-known/pki-validation/xmrlpc.php 1 -
+/.well-known/pki-validation/file.php 1 -
+/Laravel/.env 7 -
+/wp-admin/css/colors/cloud.php 1 -
+/clientes/.env 1 -
+/api/.env 8 -
+/cgi-bin/users.php 1 -
+/css/cloud.php 1 -
+/_recaptcha-123908120/ 2 -
+/test/wp-includes/wlwmanifest.xml 8 -
+/libraries/phpmailer/updates.php 1 -
+/Backoffice/ 3 http://onchip.com.br/Backoffice/
+/wp-admin/css/sx.php 1 -
+/class.api.php 1 -
+/wp-content/smaxx.php 1 -
+/mah.php 1 -
+/xt/smaxx.php 1 -
+/.well-known/about.php 1 -
+/alfa-rex.php7 1 -
+/2019/wp-includes/wlwmanifest.xml 8 -
+/wp-content/plugins/wp-automatic/css/wp-automatic.css 1 -
+/wp-content/plugins/core/include.php 1 www.google.com
+/wordpress/wp-includes/wlwmanifest.xml 8 -
+/wp-admin/maint/users.php 1 -
+/.json/.env 7 -
+/content.php 1 -
+/.wp-cli/wp-login.php 1 -
+/ws.php 1 -
+/wp-includes/images/include.php 1 -
+/img/xmrlpc.php 1 -
+/wp-includes/about.php 1 -
+/wp-includes/rest-api/sx.php 1 -
+/wp-consar.php 1 -
+/.well-known/acme-challenge/xmrlpc.php 2 -
+/wp-p.php7 1 -
+//.env 5 -
+/css/sgd.php 1 -
+/rendixd.php 1 -
+/wp-includes/Text/about.php 1 -
+/include/ckeditor/plugins/smiley/images/angel_smile.gif 2 http://www.onchip.com.br/include/ckeditor/plugins/smiley/images/angel_smile.gif
+/v1/.env 3 -
+/laravelao/.env 7 -
+/wp-admin/includes/sx.php 1 -
+/fileupload/server/php/index.php 1 -
+/emergency.php 1 -
+/sitemaps/.env 1 -
+/wp-admin/images/cloud.php 1 -
+/assets/fileupload/server/php/index.php 1 -
+/modules/.env 3 -
+/.aws/config 1 -
+/css/xmrlpc.php 1 -
+/development/.env 7 -
+/wp-includes/images/smaxx.php 1 -
+/wp-includes/ID3/about.php 1 -
+/alfanew.php7 1 -
+/wp-admin/images/users.php 1 -
+/alfa-rex2.php7 1 -
+/wp-admin/css/admin.php 1 -
+/.well-known/pki-validation/cloud.php 1 -
+/2020/wp-includes/wlwmanifest.xml 5 -
+/core/Database/.env 1 -
+/libraries/vendor/updates.php 1 -
+/all/.env 6 -
+/2021/.env 1 -
+/lol.php 1 www.google.com
+/wp2/wp-includes/wlwmanifest.xml 4 -
+/clientes/laravel_inbox/.env 1 -
+/.well-known/pki-validation/about.php 1 -
+/wp-includes/js/jcrop/sx.php 1 -
+/feed/ 3 -
+/wp-content/plugins/user-registration/assets/css/user-registration.css 1 -
+/wp-content/plugins/fix/sx.php 1 -
+/frontend_dev.php/$/.env 4 -
+/sites/all/libraries/elfinder/php/connector.php 2 -
+/yanz.php 1 -
+/.well-known/security.txt 2 -
+/club/.env 1 -
+/laravel_inbox/.env 1 -
+/wp-content/repeater.php 1 -
+/android-chrome-192x192.png 2 https://onchip.com.br/
+/edit.php 1 -
+/cloud.php 1 -
+/wp-content/blogs.dir/about.php 1 -
+/administrator/ 7 http://onchip.com.br/administrator/
+/wp-includes/js/tinymce/skins/lightgray/img/index.php 1 -
+/sito/wp-includes/wlwmanifest.xml 4 -
+/sites/all/libraries/elfinder/src/connectors/php/connector.php 1 -
+/mahara/auth/saml/extlib/simplesamlphp/.env 1 -
+/wp-content/plugins/WordPressCore/smaxx.php 1 -
+/beta/.env 7 -
+/xmrlpc.php 1 -
+/wp-admin/sx.php 1 -
+/wp-content/upgrade-temp-backup/about.php 1 -
+/clientes/laravel/.env 1 -
+/wp-includes/images/smilies/about.php 1 -
+/0z.php 1 -
+/reset.php 1 -
+/.well-known/acme-challenge/about.php 1 -
+/chosen 1 -
+/system.php 1 http://onchip.com.br/system.php
+/wp-admin/css/colors/blue/blue.php 1 -
+/.env.production.local 9 -
+/local/.env 9 -
+/wp-login.php 1 http://onchip.com.br/wp-login.php
+/wp-content/banners/about.php 1 -
+/.aws/credentials/.env 8 -
+/test/med-decision/.env 1 -
+/shared/.env 9 -
+/wp-content/plugins/mm-plugin/inc/.env 1 -
+/wp-admin/js/widgets/cloud.php 1 -
+/plugins/.env 6 -
+/wp-content/themes/about.php 1 -
+/+CSCOE+/logon.html 2 -
+/wp-includes/Requests/dropdown.php 1 -
+/wp-content/plugins/smaxx.php 1 -
+/.git/.env 7 -
+/android-chrome-256x256.png 2 https://onchip.com.br/
+/wp-includes/blocks/sx.php 1 -
+/news/wp-includes/wlwmanifest.xml 4 -
+/pemerintah/.env 1 -
+/wp-admin/smaxx.php 1 -
+/wp-content/languages/about.php 1 -
+/admin-post.php 1 -
+/wp-includes/fonts/wp-login.php 1 -
+/_profiler/phpinfo/.env 7 -
+/wp-content/plugins/core-plugin/smaxx.php 1 -
+/.well-known/acme-challenge/cloud.php 1 -
+/user.php 1 -
+/doc.php 1 -
+/teste.php/.env 7 -
+/plus/flink_add.php 2 http://www.onchip.com.br/plus/flink_add.php
+/.env.project 9 -
+/wordpress/xmlrpc.php 1 -
+/wp-content/install.php 1 -
+/wp-admin/css/colors/blue/cloud.php 1 -
+/wp-content/plugins/wp-automatic/css/style.css 1 -
+/wp-admin/js/widgets/users.php 1 -
+/laravel/core/.env 7 -
+/wp-content/uploads/error_log.php 1 -
+/wp-content/plugins/WordPressCore/include.php 1 -
+/admin-ajax.php 1 -
+/.well-known/pki-validation/sx.php 1 -
+/shop/.env 3 -
+/plusad.php 1 http://onchip.com.br/plusad.php
+/wp/wp-admin/includes/class-wp-page-mvb2yr.php 1 -
+/input.php 2 -
+/test/.env 3 -
+/lib/.env 7 -
+/login 1 -
+/admin/ckeditor/plugins/ajaxplorer/.env 1 -
+/cgi-bin/sx.php 1 -
+/wp-includes/repeater.php 1 -
+/laravel/.env 9 -
+/pro/.env 3 -
+/filefuns.php 1 -
+/wp-includes/rest-api/about.php 1 -
+/administrador/.env 7 -
+/backend/.env 7 -
+/wordpress/wp-includes/IXR/allez.php 1 -
+/wp-admin/user/xmrlpc.php 1 -
+/robots.txt 144 -
+/uploads/.env 1 -
+/updates.php 1 -
+/assets/images/1p.php 1 -
+/dev/.env 7 -
+/resources/.env 1 -
+/simpla/ 1 -
+/451.php 1 http://onchip.com.br/451.php
+/images/about.php 1 -
+/gists/cache/.env 7 -
+/login/.env 3 -
+/wp-content/plugins/WordPressCore/blkfqnikz.php 1 -
+/authorize.php 1 -
+/.env/.env 1 -
+/adminfuns.php7 1 -
+/static/admin/javascript/hetong.js 3 -
+/sitemap.xml 6 -
+/sites/all/libraries/mailchimp/.env 1 -
+/aws/credentials 1 -
+/wp-includes.bak/html-api/about.php 1 -
+/painel/.env 6 -
+/home/.env 3 -
+/sites/all/libraries/elfinder/elfinder.html 1 -
+/wp-admin/images/about.php 1 -
+/wp-admin/cloud.php 1 -
+/wp-admin/images/index.php 1 -
+/_profiler/phpinfo 1 -
+/about.php7 1 -
+/themes.php 1 -
+/wp-content/style-css.php 1 -
+/images/xmrlpc.php 1 -
+/worm0.PhP7 1 -
+/site/wp-includes/wlwmanifest.xml 8 -
+/administrator 1 http://onchip.com.br/administrator
+/demo/.env 7 -
+/wp-content/updates.php 1 -
+/live_env/.env 8 -
+/pub/errors/503.php 1 http://onchip.com.br/pub/errors/503.php
+/ckeditor/.env 6 -
+/mapa/.env 3 -
+/2018/wp-includes/wlwmanifest.xml 3 -
+/wp-admin/js/widgets/cong.php 1 -
+/plug/comment/comment.html 1 http://www.onchip.com.br/plug/comment/comment.html
+/wp-content/upgrade/sx.php 1 -
+/develop/.env 7 -
+/wp-admin/includes/users.php 1 -
+/wp-content/plugins/pwnd/pwnd.php 1 -
+/RDWeb/Pages/ 2 -
+/wp-includes/js/tinymce/skins/lightgray/fonts/sx.php 1 -
+/wp-content/themes/rehub-theme/icons/modulobox.svg 1 -
+/mahara/.env 2 -
+/global-protect/login.esp 2 -
+/aws/credentials/.env 8 -
+/wp-admin/images/xmrlpc.php 1 -
+/wp-content/themes/wp-classic/inc/index.php 1 -
+/sites/.env 3 -
+/wp.php 1 -
+/link.php 1 -
+/.aws/config/.env 8 -
+/ebs.php7 1 -
+/alfanew2.php7 1 -
+/wp-admin/repeater.php 1 -
+/wp-content/sx.php 1 -
+/backup/.env 7 -
+/.env.production 9 -
+/comfunctions.php 1 -
+/asset/.env 1 -
+/images/cloud.php 1 -
+/adz.php 1 http://onchip.com.br/adz.php
+/ads.txt 5 -
+/wp-admin/js/privacy-tools.min.php 1 -
+/laravel52/.env 7 -
+/xmlrpc.php 1 -
+/phpunit/.env 7 -
+/defaults.php 1 -
+/zend/.env 3 -
+/.json 1 -
+/about.php 3 -
+/wp-content/plugins/dzs-videogallery/class_parts/.env 2 -
+/wp-content/uploads/cache.php 1 -
+/.env.save 9 -
+/wp-admin/includes/cloud.php 1 -
+/wp-includes/block-supports/sx.php 1 -
+/autoload_classmap.php 1 -
+/wp-admin/user/users.php 1 -
+/database/.env 1 -
+/2018/.env 3 -
+/dropdown.php 1 -
+/wp/xmlrpc.php 1 -
+/wp-includes/images/about.php 1 -
+/avaa.php 1 -
+/wsoyanz.php 1 -
+/wp-admin/users.php 1 -
+/wp-content/plugins/Cache/Cache.php 1 -
+/wp-content/themes/seotheme/mar.php 1 -
+/elfinder/elfinder.html 1 -
+/app-ads.txt 1 -
+/admin-app/.env 9 -
+/modules/gamification/.env 1 -
+/wp-admin/css/colors/index.php 1 -
+/repeater.php 1 -
+/simple.php 4 -
+/wp-admin/css/index.php 1 -
+/portal/.env 3 -
+/wp-includes/sx.php 1 -
+/concrete/.env 3 -
+/web/.env 3 -
+/.env.development.local 9 -
+/wp-admin/js/about.php 1 -
+/wp1/wp-includes/wlwmanifest.xml 8 -
+/wp-content/gallery/about.php 1 -
+/current/.env 7 -
+/wp-content/plugins/cloudflare/.env 1 -
+/.aws/credentials 1 -
+/wp-includes/Requests/Text/admin.php 1 -
+/protected/.env 6 -
+/storage/.env 9 -
+/admin.php 5 -
+/wp-2019.php 1 -
+/img/cloud.php 1 -
+/grid-expander.min.js 4 -
+/wp-content/plugins/seoplugins/db.php 1 -
+/inputs.php 1 www.google.com
+/assets/.env 3 -
+END_SIDER_404
+
+# Extra key - Pages - Hits - Bandwidth - Last access
+# The 100 first number of hits are first
+BEGIN_EXTRA_1 0
+END_EXTRA_1
+
+# Extra key - Pages - Hits - Bandwidth - Last access
+# The 100 first number of hits are first
+BEGIN_EXTRA_2 26
+/ 609 609 10747836 
+/scripts/feedback.php 95 95 4320 
+/img/favicon/site.webmanifest 31 31 14167 
+/img/favicon/favicon-32x32.png 0 52 93100 
+/img/intro-bg-circuit-cyan.png 0 66 3532977 
+/img/products/ott10md3-01.png 0 39 1849435 
+/css/style.css 0 55 1245712 
+/img/favicon/favicon-16x16.png 0 24 25416 
+/img/products/ott420-01.png 0 40 3232224 
+/img/intro-bg-grid.svg 0 42 7896 
+/scripts/jquery.min.js 0 65 5947722 
+/scripts/main.min.js 0 64 36051 
+/img/products/ott420mi-01.png 0 40 4872672 
+/img/contact.jpg 0 41 3087502 
+/img/about-pcb-cyan.png 0 38 22719830 
+/img/pcb-layer-cyan.png 0 38 2322810 
+/img/favicon/apple-touch-icon.png 0 22 109494 
+/img/products/ott420mi-03.jpg 0 40 1520820 
+/img/logo-onchip-a02.png 0 40 510804 
+/img/products/ott42md2-02.jpg 0 41 887149 
+/img/round-circle.png 0 40 516528 
+/img/logo-onchip-c02.png 0 39 270360 
+/scripts/grid-expander.min.js 0 62 80535 
+/img/products/ott42md2-01.png 0 40 3429108 
+/img/products/ott420mi-02.jpg 0 40 469872 
+/img/products-header.png 0 38 7086722 
+END_EXTRA_2
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 400
+186.202.173.147 30 30 542820 20240430143228
+62.122.184.194 10 10 90680 20240428155627
+103.186.238.17 8 8 72544 20240405084833
+91.123.66.30 6 6 54408 20240405173159
+138.97.117.181 6 6 54408 20240404135424
+3.145.168.137 5 10 214175 20240415060742
+2a0b:f4c2:4::102 5 49 3450630 20240429060152
+92.223.71.149 4 46 3443131 20240423223134
+2804:47d0:19:3ab0:70a5:cd12:35f4:360e 4 4 72376 20240415004414
+2804:47d0:19:3ab0:11ff:d89f:e261:efad 4 4 72376 20240416034039
+23.127.2.120 1 1 18094 20240403142618
+105.213.90.249 2 2 18136 20240409234050
+14.155.235.224 2 22 1692595 20240428233559
+187.0.234.70 1 1 18094 20240425155319
+69.197.135.42 2 2 18136 20240411124049
+2a03:b0c0:3:d0::11fa:8001 1 1 18094 20240413000832
+196.196.254.111 1 1 18094 20240418022341
+181.129.74.58 2 2 18136 20240405000729
+64.15.129.126 1 1 18094 20240426023148
+168.232.163.197 1 1 18094 20240415162820
+128.14.188.106 1 1 18094 20240408233710
+184.94.240.88 1 1 18094 20240417235355
+87.249.132.12 2 2 18136 20240416025352
+184.174.56.245 1 1 18094 20240410050648
+2602:80d:1002::15 0 3 7898 
+54.148.84.197 1 1 18094 20240420085027
+45.61.116.208 1 1 57 20240408110254
+114.235.210.206 2 2 18136 20240403123043
+35.156.181.59 2 2 36188 20240421065950
+104.223.148.94 1 5 139937 20240409144459
+34.42.243.148 3 3 54282 20240424183123
+156.239.37.7 3 3 36245 20240405120045
+40.94.34.19 0 3 162210 
+10.19.0.10 1 1 18094 20240410042704
+187.17.201.203 2 2 18136 20240411133214
+202.179.95.134 1 1 18094 20240404172125
+199.45.154.54 1 1 18094 20240420231933
+2a05:d014:1a53:9d00:85ed:46ed:c3e6:b779 1 4 115981 20240424134136
+157.52.252.124 1 1 18094 20240408110250
+137.184.209.162 2 2 36188 20240412104759
+193.122.155.11 3 6 152169 20240413010928
+2001:4ba0:cafe:c13::1 1 1 18094 20240418152955
+196.242.21.82 2 2 18151 20240425125051
+52.55.109.57 1 1 18094 20240422003725
+35.89.117.37 1 1 0 20240421045107
+2804:47d0:19:3ab0:69e8:4fde:2873:84e7 2 2 36188 20240419224955
+187.50.230.147 2 23 1694457 20240429113736
+37.19.223.114 2 2 18136 20240409033141
+10.19.3.120 1 1 18094 20240415043614
+34.211.225.98 2 2 36188 20240409150247
+2804:5c:57dc:2e00:88e6:c4c5:23cd:c21d 0 1 56079 
+40.94.31.98 0 5 365672 
+20.94.215.56 1 1 18094 20240403120333
+2a03:b0c0:3:d0::d4f:c001 1 1 18094 20240413000836
+64.23.204.42 2 2 36188 20240402103456
+190.54.12.74 2 2 18136 20240404182248
+2602:80d:1003::25 0 3 7898 
+40.94.94.18 0 2 304364 
+54.174.58.228 1 1 457 20240417180644
+69.10.48.159 1 1 18094 20240415065411
+93.158.71.185 1 1 18094 20240430051142
+94.247.172.129 1 1 18094 20240424181242
+93.159.230.87 1 1 18094 20240419200758
+2a01:4f8:10a:2d6::2 1 1 18094 20240413001319
+5.133.192.160 1 2 19956 20240407234625
+185.196.178.243 2 2 18136 20240403220623
+196.247.162.42 1 1 18094 20240429210636
+2804:14d:7891:4d70:44a2:7653:584c:bab8 0 1 56079 
+61.147.15.65 1 1 18094 20240403152318
+104.200.152.30 1 1 18094 20240404224243
+2804:388:411b:cd12:1:0:6ebf:d46a 0 1 56079 
+87.236.176.82 1 1 18094 20240424071611
+149.5.4.212 2 2 36188 20240416184148
+195.201.243.111 1 1 18094 20240419111933
+3.10.214.191 1 1 18094 20240418235028
+177.38.245.106 3 3 36230 20240405040722
+192.111.137.34 1 1 18094 20240404111149
+10.19.0.17 1 1 18094 20240405043921
+185.180.143.12 1 1 18094 20240425032719
+196.242.89.25 1 1 18094 20240425125050
+2602:80d:1004::37 0 3 7898 
+134.209.107.27 3 3 54282 20240428125325
+116.106.109.182 2 2 18136 20240403200950
+23.82.41.45 1 1 57 20240422003018
+2602:80d:1003::14 0 2 2921 
+134.35.22.210 2 2 18136 20240405200231
+149.50.98.108 1 1 18094 20240430110704
+146.70.128.219 1 1 18094 20240413000849
+40.94.34.3 0 4 127244 
+147.182.217.46 2 2 36188 20240426094022
+104.164.173.198 1 1 18094 20240413001424
+84.246.197.72 2 2 18136 20240405201728
+93.158.90.29 1 1 18094 20240408155811
+89.104.110.11 0 1 4977 
+194.99.23.192 2 2 18136 20240405184720
+49.13.173.66 1 1 18094 20240427225129
+34.230.48.29 1 1 18094 20240414221951
+65.20.134.119 1 1 18094 20240418054512
+196.51.45.193 2 2 18151 20240406162700
+87.116.144.229 2 2 18136 20240403215533
+159.65.46.195 2 2 36188 20240404233625
+45.56.173.124 1 1 18094 20240408110252
+167.99.130.211 2 2 36188 20240410094557
+54.196.243.13 1 1 18094 20240430103840
+199.45.154.53 1 1 18094 20240411052226
+3.238.174.194 1 1 18094 20240423120405
+116.100.148.84 1 1 18094 20240403120817
+115.74.156.234 2 2 18136 20240405190327
+46.10.40.39 2 2 18136 20240403212806
+171.247.97.248 2 2 18136 20240405192638
+84.247.115.72 2 2 18136 20240426183132
+35.90.177.5 1 1 18094 20240404103124
+40.94.31.55 0 2 53432 
+46.101.9.216 1 1 18094 20240423193132
+147.92.53.41 1 22 1694000 20240416114350
+209.97.149.192 1 4 115981 20240405101013
+177.74.200.69 2 2 18136 20240404231830
+199.45.155.55 1 1 18094 20240411221654
+2804:910:149:1f01:58f6:4f1a:2506:dea0 0 2 112158 
+35.91.12.128 1 1 18094 20240404103126
+199.45.154.52 1 1 18094 20240413055928
+194.195.251.66 2 2 36188 20240423032550
+51.104.167.19 1 1 18094 20240429055621
+64.64.110.171 1 1 18094 20240410050650
+2a01:4f9:c012:6365::1 1 1 18094 20240427072929
+199.45.155.36 1 1 18094 20240404212942
+2a01:4f8:140:5295::2 1 1 18094 20240420091828
+168.151.242.110 1 1 57 20240429210637
+178.176.72.238 1 1 18094 20240428045434
+200.198.60.37 2 24 1750536 20240429160757
+240e:30c:3b23:8500:ec50:5a8:3211:31b4 1 1 18094 20240406023132
+104.28.156.103 1 1 18094 20240423193111
+40.94.34.80 0 5 414647 
+89.104.110.233 0 1 1059 
+35.240.72.170 1 1 18094 20240410225105
+185.190.90.2 1 1 18094 20240404230635
+2804:d47:5d39:ec00:cb4:af52:c49a:4b6e 0 1 56079 
+170.254.199.236 0 2 112158 
+24.112.113.159 2 2 18136 20240403130400
+27.77.224.249 2 2 18136 20240408134648
+34.77.147.25 2 2 36188 20240421203300
+192.111.137.35 1 1 18094 20240404154830
+38.22.125.143 2 2 18136 20240412053355
+154.28.229.190 1 1 18094 20240413001419
+35.190.191.8 1 21 1692138 20240419054841
+206.189.1.59 2 2 36188 20240419054717
+47.88.78.6 2 2 36188 20240414002328
+10.19.0.59 1 1 18094 20240426055251
+103.184.192.95 1 1 18094 20240424045752
+176.111.174.153 4 4 36272 20240428085358
+52.123.190.125 0 1 1862 
+107.173.200.203 1 5 139937 20240406192506
+2406:da1a:9d4:4d00:51ee:b579:c3e4:4dba 1 1 18094 20240415162924
+37.139.53.88 2 2 18136 20240405042536
+3.91.93.132 1 1 18094 20240401014117
+34.201.143.135 1 1 18094 20240417145051
+192.175.111.244 1 1 18094 20240426023145
+206.72.195.45 1 1 18094 20240408051910
+23.80.158.22 1 1 18094 20240407002710
+162.55.130.51 1 5 139937 20240417012312
+105.214.73.10 2 2 18136 20240403155248
+23.104.184.78 1 1 57 20240418135843
+165.232.185.113 2 2 36188 20240422093258
+128.199.86.222 3 3 54282 20240427172438
+186.235.185.165 0 1 56079 
+2400:8904::f03c:93ff:fed2:b89b 2 2 36188 20240424103216
+61.147.15.67 1 1 18094 20240403152339
+205.169.39.174 2 25 1808119 20240413001146
+196.242.21.120 1 1 18094 20240418022342
+40.94.34.29 0 1 1059 
+191.101.148.61 3 3 36245 20240406175608
+36.91.233.114 1 1 18094 20240405002742
+199.45.154.20 1 1 18094 20240406223654
+171.244.43.14 1 1 18094 20240413125256
+181.177.122.195 2 2 36188 20240406192412
+167.94.145.101 1 1 18094 20240423155632
+52.123.190.126 0 1 1862 
+68.183.200.194 2 2 36188 20240422005625
+104.164.173.168 1 1 18094 20240413001245
+38.18.25.203 1 1 18094 20240430123737
+52.123.190.60 0 1 1862 
+2602:80d:1004::33 0 3 7898 
+64.15.129.111 1 1 18094 20240426023147
+133.242.174.119 1 1 18094 20240413030919
+40.94.94.3 0 1 1059 
+51.255.44.171 2 2 18136 20240412073913
+199.244.88.232 1 1 18094 20240416032833
+114.225.153.83 2 2 18136 20240403151710
+174.138.2.114 2 2 36188 20240408103651
+50.116.86.90 2 2 18136 20240403150349
+87.236.176.156 0 1 1862 
+40.94.94.32 0 4 262069 
+154.13.253.183 3 3 36245 20240401004248
+2001:41d0:801:2000::4d84 1 12 885156 20240423211021
+2001:8a0:c842:bd00:f832:db74:c0dc:4464 0 2 112158 
+185.180.143.11 1 1 18094 20240404123247
+23.106.20.16 1 1 18094 20240422003015
+203.81.95.70 2 2 18136 20240404164327
+167.172.170.92 2 2 36188 20240430104358
+40.94.31.78 0 1 1059 
+166.88.169.38 1 1 18094 20240427080511
+45.127.250.125 1 1 18094 20240426144923
+54.185.23.249 1 1 18094 20240401021307
+143.198.97.255 2 2 36188 20240420092601
+72.37.216.68 2 2 18136 20240412182927
+2602:80d:1004::14 0 3 7898 
+80.248.225.154 1 1 18094 20240419184739
+40.94.34.6 0 4 700356 
+159.65.114.140 2 2 36188 20240416092031
+137.74.205.32 1 1 18094 20240410123932
+54.174.58.255 1 22 1694000 20240414193044
+35.231.215.57 1 21 1692138 20240406231405
+176.31.103.46 1 1 18094 20240428185801
+85.239.42.50 1 1 18094 20240421160727
+40.94.31.15 0 5 903612 
+185.180.143.13 1 1 18094 20240427200159
+85.113.47.102 1 1 18094 20240405071420
+115.74.154.255 2 2 18136 20240411134526
+40.94.31.20 0 2 96618 
+49.12.125.133 1 1 18094 20240419213659
+2804:214:4100:f08:8ea:2b4a:592e:974c 0 1 56079 
+2804:431:c7d8:8c05:e80e:9c96:866e:9f6c 1 22 1694000 20240423100722
+52.142.164.59 4 4 72376 20240410082712
+5.133.192.105 1 2 19956 20240402040837
+35.187.118.85 1 1 18094 20240430164948
+111.207.155.211 1 1 18094 20240407144541
+66.112.171.26 2 2 18136 20240409143218
+144.91.106.14 2 6 229232 20240428131723
+134.122.21.215 2 2 36188 20240404092214
+104.28.198.247 2 2 18136 20240404200655
+85.228.43.192 1 1 18094 20240402210623
+31.134.2.19 1 1 18094 20240421160727
+40.94.94.50 1 12 904761 20240411145946
+149.56.160.188 1 1 18094 20240406034706
+45.121.48.54 2 2 18136 20240405042030
+78.133.163.190 2 2 18136 20240402202232
+85.209.11.117 2 2 18136 20240412121513
+158.160.85.227 1 1 18094 20240421194103
+45.43.70.93 1 1 57 20240425083723
+2804:47d0:19:3ab0:d08e:311a:a7a6:bdf4 2 2 36188 20240422093424
+109.69.108.145 3 3 36245 20240405015442
+105.172.242.23 0 1 56079 
+209.97.148.240 1 4 115981 20240405101024
+37.140.254.224 1 1 18094 20240428102620
+87.236.176.223 0 1 4977 
+199.15.94.172 1 1 57 20240413113542
+34.79.174.58 2 2 36188 20240413034827
+94.154.34.36 3 3 54282 20240427113419
+2a00:6800:3:7bc::1 1 1 18094 20240410153009
+35.187.31.229 1 1 18094 20240424012608
+185.158.113.29 2 2 18136 20240403152922
+201.13.15.41 2 24 1695516 20240409232506
+184.174.28.196 1 1 57 20240410050652
+93.159.230.89 1 1 18094 20240405200348
+45.90.62.21 0 1 1862 
+5.133.192.133 1 2 19956 20240425101401
+189.201.187.22 2 2 18136 20240405064139
+45.55.112.20 1 1 18094 20240423193049
+31.171.152.107 2 2 18136 20240430140809
+5.180.136.35 2 2 18094 20240423062535
+40.94.34.58 0 1 95931 
+35.205.236.220 1 1 18094 20240406130329
+51.81.245.138 1 1 18094 20240413000948
+209.242.208.56 1 1 18094 20240418135842
+40.94.34.74 1 4 191750 20240411152643
+191.102.150.65 2 2 18151 20240414150942
+2804:14d:8084:a6eb::258c 2 23 1694457 20240424173056
+196.51.35.110 1 1 18094 20240420220504
+69.10.48.138 1 1 18094 20240413051708
+206.41.179.69 1 1 18094 20240425083717
+188.165.237.179 1 1 18094 20240419220756
+196.242.89.59 1 1 18094 20240429210635
+84.17.48.194 2 2 18136 20240406152010
+101.198.0.151 1 1 18094 20240429191217
+209.97.149.197 1 4 115981 20240405100946
+40.94.94.46 0 1 95253 
+154.28.229.227 1 1 18094 20240413001244
+35.88.125.163 1 1 18094 20240430224650
+193.118.52.34 1 1 18094 20240415093027
+101.198.0.157 0 1 1059 
+191.36.189.147 2 2 18136 20240405021142
+104.143.248.163 1 1 57 20240427080518
+197.234.146.180 3 3 36245 20240407193542
+23.82.41.3 1 1 57 20240407002711
+191.7.72.126 1 22 1694000 20240423092000
+181.214.173.152 2 2 18136 20240429081000
+167.172.21.86 2 2 36188 20240418104309
+167.71.164.231 2 2 36188 20240406095309
+187.0.234.102 1 1 18094 20240425083047
+77.222.111.160 1 1 18094 20240411202820
+2602:80d:1003::15 0 3 7898 
+51.38.135.19 0 9 806982 
+52.200.211.223 1 1 0 20240420172832
+50.207.130.198 1 1 18094 20240402213329
+23.80.158.237 1 1 18094 20240407002709
+54.174.58.236 1 22 1694000 20240417180642
+136.243.94.103 1 1 18094 20240421191221
+31.211.130.237 2 2 18136 20240404190438
+18.237.130.125 1 1 0 20240430034928
+109.232.106.150 1 1 18094 20240405081556
+35.206.153.39 1 1 18094 20240402091845
+209.97.145.196 1 4 115981 20240405100954
+201.63.102.146 2 23 1694457 20240402170730
+35.213.227.170 1 1 18094 20240402094851
+45.161.128.176 2 61 1694457 20240405144636
+2602:80d:1003::24 0 3 7898 
+200.124.165.101 0 1 56079 
+34.221.246.173 1 1 18094 20240411042059
+199.45.154.21 1 1 18094 20240420232349
+34.219.20.47 1 1 18094 20240428182224
+27.77.228.74 2 2 18136 20240405181903
+172.81.58.14 3 3 36245 20240427183723
+87.236.176.72 0 1 4977 
+45.156.129.17 1 1 18094 20240426185302
+27.77.239.145 2 2 18136 20240403205541
+181.214.218.217 2 2 18136 20240428221114
+2804:14c:72:2659::1006 0 20 0 
+34.77.176.45 1 1 18094 20240408175652
+37.140.254.179 1 1 57 20240428102622
+23.81.50.122 3 3 36245 20240409000147
+199.45.155.20 1 1 18094 20240406235426
+196.196.31.109 1 1 57 20240418022343
+87.236.176.227 0 1 1862 
+37.204.201.221 2 2 18136 20240401031133
+176.53.221.128 1 1 18094 20240414075111
+84.17.48.107 2 2 18136 20240419075208
+3.67.98.201 2 2 36188 20240412155154
+40.94.31.12 1 6 176873 20240404163744
+35.91.211.133 1 1 18094 20240420085028
+110.78.141.29 1 1 18094 20240408143017
+2804:14c:5b74:a3a1:a042:8027:5c52:2a61 0 1 56079 
+152.42.143.65 2 2 36188 20240424100545
+191.178.223.66 4 45 3387052 20240412140914
+54.174.58.243 1 22 1694000 20240411193106
+104.238.189.239 2 4 228050 20240427164327
+92.204.175.86 1 1 18094 20240427154930
+164.138.39.139 2 2 18136 20240403143921
+87.236.176.167 0 1 1059 
+5.62.34.22 1 4 115981 20240408014134
+45.82.20.207 1 1 18094 20240423163247
+45.7.153.183 2 25 1755513 20240417152525
+40.94.31.38 0 1 95931 
+45.76.21.140 2 2 18136 20240405165959
+64.15.129.107 1 1 18094 20240426023144
+104.234.0.252 2 24 1750536 20240407033055
+54.202.224.183 1 1 18094 20240412085440
+5.133.192.94 1 2 19956 20240413190845
+89.46.110.125 2 2 18136 20240411161543
+40.94.94.2 0 2 125691 
+87.236.176.127 0 1 1059 
+10.19.3.103 1 1 18094 20240421043948
+2804:14c:145:801b:c0a3:3320:f973:a143 1 23 1698977 20240401095639
+54.189.66.181 1 1 0 20240411063832
+103.182.96.102 0 1 56079 
+27.65.29.20 1 1 18094 20240412061033
+15.235.114.125 1 1 18094 20240421201901
+104.28.198.245 2 2 18136 20240402221509
+111.72.199.158 2 2 18136 20240403162954
+138.255.109.74 2 23 1694457 20240411141330
+125.27.90.66 1 1 18094 20240410153210
+2409:8a34:407a:78c0:a00:27ff:feb5:71b5 1 1 18094 20240425213012
+189.89.186.94 0 2 112158 
+2602:80d:1003::26 0 3 7898 
+5.133.192.167 1 2 19956 20240419143748
+179.108.5.227 1 1 18094 20240423134201
+177.30.72.11 0 1 56079 
+87.236.176.57 1 1 18094 20240424161854
+37.140.254.207 1 1 18094 20240428102621
+3.94.93.55 1 1 18094 20240430024748
+60.167.91.252 1 1 18094 20240403124645
+2804:47d0:19:3ab0:89b7:5f69:10f0:383b 2 2 36188 20240416182329
+34.76.244.189 1 1 18094 20240426063705
+93.82.141.218 2 2 18136 20240402154426
+130.255.166.69 1 1 18094 20240414052359
+169.150.198.73 1 1 0 20240419030734
+5.75.229.174 2 2 36188 20240405075336
+168.121.106.89 0 2 112158 
+65.94.43.143 2 2 18136 20240405192258
+2a09:bac2:7a0:7af::c4:2f 0 1 56079 
+34.78.186.176 1 1 18094 20240419153635
+2602:80d:1004::24 0 3 7898 
+2804:47d0:19:3ab0:9d0a:8724:5365:de73 2 2 36188 20240425022921
+134.209.120.243 2 2 36188 20240414095052
+207.228.13.156 1 1 18094 20240413113541
+2804:431:cff6:15e6:c4d6:cb87:7d86:17a5 2 23 1694457 20240408130526
+142.93.156.249 2 2 36188 20240428105547
+37.139.53.84 1 1 18094 20240417141544
+52.13.81.210 1 1 0 20240403093358
+113.11.183.125 1 1 18094 20240411162748
+64.227.184.3 3 3 54282 20240429045020
+2a00:6800:3:b9e::1 1 1 18094 20240402003216
+192.186.185.222 1 1 57 20240426144931
+70.166.167.55 2 2 18136 20240405010403
+14.155.230.195 3 44 3232379 20240425043645
+2804:214:87fd:4bb6:65b3:739f:b3aa:db29 2 23 1694457 20240408111153
+83.220.238.228 1 1 18094 20240409085213
+23.106.20.129 1 1 18094 20240422003015
+199.45.155.51 1 1 18094 20240418013034
+2a00:6800:3:b9f::1 1 1 18094 20240428192640
+27.75.155.228 1 1 18094 20240412062912
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20240401 9 32 1863719 6
+20240402 19 41 1931709 13
+20240403 42 44 547128 25
+20240404 36 60 2153865 24
+20240405 53 144 2683893 31
+20240406 19 49 2152445 13
+20240407 11 35 1935249 8
+20240408 18 65 3816186 14
+20240409 16 42 1998482 9
+20240410 15 16 255235 11
+20240411 20 112 7083913 15
+20240412 20 62 3660427 12
+20240413 27 57 2313975 23
+20240414 13 39 2013147 9
+20240415 15 20 395115 9
+20240416 13 34 1893076 8
+20240417 10 59 3736456 9
+20240418 12 18 357189 11
+20240419 16 40 1989067 13
+20240420 12 18 196778 10
+20240421 11 11 180940 10
+20240422 12 12 199091 9
+20240423 18 125 8712107 15
+20240424 16 48 2173614 11
+20240425 16 58 3433389 13
+20240426 14 14 217227 12
+20240427 18 20 481480 12
+20240428 25 49 2211556 16
+20240429 20 109 7115706 11
+20240430 13 15 311234 11
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+5mn-15mn 1
+30s-2mn 1
+0s-30s 391
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 3
+/ 446 7943266 380 280
+/scripts/feedback.php 95 4320 12 95
+/img/favicon/site.webmanifest 18 8226 1 18
+END_SIDER
