@@ -9,6 +9,17 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:300,300i,400,400i,600,600i,700,700i");
 * {
   box-sizing: border-box;
+  font-family: Montserrat;
+  font-weight: 400;
+}
+
+/* Font */
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 html {
@@ -552,6 +563,11 @@ h3,
   border-radius: 15px;
 }
 
+.dropdown-menu button a{
+  color: #061d38 !important;
+  margin-left: 5px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -563,6 +579,7 @@ header {
   position: fixed;
   width: 100%;
   z-index: 100;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 @media (min-width: 992px) {
@@ -628,7 +645,7 @@ header a:hover {
   display: flex;
   justify-content: center;
   max-height: 0;
-  overflow: hidden;
+
   flex-flow: column wrap;
   align-items: center;
   transition: max-height 0.5s ease;
