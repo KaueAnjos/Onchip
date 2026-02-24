@@ -1,0 +1,275 @@
+//TIPOGRAPHY
+@import url('https://use.fontawesome.com/releases/v5.7.1/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:300,300i,400,400i,600,600i,700,700i');
+
+$font-title: 'Montserrat', sans-serif;
+$font-default: 'Open Sans', sans-serif;
+
+//COLORS
+
+$color-1: rgb(16, 71, 120);
+$color-2: rgb(0, 215, 236);
+$color-3: rgb(6, 29, 56);
+$color-4: rgb(206, 255, 26);
+$color-5: rgb(235, 235, 235);
+$color-6: rgb(255, 69, 0);
+
+//MEDIA QUERY
+
+$mq-sm: 576px;
+$mq-md: 768px;
+$mq-lg: 992px;
+$mq-xl: 1200px;
+$mq-xxl: 1440px;
+
+//LINKS
+
+a {
+  color: $color-1;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: $color-2;
+}
+
+@mixin alinx ($link, $visit, $hover, $active) {
+  a {
+    color: $link;
+    text-decoration: none;
+
+    &:visited {
+      color: $visit;
+    }
+
+    &:hover {
+      color: $hover;
+    }
+
+    &:active {
+      color: $active;
+    }
+  }
+}
+
+
+//GLOBAL
+
+:root {
+  font-size: 16px;
+}
+
+::selection {
+  background: $color-2;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body,
+main {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+body {
+  font-family: $font-default;
+  font-weight: 400;
+  min-width: 350px;
+  color: $color-1;
+}
+
+main {
+  background-color: #fff;
+}
+
+section {
+  padding: 100px 40px;
+  text-align: center;
+  
+  .block1,
+  .block2 {
+    width: 100%;
+
+    @media (min-width: $mq-lg) {
+      width: 50%;
+    }
+  }
+
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: $mq-xxl;
+  margin: 0 auto;
+}
+
+
+//TITLES
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-title;
+  font-weight: 500;
+}
+
+
+%h1 {
+  font-size: 3rem;
+}
+
+h1,
+.h1 {
+  @extend %h1;
+}
+
+%h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+h2,
+.h2 {
+  @extend %h2
+}
+
+%h3 {
+  font-size: 1.5rem;
+}
+
+h3,
+.h3 {
+  @extend %h3
+}
+
+%h4 {
+  font-size: 1.25rem;
+}
+
+h4,
+.h4 {
+  @extend %h4;
+}
+
+.title {
+  margin: 2rem 0;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+
+}
+
+.tagline {
+  margin-bottom: 0;
+
+  &+* {
+    margin-top: 5px;
+  }
+}
+
+
+//ICONS
+%icons {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
+.icon-side {
+  @extend %icons;
+  flex-flow: row nowrap;
+
+  i {
+    margin-right: 10px;
+  }
+}
+
+.icon-top {
+  @extend %icons;
+  flex-flow: column wrap;
+}
+
+%icon-circle {
+  min-width: 45px;
+  min-height: 45px;
+  margin: 0.6rem;
+  border-radius: 100%;
+  padding: 0.7rem;
+  text-align: center;
+}
+
+.icon-circle-md {
+  @extend %icon-circle;
+  font-size: 1.25rem;
+  border: 1px solid;
+}
+
+.icon-circle-lg {
+  @extend %icon-circle;
+  font-size: 2.5rem;
+  border: 2px solid;
+}
+
+.icon-circle-xl {
+  @extend %icon-circle;
+  font-size: 5rem;
+  border: 3px solid;
+}
+
+.icon-circle-xxl {
+  @extend %icon-circle;
+  font-size: 8.75rem;
+  border: 3px solid;
+  padding: 2rem;
+}
+
+.icon-line-top {
+  border-bottom: 1px solid $color-2;
+  padding-bottom: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+
+  @media (min-width: $mq-md) {
+    width: 70%;
+  }
+
+  @media (min-width: $mq-lg) {
+    width: 45%;
+  }
+}
+
+.icon-product-line-top {
+  font-size: 40px;
+  border: 2px solid;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  padding: 8px;
+  background-color: #fff;
+  position: relative;
+}
