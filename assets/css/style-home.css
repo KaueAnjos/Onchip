@@ -43,6 +43,11 @@ html {
     border-radius: 15px;
 }
 
+.dropdown .btn.btn-secondary:hover {
+    transition: 0.5s;
+    background-color: var(--second-color);
+}
+
 .dropdown-menu button a {
     color: #061d38 !important;
     margin-left: 5px;
@@ -205,13 +210,6 @@ header a:hover {
     }
 }
 
-.intro {
-    padding-top: 0;
-    background-image: radial-gradient(closest-side, rgba(6, 29, 56, 0.94), rgba(6, 29, 56, 0.94), #061d38), url("../img/intro-bg-grid.svg");
-    background-repeat: no-repeat, repeat;
-    background-size: auto, 75px 44px;
-    color: white;
-}
 
 /* Main */
 
@@ -313,9 +311,9 @@ section.intro .intro-container .second-block img {
 
 /* Services */
 
-section.intro .services-container{
+section.intro .services-container {
     position: relative;
-    background-color: red;
+    /* background-color: red; */
     width: 100%;
     height: 100vh;
     display: flex;
@@ -323,4 +321,201 @@ section.intro .services-container{
     align-items: center;
     justify-content: center;
     margin-top: 80px;
+}
+
+
+section.intro .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.intro .title i {
+    color: var(--light-color);
+    border: 2px solid var(--white-color);
+    border-radius: 100%;
+    font-size: 30px;
+    padding: 10px;
+    animation: rotating 2s linear infinite;
+}
+
+@keyframes rotating {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+section.intro .title h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.services-wrapper {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.intro .services-wrapper .circle .iso-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+}
+
+section.intro .services-wrapper .circle .iso-layers {
+    width: 150px;
+    height: 150px;
+    transform: rotateX(55deg) rotateZ(45deg);
+}
+
+section.intro .services-wrapper .circle .iso-layers::before,
+section.intro .services-wrapper .circle .iso-layers::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#s-intro #services #circle .iso-layers::before {
+    background: black;
+    animation: opacity 3s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+section.intro .services-wrapper .circle .iso-layers::after {
+    background: url(../img/pcb-layer-cyan.png) no-repeat;
+    background-size: cover;
+    animation: transform 3s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    box-shadow: 1px 1px 0 #104778, 2px 2px 0 #104778, 3px 3px 0 #104778, 4px 4px 0 #104778, 5px 5px 0 #104778, 6px 6px 0 #104778, 7px 7px 0 #104778;
+}
+
+@keyframes transform {
+    0% {
+        transform: translate(-10px, -10px);
+    }
+
+    100% {
+        transform: translate(-30px, -30px);
+    }
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0.4;
+        filter: blur(10px);
+    }
+
+    100% {
+        opacity: 0.2;
+        filter: blur(20px);
+    }
+}
+
+.circle {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.round-c {
+    width: 100%;
+    animation: spin 20s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+.service {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    max-width: 500px;
+}
+
+.service .text p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon i {
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-left,
+.container-right {
+    display: flex;
+    position: relative;
+}
+
+.left.top span,
+.left.bottom span,
+.right.top span,
+.right.bottom span {
+    color: var(--light-color);
+    font-size: 14px;
+}
+
+.left.top {
+    left: -620px;
+    top: -150px;
+    text-align: right;
+}
+
+.left.bottom {
+    left: -410px;
+    bottom: -130px;
+    text-align: right;
+}
+
+.right.top {
+    right: -530px;
+    top: -145px;
+}
+
+.right.bottom {
+    right: -520px;
+    bottom: -140px;
 }

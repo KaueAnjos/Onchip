@@ -697,7 +697,7 @@ header a:hover {
   }
 }
 
-.intro {
+#s-intro {
   padding-top: 0;
   background-image: radial-gradient(closest-side, rgba(6, 29, 56, 0.94), rgba(6, 29, 56, 0.94), #061d38), url("../img/intro-bg-grid.svg");
   background-repeat: no-repeat, repeat;
