@@ -1,0 +1,326 @@
+@import url("https://use.fontawesome.com/releases/v5.7.1/css/all.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:300,300i,400,400i,600,600i,700,700i");
+
+:root {
+    --primary-color: #061d38;
+    --second-color: #104778;
+    --light-color: #00d7ec;
+    --white-color: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* Font */
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* Navbar */
+
+.dropdown .btn.btn-secondary {
+    background-color: var(--light-color);
+    border: none;
+    border-radius: 15px;
+}
+
+.dropdown-menu button a {
+    color: #061d38 !important;
+    margin-left: 5px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    background-color: rgba(6, 29, 56, 0.95);
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    z-index: 100;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media (min-width: 992px) {
+    header {
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+header.show {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: var(--light-color);
+    text-decoration: none;
+}
+
+#h-logo {
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    #h-logo {
+        flex: 0 0 auto;
+        text-align: left;
+    }
+}
+
+#h-logo img {
+    width: 160px;
+}
+
+#main-nav-toggle {
+    width: 27px;
+    height: 27px;
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    transition: transform 0.5s ease;
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    top: 35px;
+}
+
+#main-nav-toggle.flip {
+    transform: rotate(90deg);
+}
+
+#main-nav-toggle:hover,
+#main-nav-toggle:focus,
+#main-nav-toggle:active {
+    color: #fff;
+}
+
+@media (min-width: 992px) {
+    #main-nav-toggle {
+        display: none;
+    }
+}
+
+#main-nav {
+    flex: 1 0 100%;
+    display: flex;
+    justify-content: center;
+    max-height: 0;
+
+    flex-flow: column wrap;
+    align-items: center;
+    transition: max-height 0.5s ease;
+}
+
+@media (min-width: 992px) {
+    #main-nav {
+        flex: 1 0 auto;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+        max-height: 400px;
+    }
+}
+
+#main-nav.show {
+    max-height: 400px;
+}
+
+#main-nav ul {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0;
+    list-style: none;
+    line-height: 3.4rem;
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media (min-width: 992px) {
+    #main-nav ul {
+        width: auto;
+        margin: 0;
+        line-height: inherit;
+        text-align: right;
+        text-transform: inherit;
+        font-size: 1.1rem;
+        font-weight: 100;
+    }
+}
+
+#main-nav ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+#main-nav ul li.phone {
+    color: var(--light-color);
+    font-weight: 500;
+}
+
+#main-nav ul li:last-child {
+    border: 0;
+}
+
+@media (min-width: 992px) {
+    #main-nav ul li {
+        border: 0;
+        display: inline-block;
+        margin-right: 1rem;
+    }
+
+    #main-nav ul li:last-child {
+        margin-right: 0;
+    }
+}
+
+.intro {
+    padding-top: 0;
+    background-image: radial-gradient(closest-side, rgba(6, 29, 56, 0.94), rgba(6, 29, 56, 0.94), #061d38), url("../img/intro-bg-grid.svg");
+    background-repeat: no-repeat, repeat;
+    background-size: auto, 75px 44px;
+    color: white;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+/* Section Intro */
+
+section.intro {
+    width: 100%;
+    /* height: 200vh; */
+    padding-top: 0;
+    background-image: radial-gradient(closest-side, rgba(6, 29, 56, 0.94), rgba(6, 29, 56, 0.94), #061d38), url("../img/intro-bg-grid.svg");
+    background-repeat: no-repeat, repeat;
+    background-size: auto, 75px 44px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0 40px 0 40px;
+}
+
+section.intro .intro-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+section.intro .intro-container .first-block {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+section.intro .intro-container .first-block h1 {
+    font-size: 29px;
+    margin-top: 25px;
+    color: var(--light-color);
+}
+
+section.intro .intro-container .first-block img {
+    width: 50%;
+    max-width: 250px;
+}
+
+.intro-container .first-block .btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    gap: 25px;
+}
+
+.intro-container .first-block .btn-container button {
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: var(--second-color);
+}
+
+.intro-container .first-block .btn-container button:hover {
+    background-color: var(--primary-color);
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 25px 50px -12px;
+}
+
+.intro-container .first-block .btn-container button a {
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+
+section.intro .intro-container .second-block {
+    width: 60%;
+}
+
+section.intro .intro-container .second-block img {
+    max-width: 700px;
+}
+
+/* Services */
+
+section.intro .services-container{
+    position: relative;
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
