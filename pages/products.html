@@ -1,58 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/style-products.css">
     <title>Produtos</title>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/img/favicon/safari-pinned-tab.svg" color="#104778">
+    <meta name="msapplication-TileColor" content="#104778">
+    <meta name="theme-color" content="#ffffff">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>OnChip Eletrônica</title>
 </head>
+
 <body>
-    <div class="container">
+
+
+    <div class="container-product">
+
         <!-- NAVBAR -->
-         <div class="product-header">
-        <h1>Lista de Produtos</h1>
-        <h4>Filtros: Categoria | Especificações</h4>
+        <header id="navbar">
+
+            <div id="h-logo" class="logo">
+                <a href="#"><img src="../assets/img/logo-onchip-c02.png" alt="Logo OnChip" /></a>
+            </div>
+
+            <a id="main-nav-toggle" href="javascript:void(0)">
+                <i class="fas fa-ellipsis-v"></i>
+            </a>
+
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#s-intro">O Que Fazemos</a></li>
+                    <li><a href="#s-products">Produtos</a></li>
+                    <li><a href="#s-about">Quem Somos</a></li>
+                    <li><a href="#s-contact">Fale Conosco</a></li>
+
+                    <li>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button">
+                                Contatos
+                            </button>
+
+                            <div class="dropdown-menu">
+                                <button class="dropdown-item">
+                                    <i class="fas fa-phone fa-xs"></i>
+                                    <a href="tel:+551120199748">(11) 2019-9748</a>
+                                </button>
+
+                                <button class="dropdown-item">
+                                    <i class="fab fa-whatsapp"></i>
+                                    <a href="https://wa.me/5511910381415">(11) 91038-1415</a>
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </nav>
+
+        </header>
+        <div class="container-product">
+            <div class="product-header">
+                <h1>Lista de Produtos</h1>
+                <h4>Filtros: Categoria | Especificações</h4>
+            </div>
+            <div class="product-list">
+                <div class="product-card">
+                    <img src="../assets/img/products/ott420-01.png" alt="" class="product-image">
+                    <div id="product-title">Produto 1</div>
+                    <div class="product-actions">
+                        <a href="product-details.html"><button>Detalhes</button></a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="../assets/img/products/ott10md3-01.png" alt="" class="product-image">
+                    <div id="product-title">Produto 2</div>
+                    <div class="product-actions">
+                        <a href="product-details.html"><button>Detalhes</button></a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="##" alt="" class="product-image">
+                    <div id="product-title">Produto 1</div>
+                    <div class="product-actions">
+                        <a href="product-details.html"><button>Detalhes</button></a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="##" alt="" class="product-image">
+                    <div id="product-title">Produto 1</div>
+                    <div class="product-actions">
+                        <a href="product-details.html"><button>Detalhes</button></a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="##" alt="" class="product-image">
+                    <div id="product-title">Produto 1</div>
+                    <div class="product-actions">
+                        <a href="product-details.html"><button>Detalhes</button></a>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <!-- FOOTER -->
         </div>
-        <div class="product-list">
-            <div class="product-card">
-                <img src="../assets/img/products/ott420-01.png" alt=""  class="product-image">
-                <div id="product-title">Produto 1</div>
-                <div class="product-actions">
-                    <a href="product-details.html"><button>Detalhes</button></a>
-                </div>
-            </div>
-              <div class="product-card">
-                <img src="../assets/img/products/ott10md3-01.png" alt="" class="product-image">
-                <div id="product-title">Produto 2</div>
-                <div class="product-actions">
-                    <button><a href="product-details.html">Detalhes</a></button>
-                </div>
-            </div>
-              <div class="product-card">
-                <img src="##" alt="" class="product-image">
-                <div id="product-title">Produto 1</div>
-                <div class="product-actions">
-                    <button><a href="product-details.html">Detalhes</a></button>
-                </div>
-            </div>
-              <div class="product-card">
-                <img src="##" alt="" class="product-image">
-                <div id="product-title">Produto 1</div>
-                <div class="product-actions">
-                    <button><a href="product-details.html">Detalhes</a></button>
-                </div>
-            </div>
-              <div class="product-card">
-                <img src="##" alt="" class="product-image">
-                <div id="product-title">Produto 1</div>
-                <div class="product-actions">
-                    <button><a href="product-details.html">Detalhes</a></button>
-                </div>
-            </div>
-             
-        </div>
-        <br>
-        <!-- FOOTER -->
     </div>
 </body>
+
 </html>
