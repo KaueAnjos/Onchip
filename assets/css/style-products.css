@@ -1,0 +1,213 @@
+@import url("https://use.fontawesome.com/releases/v5.7.1/css/all.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:300,300i,400,400i,600,600i,700,700i");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+/* Font */
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+html {
+    line-height: 1.15;
+    /* 1 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+}
+
+:root {
+    --light-color: #00d7ec;
+    --second-color: #104778;
+    --primary-color: #061d38;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    padding-top: 0;
+    background-image: radial-gradient(closest-side, rgba(6, 29, 56, 0.94), rgba(6, 29, 56, 0.94), #061d38), url("../img/intro-bg-grid.svg");
+    background-repeat: no-repeat, repeat;
+    background-size: auto, 75px 44px;
+    padding: 40px 0;
+
+}
+
+
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.product-header {
+    color: white;
+    margin-left: 6%;
+}
+
+.product-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow 0.2s;
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.product-image {
+    width: 100%;
+    max-width: 180px;
+    height: 180px;
+    object-fit: contain;
+    margin-bottom: 16px;
+}
+.product-image:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.product-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.product-actions a {
+    color: white;
+    margin-top: auto;
+    display: flex;
+    text-decoration: none;
+    gap: 8px;
+
+}
+
+.product-actions button {
+    background-color: var(--second-color);
+    font-size:15px;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+.product-actions button:hover {
+    background-color: var(--primary-color);
+    transition: background-color 0.3s ease;
+}
+
+
+/* Detalhes do produto */
+.product-details {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    margin-top: 32px;
+}
+
+.product-details-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.product-detail-image {
+    width: 420px;
+    height: 420px;
+    object-fit: contain;
+    border-radius: 8px;
+    background: #f5f5f5;
+    margin-bottom: 0;
+}
+
+.product-details button {
+    background-color: var(--second-color);
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.product-details button:hover {
+    background-color: var(--primary-color);
+    transition: background-color 0.3s ease;
+
+}
+
+.product-info {
+    max-width: 600px;
+}
+
+.product-info h2 {
+    font-size: 1.9;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+.product-info p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.product-button {
+    display: flex;
+    gap: 25px;
+}
+@media (max-width: 900px) {
+    .product-details {
+        flex-direction: column;
+        gap: 24px;
+        padding: 20px;
+    }
+
+    .product-detail-image {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+    }
+}
+
+@media (max-width: 1100px) {
+    .product-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 800px) {
+    .product-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .product-list {
+        grid-template-columns: 1fr;
+    }
+}
