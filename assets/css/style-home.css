@@ -563,6 +563,27 @@ section.products .products-container .transmitter-card {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 40px;
     border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section.products .products-container .transmitter-card i {
+    font-size: 40px;
+    width: 65px;
+    height: 65px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--second-color);
+    color: var(--second-color);
+    border-radius: 50%;
+    padding: 8px;
+    margin-bottom: 15px;
 }
 
 section.products .products-container .transmitter-card h1 {
@@ -573,28 +594,47 @@ section.products .products-container .transmitter-card h1 {
 
 section.products .products-container .transmitter-card p {
     font-size: 16px;
+    color: var(--second-color);
 }
 
 
 /* Carousel */
-.card {
+.product-card {
     height: 100%;
     padding: 15px;
     border-radius: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    background: #ffffff;
+    background: var(--white-color);
     background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgb(238, 238, 238) 100%);
     color: var(--second-color);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
 }
 
-.card p {
-    font-size: 14px;
+
+.product-card img {
+    width: 70% !important;
+}
+
+.item:nth-child(3) img {
+    width: 40% !important;
+}
+
+.product-card p {
+    font-size: 18px;
+    font-weight: 600;
     color: var(--second-color);
 }
 
 .slider {
     height: var(--height);
+    margin-left: 50px;
     width: 70%;
     overflow: hidden;
     mask-image: linear-gradient(to right, transparent, #000 10% 90%, transparent);
@@ -633,11 +673,45 @@ section.products .products-container .transmitter-card p {
 
 .slider:hover .item {
     animation-play-state: paused !important;
-    filter: grayscale(1);
 }
 
-.slider .item:hover {
-    filter: grayscale(0);
+.slider:hover .item:not(:hover) {
+    filter: grayscale(0.8);
+    transition: filter 0.5s;
+}
+
+.slider:hover .item:not(:hover) .product-card {
+    background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(145, 145, 145) 100%);
+    filter: grayscale(0.8);
+    transition: filter 0.5s;
+}
+
+.slider .item:hover img {
+    transform: scale(1.03);
+    transition: transform 0.5s;
+}
+
+.slider .item:hover p {
+    color: var(--light-color);
+    z-index: 999;
+    transition: transform 0.5s;
+}
+
+.product-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(closest-side,
+            rgba(6, 29, 56, 0.94),
+            rgba(6, 29, 56, 0.94),
+            #061d38);
+    opacity: 0;
+    transition: opacity 0.5s;
+    pointer-events: none;
+}
+
+.slider .item:hover .product-card::before {
+    opacity: 1;
 }
 
 .slider[reverse="true"] .item {
