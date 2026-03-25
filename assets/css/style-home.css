@@ -627,9 +627,7 @@ section.products {
     display: flex;
     align-items: center;
     flex-direction: column;
-    overflow: hidden;
     background: url(../img/products-header.png) top no-repeat;
-    /* background: linear-gradient(90deg, rgba(156, 156, 156, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(156, 156, 156, 1) 100%); */
 }
 
 section.products .title {
@@ -738,7 +736,6 @@ section.products .products-container .transmitter-card p {
     overflow: hidden;
     cursor: pointer;
     position: relative;
-    z-index: 999;
 }
 
 
@@ -757,14 +754,14 @@ section.products .products-container .transmitter-card p {
 }
 
 .slider {
-    height: var(--height);
+    height: 300px;
     margin-left: 50px;
     width: 70%;
-    overflow: hidden;
     mask-image: linear-gradient(to right, transparent, #000 10% 90%, transparent);
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .slider .list {
@@ -774,8 +771,7 @@ section.products .products-container .transmitter-card p {
     min-width: calc(var(--width) * var(--quantity));
     position: relative;
     justify-content: center;
-    /* padding: 20px; */
-    /* background-color: red; */
+    align-items: center;
 }
 
 .slider .list .item {
@@ -786,7 +782,9 @@ section.products .products-container .transmitter-card p {
     animation: autoRun 10s linear infinite;
     transition: filter 0.5s;
     animation-delay: calc((10s / var(--quantity)) * (var(--position) - 1) - 10s) !important;
-    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .slider .list .item img {
